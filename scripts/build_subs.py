@@ -279,7 +279,7 @@ def main():
         lines = process_input_file(name)
         per_file[name] = lines
         save_txt_and_b64(name, lines)
-        ping_report(lines, name)
+        # ping_report(lines, name)
 
         for line in lines:
             key = normalize_key(line)
