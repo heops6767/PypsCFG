@@ -6,94 +6,20 @@ DROP unsupported/blocked :: ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206dE9va2pIZUlKMmR
 DROP unsupported/blocked :: ss://2022-blake3-aes-256-gcm:5mPiXVsTBsuONb6uOmAA53+Z134uHQOdRkfdQCrZBtI=%3AWGc2Q3dCTmNuVTV4WTU0Qjd3RjJJeWFrQ2t6OXFNcGc=@be.vpnlink.pro:990?#0413 | 🌐 Unknown | SS | TG: @YoutubeUnBlockRu
 DROP duplicate :: vless://xxxxxxxxxx1@localhost:444?type=tcp&security=reality&pbk=1111111111111111111111111111111111111111111&fp=chrome&sni=xx.xx&sid=26a70553&spx=%2F&flow=xtls-rprx-vision##0000
 DROP duplicate :: vless://xxxxxxxxxx1@localhost:444?type=tcp&security=reality&pbk=1111111111111111111111111111111111111111111&fp=chrome&sni=xx.xx&sid=26a70553&spx=%2F&flow=xtls-rprx-vision##0000
-DROP duplicate :: vless://b61f440d-2fdf-4232-8779-0f618b146efc@31.58.77.135:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=safari&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&sni=1013a--ma--8935--cp199.stbid.ru&path=&host=##0001
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:3057?security=tls&sni=www.nintendogames.net##0004
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@94.183.185.96:443?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&host=zgtwylnhh.cc.cd##0013
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@147.45.49.163:9443?#0002 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.77:38388?#0010 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
 DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@116.93.199.28:20492?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0018
-DROP duplicate :: vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@92.118.9.243:2053?type=ws&security=tls&encryption=none&fp=random&sni=snippet.fgfw.indevs.in&path=/danfeng&host=snippet.fgfw.indevs.in&alpn=http/1.1##0023
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@160.16.214.104:4674?security=tls&sni=www.nintendogames.net##0030
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@59.3.3.161:8443?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&host=ylnhh.cc.cd##0042
-DROP duplicate :: trojan://zp630tdUuD@194.150.166.151:52047/?type=grpc&serviceName=&authority=&security=reality&pbk=4o28aGSIz_r6Fa9sG7ZjgeT764t3bVJKmC9RDwIff38&fp=chrome&sni=aws.amazon.com&sid=1abe0c286879&spx=/##0046
-DROP duplicate :: vless://57bd4d3f-0560-4866-ab94-c7a36c2feb8b@185.138.89.111:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=&pbk=7jl9EqMtaxHjEVFJmMhlqd01KclbwGy1JBFoPzj_Ni4&sid=76e6197ff41227f5&sni=theportugalnews.com&path=&host=##0049
-DROP duplicate :: vless://fac62eac-1eec-4260-a991-0cac2f8745a3@170.114.45.6:80?type=ws&security=none&encryption=none&path=/%40Tech_Sonic&host=free-server.techsonic.ggff.net##0060
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@153.121.38.213:34818/?type=tcp&security=tls&sni=www.nintendogames.net##0062
-DROP duplicate :: vless://d1209ffb-c159-48d5-b40d-542ce11fc768@it1.axinode.sbs:10965?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0&sid=9f3a7c6d2e8b41af&sni=deepl.com##0066
-DROP duplicate :: vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@96.126.112.12:38298?type=ws&security=tls&encryption=none&fp=random&sni=snippet.sh21.eu.org&path=/danfeng&host=snippet.sh21.eu.org##0068
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@124.153.180.85:12125?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0072
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@209.146.114.142:443?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=zgtwylnhh.cc.cd##0090
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@116.93.199.28:13936?type=ws&security=tls&fp=chrome&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0095
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@132.226.227.253:29520?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0106
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@116.93.199.28:27146?type=ws&security=tls&fp=chrome&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0108
-DROP duplicate :: trojan://trojan@18.102.110.23:9443/?type=ws&host=jflsjlaf.pages.dev&security=tls&sni=jflsjlaf.pages.dev##0109
-DROP duplicate :: trojan://zp630tdUuD@194.150.166.151:52047?type=grpc&amp&security=reality&amp&pbk=4o28aGSIz_r6Fa9sG7ZjgeT764t3bVJKmC9RDwIff38&amp&fp=chrome&amp&sni=aws.amazon.com&amp&sid=1abe0c286879&amp&spx=/##0113
-DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@57.128.214.100:12000?#0123 | 🇵🇱 Poland | SS | 📺 YT | TG: @YoutubeUnBlockRu
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:34818?security=tls&sni=www.nintendogames.net##0128
-DROP duplicate :: trojan://trojan@152.53.200.167:8444/?type=ws&host=jflsjlaf.pages.dev&security=tls&sni=jflsjlaf.pages.dev&fp=chrome##0129
-DROP duplicate :: vless://b61f440d-2fdf-4232-8779-0f618b146efc@217.60.249.188:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&sni=1013a--ma--8935--cp199.stbid.ru&path=&host=##0130
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:34818/?type=tcp&security=tls&sni=www.nintendogames.net##0138
-DROP duplicate :: vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@144.31.131.42:443?type=tcp&security=tls&encryption=none&fp=chrome&sni=alcdn1.suio.me##0140
-DROP duplicate :: vless://8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba@dcvwsde.1gg.ccwu.cc:80?type=ws&encryption=none&path=/Iq3945ZsqJBAQ5Ah&host=dcvwsde.1gg.ccwu.cc##0141
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@43.162.120.155:443?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=zgtwylnhh.cc.cd##0143
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@220.92.158.117:15916?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram🇨🇳&host=ylnhh.cc.cd##0147
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@45.61.140.116:443?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=zgtwylnhh.cc.cd##0148
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:3057/?type=tcp&security=tls&sni=www.nintendogames.net##0151
-DROP duplicate :: trojan://pawxrlkLcJ@145.223.70.200:44056/?type=grpc&serviceName=&authority=&security=reality&pbk=asrnd4KrFBe5Ygz7LkvvsdMG-YnvChftudLamEVisk8&fp=chrome&sni=www.icloud.com&sid=8a&spx=/##0154
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@112.167.47.83:23297?type=ws&security=tls&fp=chrome&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0163
-DROP duplicate :: trojan://zp630tdUuD@194.150.166.151:52047/?type=grpc&sni=aws.amazon.com&fp=chrome&security=reality&pbk=4o28aGSIz_r6Fa9sG7ZjgeT764t3bVJKmC9RDwIff38&sid=1abe0c286879##0167
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@160.16.214.104:2001/?type=tcp&security=tls&sni=www.nintendogames.net##0175
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@146.56.108.27:36666?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0178
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@220.88.3.5:11099?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0180
-DROP duplicate :: trojan://pawxrlkLcJ@145.223.70.200:44056?fp=chrome&pbk=asrnd4KrFBe5Ygz7LkvvsdMG-YnvChftudLamEVisk8&security=reality&sid=8a&sni=www.icloud.com&type=grpc##0183
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@77.110.119.35:2053?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&host=zgtwylnhh.cc.cd##0184
-DROP duplicate :: vless://43158d39-8066-4df4-b74e-2ab29f207e0a@92.60.74.56:80?type=ws&host=29.alij47649.workers.dev##0197
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@116.93.199.28:10922?type=ws&security=tls&fp=chrome&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0199
-DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.7.33:12000?#0204 | 🇨🇦 Canada | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@1.232.206.121:11543?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram🇨🇳&host=ylnhh.cc.cd##0210
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@66.92.20.111:443?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=zgtwylnhh.cc.cd##0218
-DROP duplicate :: trojan://q2GRUM1-odJBWq_KV6xv2fuNvu8ed-@195.66.25.251:443?sni=8443.golden-cards.me##0219
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@94.183.233.213:2053?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram🇨🇳&host=zgtwylnhh.cc.cd##0222
-DROP duplicate :: trojan://trojan@152.53.200.167:8444?host=jflsjlaf.pages.dev&sni=jflsjlaf.pages.dev&type=ws##0227
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@5.78.79.91:2096?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=zgtwylnhh.cc.cd##0228
-DROP duplicate :: vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@54.229.164.147:8443?type=ws&security=tls&encryption=none&fp=random&sni=snippet.fgfw.ye.gs&path=/danfeng&host=snippet.fgfw.ye.gs##0235
-DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@147.45.49.163:9443?#0239 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@116.93.199.28:12354?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0249
-DROP duplicate :: vless://b61f440d-2fdf-4232-8779-0f618b146efc@85.155.230.242:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&sni=1013a--ma--8935--cp199.stbid.ru&path=&host=##0255
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@220.88.3.5:12283?type=ws&security=tls&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&host=ylnhh.cc.cd##0259
-DROP duplicate :: vless://d1209ffb-c159-48d5-b40d-542ce11fc768@fi3.axinode.sbs:10965?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0&sid=9f3a7c6d2e8b41af&sni=deepl.com##0267
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@45.77.124.154:2096?type=ws&security=tls&fp=chrome&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=zgtwylnhh.cc.cd##0285
-DROP duplicate :: trojan://zp630tdUuD@194.150.166.151:52047?fp=chrome&pbk=4o28aGSIz_r6Fa9sG7ZjgeT764t3bVJKmC9RDwIff38&security=reality&sid=1abe0c286879&sni=aws.amazon.com&type=grpc##0287
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:4674/?type=tcp&security=tls&sni=www.nintendogames.net##0292
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@38.180.192.104:443?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3&host=zgtwylnhh.cc.cd##0296
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@94.183.233.213:8443?type=ws&security=tls&encryption=none&fp=chrome&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=zgtwylnhh.cc.cd##0298
-DROP duplicate :: vless://6202b230-417c-4d8e-b624-0f71afa9c75d@95.164.11.48:443?type=ws&security=tls&encryption=none&sni=sni.111000.indevs.in&path=/%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D&host=sni.111000.indevs.in##0303
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@132.226.233.187:29729?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0305
-DROP duplicate :: vless://e30ba9e9-afc6-4236-803f-7b4ca30ce44b@193.22.229.138:80?type=ws&security=none&encryption=none&path=/%3Fed%3D2048&host=pimxpass.alex96336997.workers.dev##0311
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@45.59.187.94:443?type=ws&security=tls&encryption=none&sni=zgtwylnhh.cc.cd&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=zgtwylnhh.cc.cd##0315
-DROP duplicate :: trojan://trojan@152.53.200.167:8444/?type=ws&host=jflsjlaf.pages.dev&security=tls&sni=jflsjlaf.pages.dev##0319
-DROP duplicate :: vless://b61f440d-2fdf-4232-8779-0f618b146efc@45.8.93.233:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&sni=1013a--ma--8935--cp199.stbid.ru&path=&host=##0321
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:4674/?type=tcp&security=tls&sni=www.nintendogames.net##0324
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@146.56.43.189:34454?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0325
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:34818?type=tcp&security=tls&sni=www.nintendogames.net##0326
-DROP duplicate :: trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:4674?type=raw&security=tls&sni=www.nintendogames.net##0335
-DROP duplicate :: vless://b61f440d-2fdf-4232-8779-0f618b146efc@72.56.100.35:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&sni=1013a--ma--8935--cp199.stbid.ru&path=&host=##0341
-DROP duplicate :: vless://d1209ffb-c159-48d5-b40d-542ce11fc768@max-top.axinode.sbs:10121?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=Y1Kv9pIslhh4NfHLjheDU--RYDfO6j9XGIw_gQ_yCxY&sid=6ee84570745a60d9&sni=deepl.com##0351
-DROP duplicate :: vless://26524cce-d514-4014-a426-365fb266a14d@103.177.249.122:443?type=ws&security=tls&sni=k7ryegiaeu.chinam.eu.org&path=/danfengfp=random&host=k7ryegiaeu.chinam.eu.org##0357
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@210.105.224.42:10840?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0358
-DROP duplicate :: vless://b61f440d-2fdf-4232-8779-0f618b146efc@194.37.82.167:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&sni=1013a--ma--8935--cp199.stbid.ru&path=&host=##0359
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@116.93.199.28:25524?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0360
-DROP duplicate :: vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@138.2.68.161:55012?type=ws&security=tls&fp=random&sni=snippet.fgfw.ndjp.net&path=/danfeng&host=snippet.fgfw.ndjp.net&alpn=http/1.1##0365
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@152.70.254.221:14547?type=ws&security=tls&fp=chrome&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0367
-DROP duplicate :: trojan://trojan@38.83.41.89:28006?host=jflsjlaf.pages.dev&sni=jflsjlaf.pages.dev&type=ws##0383
-DROP duplicate :: vless://b61f440d-2fdf-4232-8779-0f618b146efc@155.212.244.177:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=qq&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&sni=1013a--ma--8935--cp199.stbid.ru&path=&host=##0384
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@158.179.174.225:36364?type=ws&security=tls&encryption=none&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0389
-DROP duplicate :: trojan://q2GRUM1-odJBWq_KV6xv2fuNvu8ed-@195.66.25.251:443?security=tls&sni=8443.golden-cards.me&type=tcp##0402
-DROP duplicate :: vless://14b02e2a-8930-4afb-8412-ea4a4954ca5b@146.56.174.193:58567?type=ws&security=tls&fp=chrome&sni=ylnhh.cc.cd&path=/Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=ylnhh.cc.cd##0403
-DROP duplicate :: vless://9778c708-9b5c-4e34-a680-bc3b1cb8bf3a@144.31.1.206:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=yEay1KzCLVZfYOIDhyJiqVIY2MIHaz8nCdSt9TeKIWY&sid=dcbff9e3d495c78e&sni=waw.vpnforppl.top##0406
-DROP duplicate :: vless://b61f440d-2fdf-4232-8779-0f618b146efc@77.239.126.202:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=c4Mg3v790FPQbXO8uBoJysJYdFFJPhOw2TlnzC45a1U&sid=&sni=1013a--ma--8935--cp199.stbid.ru&path=&host=##0412
-DROP duplicate :: vless://249839ff-2a99-4ecb-a81d-b7e4d6c397b8@72.56.121.206:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw&sni=5post-gate.x5.ru&spx=/&echfq=none&allowinsecure=0##0414
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@185.189.160.105:41632?#0120 | Taiwan | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.7.33:12000?#0228 | 🇨🇦 Canada | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@57.128.214.100:12000?#0234 | 🇵🇱 Poland | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ==@147.45.49.163:9443?#0238 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.132:38388?#0344 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@144.31.130.65:9443?#0393 | 🇮🇸 Iceland | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.191:38388?#0401 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.245:38388?#0549 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
 DROP duplicate :: vless://xxxxxxxxxx1@localhost:444?type=tcp&security=reality&pbk=1111111111111111111111111111111111111111111&fp=chrome&sni=xx.xx&sid=26a70553&spx=%2F&flow=xtls-rprx-vision##0000
-DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.7.33:12000?#0204 | 🇨🇦 Canada | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
-DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@147.45.49.163:9443?#0239 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.7.33:12000?#0198 | 🇨🇦 Canada | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@147.45.49.163:9443?#0233 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
 DROP unsupported/blocked :: #profile-update-interval: 24
 DROP unsupported/blocked :: #profile-title: TGK: @LowiK_Live
 DROP unsupported/blocked :: ss://Y2hhY2hhMjAtcG9seTEzMDU6NmUzZTQzZjQtMTJiNy00MmYxLThiOTMtNDFhMTUyZDU2MTJk@78.38.246.150:8446?#1307%20%7C%20%F0%9F%8C%8D%2028078%20%7C%20%F0%9F%87%B8%F0%9F%87%B8%20South%20S%20%7C%20Free%20%7C%20%4
@@ -2423,6 +2349,76 @@ DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZTY4ZDRiZDAwMjQ
 DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNWIwNTczODMwMDgxZDAx@51.89.119.213:11201#%F0%9F%87%AC%F0%9F%87%A7%20UK%20%7C%20%40KIA_NET%20%DA%86%D9%86%D9%84%E2%80%8C%D8%AA%D9%84%DA%AF%D8%B1%D9%85`
 DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#%F0%9F%87%BA%F0%9F%87%B8%20USA%20%7C%20%40KIA_NET%20%DA%86%D9%86%D9%84%E2%80%8C%D8%AA%D9%8
 DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.62:8080#%F0%9F%87%AC%F0%9F%87%A7%20UK%20%7C%20%40KIA_NET%20%DA%86%D9%86%D9%84%E2%80%8C%D8%AA%D9%84%DA%AF%D8%B1%D9%85
-DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@57.128.214.100:12000?#0123 | 🇵🇱 Poland | SS | 📺 YT | TG: @YoutubeUnBlockRu
-DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.7.33:12000?#0204 | 🇨🇦 Canada | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
-DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@147.45.49.163:9443?#0239 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@147.45.49.163:9443?#0002 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.77:38388?#0010 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@185.189.160.105:41632?#0120 | Taiwan | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.7.33:12000?#0228 | 🇨🇦 Canada | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@57.128.214.100:12000?#0234 | 🇵🇱 Poland | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ==@147.45.49.163:9443?#0238 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.132:38388?#0344 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@144.31.130.65:9443?#0393 | 🇮🇸 Iceland | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.191:38388?#0401 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.245:38388?#0549 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.122:8080#%F0%9F%8F%B4%F0%9F%8F%B35
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206QmVkdWZnenRITzNCNUtxZQ==@46.250.254.170:443#%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%F0%9F%91%89%F0%9F%91%89%20%40%F0%9D%97%AB%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%F0%9D%97%BD%F0%9D%97%B9
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206azZydUp1d2dBVXhJcmtIYg==@154.53.63.32:80#%F0%9F%8C%8E%20%7C%20%F0%9F%91%89%F0%9F%91%89%20%40%F0%9D%97%AB%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%F0%9D%97%BD%F0%9D%97%B9%F0%9D%98%82%F0
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OHJiNTgwRUJHNGw3dE84Sw==@154.53.60.197:80#%F0%9F%8C%8E%20%7C%20%F0%9F%91%89%F0%9F%91%89%20%40%F0%9D%97%AB%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%F0%9D%97%BD%F0%9D%97%B9%F0%9D%98%82%F
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45313#%F0%9F%93%8512%2F09-%40v2node%F0%9F%91%89%F0%9F%8F%BB36
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45311#%F0%9F%93%8512%2F09-%40v2node%F0%9F%91%89%F0%9F%8F%BB40
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45310#%F0%9F%93%8512%2F09-%40v2node%F0%9F%91%89%F0%9F%8F%BB39
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZDdiMGQxNGI1OTBiY2Vi@112.197.26.106:26417#%F0%9F%93%8512%2F09-%40v2node%F0%9F%91%89%F0%9F%8F%BB38
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSWmlySHpTcXl5YjM3RERJaVFlRExaVEpmdDVaUUdtVUN3eUEzd201YXRoNGo5WTM=@124.217.247.205:51348#%F0%9F%8C%8E%20%7C%20%F0%9F%91%89%F0%9F%91%89%20%40%F0%9D%97%AB%F0%9D%98%83%
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@154.205.146.153:990#%40v2rayconfigamir%204101`
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NGFhZTA1MTAxODhlOGM1@141.95.106.127:11201#%40i10VPN%20%F0%9F%9A%80%7C%20%D8%A8%D8%A7%20%D9%85%D8%A7%20%D9%85%D8%AA%D8%B5%D9%84%20%D8%A8%D9%85%D9%88%D9%86%E2%9A%A1
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKT1o1TWIzbkpDbW1vS2hkOENjOWFD@5.181.2.76:36608#%40i10VPN%20%F0%9F%9A%80%7C%20%D8%A8%D8%A7%20%D9%85%D8%A7%20%D9%85%D8%AA%D8%B5%D9%84%20%D8%A8%D9%85%D9%88%D9%86%E2%9A
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.54.2.182:990#%40v2rayconfigamir%201354`
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#🇳🇱NL%20%20ROSE—25```
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PUAxMzguMTg2LjE0Mi44MDo5OTA=#%40v2rayconfigamir%201398
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PUAxMzguMTg2LjE0Mi44MTo5OTA=#%40v2rayconfigamir%203105
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZmYxNDIzZjYxZmZlNjcz@38.54.59.16:11201#%E3%80%8E%20%20%F0%9F%8C%9F%40airdrop2033%20%E3%80%8F%D8%B9%D8%B6%D9%88%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%A
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.194:8080#%F0%9F%A6%89%40FreeConfigForYou
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29464#%F0%9F%A6%89%40FreeConfigForYou
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZTY4ZDRiZDAwMjQzN2Fi@149.104.71.134:11201#%F0%9F%A6%89%40FreeConfigForYou`
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNWIwNTczODMwMDgxZDAx@51.89.119.213:11201#%F0%9F%87%AC%F0%9F%87%A7%20UK%20%7C%20%40KIA_NET%20%DA%86%D9%86%D9%84%E2%80%8C%D8%AA%D9%84%DA%AF%D8%B1%D9%85`
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#%F0%9F%87%BA%F0%9F%87%B8%20USA%20%7C%20%40KIA_NET%20%DA%86%D9%86%D9%84%E2%80%8C%D8%AA%D9%8
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.62:8080#%F0%9F%87%AC%F0%9F%87%A7%20UK%20%7C%20%40KIA_NET%20%DA%86%D9%86%D9%84%E2%80%8C%D8%AA%D9%84%DA%AF%D8%B1%D9%85
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VkFjbGw0UDh4UFRVVlZ0SGVTVDNvblJtTG9WSUJTVQ@94.131.104.147:443#%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%40LimeVPNFREE%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#%F0%9F%87%AB%F0%9F%87%AE%F0%9F%92%B0%F0%9F%8F%B4%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%40Lim
+DROP unsupported/blocked :: #profile-title:🍏 CID VPN 🍏
+DROP unsupported/blocked :: #profile-update-interval:1
+DROP unsupported/blocked :: #support-url:https://t.me/CID_VPN_HELP_bot
+DROP unsupported/blocked :: #profile-web-page-url:https://t.me/CID_VPN
+DROP unsupported/blocked :: #subscription-userinfo: upload=0; download=0; total=0; expire=0
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.7.33:12000#0004 - Canada @CID_VPN
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ==@147.45.49.163:9443#0131 - Japan @CID_VPN
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@147.45.49.163:9443#0140 - Japan @CID_VPN
+DROP unsupported/blocked :: ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206bkc4WFVTeENhRFVManhpb0RIelI1UjFsZmhKVkI5QWxkSFpuWnhhK3hUWT06VlhGdVV6RTJlVGR5U25odFFqVkJNbU5vUVZaNk4wVnBSMUUzWjFwNlFtZz0=@nl.vpnlink.pro:990#0194 - Netherlands @CID
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@57.128.214.100:12000#0214 - Poland @CID_VPN
+DROP unsupported/blocked :: ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206dmxCZi9TT3VJa1dyWkhTLzdUUC92TUVyTUlhN0NjM0xLV081aVY2VllwVT06ZEdsS2IybFZWMUJaTXpkdFFWTldabnAxVDBKRFlrWndZbUkwVFRCTU5EYz0=@ru.vpnlink.pro:990#0219 - Russia @CID_VPN
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY@103.149.182.79:8388#0329 - Unknown @CID_VPN
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.132:38388#0335 - Unknown @CID_VPN
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.245:38388#0351 - Unknown @CID_VPN
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.77:38388#0370 - Unknown @CID_VPN
+DROP unsupported/blocked :: ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206dE9va2pIZUlKMmRoOStZeTFjRDdJWkpUOTZJTWFveEdINVBGOWRFSmNvWT06ZVhkRk5VSlpWMnN4UzB4c2MxZFBjSFpvWmxoT1FtRnhXR3gxYjFGdFRsST0=@location-ptru.vpnlink.pro:990#0380 - Unkno
+DROP unsupported/blocked :: ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206NW1QaVhWc1RCc3VPTmI2dU9tQUE1MytaMTM0dUhRT2RSa2ZkUUNyWkJ0ST06V0djMlEzZENUbU51VlRWNFdUVTBRamQzUmpKSmVXRnJRMnQ2T1hGTmNHYz0=@be.vpnlink.pro:990#0495 - Unknown @CID_VPN
+DROP unsupported/blocked :: ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZkM4UnhqSW1Hb3cyT2FPcHMrd1NXQW5xemRMQ05EekJPYk42Sm8wYWhnQT06TTBacGVEZzRSbmRWUkU1RFRqTkxWbWc1Wm5KYVYyMTNNVzFGY0VWSGEyYz0=@nld.vpnlink.pro:990#0568 - Unknown @CID_VP
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@185.189.160.105:41632#0569 - Unknown @CID_VPN
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplZWJmZDQ3OS0zYzFmLTQ2ZDUtYjgzZC0zY2NiM2YwN2JmOWE@hd117-xjp-jd.huidu51.com:46611#0592 - Unknown @CID_VPN
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.191:38388#0632 - Unknown @CID_VPN
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@144.31.130.65:9443#0730 - Unknown @CID_VPN
+DROP unsupported/blocked :: #profile-title: 🐈‍⬛ VPN Cat
+DROP unsupported/blocked :: #profile-update-interval: 1
+DROP unsupported/blocked :: #support-url: https://t.me/vpn_cat
+DROP unsupported/blocked :: #profile-web-page-url: https://github.com/VPN-cat/VPN
+DROP unsupported/blocked :: #announce: Существует несколько способов сжечь книгу. И мир полон людей, бегающих с зажженными спичками.
+DROP unsupported/blocked :: #subscription-userinfo: upload=0; download=0; total=0; expire=0
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@147.45.49.163:9443?#0002 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.77:38388?#0010 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@185.189.160.105:41632?#0120 | Taiwan | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.7.33:12000?#0228 | 🇨🇦 Canada | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@57.128.214.100:12000?#0234 | 🇵🇱 Poland | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ==@147.45.49.163:9443?#0238 | 🇯🇵 Japan | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.132:38388?#0344 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMVIzaEpFV2VRSkdKTDQyU2FZeTIyQ0MyMXVGdF8weQ@144.31.130.65:9443?#0393 | 🇮🇸 Iceland | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.191:38388?#0401 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
+DROP unsupported/blocked :: ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.245:38388?#0549 | 🇻🇳 Vietnam | SS | 📺 YT | TG: @YoutubeUnBlockRu
