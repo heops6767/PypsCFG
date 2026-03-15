@@ -461,7 +461,7 @@ DROP unsupported/blocked :: #
 DROP unsupported/blocked :: # 💥 лох пидр чмо гондон 💥
 DROP unsupported/blocked :: #
 DROP unsupported/blocked :: # 🌍 Зарубежные серверы (без РФ)
-DROP unsupported/blocked :: # 📅 Обновлено: 2026-03-15 09:31:34 (Москва, UTC+3)
+DROP unsupported/blocked :: # 📅 Обновлено: 2026-03-15 10:04:55 (Москва, UTC+3)
 DROP unsupported/blocked :: # 🔄 Автообновление каждые 10 минут
 DROP unsupported/blocked :: # 🌍 Топ-100 зарубежных серверов | Сортировка: пинг (мс)
 DROP unsupported/blocked :: #
@@ -473,28 +473,30 @@ DROP unsupported/blocked :: #support-url: https://t.me/GhostVpn_Support_Bot
 DROP unsupported/blocked :: #profile-web-page-url: https://t.me/GhostVpn_net
 DROP unsupported/blocked :: #announce: base64:8J+RuyBHaG9zdFZQTiAtINCR0YvRgdGC0YDRi9C5INC4INCd0LDQtNGR0LbQvdGL0Lkg0JLQn9CdCuKciO+4jyDQotC10LvQtdCz0YDQsNC8OiBAR2hvc3RWcG5fbmV0
 DROP duplicate :: vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@104.18.32.47:2052?encryption=none&type=xhttp&security=none&host=s4.nakosgol.com&path=%2Fpabloping&mode=auto&extra=null##🇨🇦
-DROP duplicate :: vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@172.67.172.86:80?encryption=none&type=ws&security=none&host=vpnpro.eshghiabolfazl2009.workers.dev##🇩🇪
+DROP duplicate :: vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@104.21.80.5:80?encryption=none&type=ws&security=none&host=vpnpro.eshghiabolfazl2009.workers.dev##🇩🇪
 DROP duplicate :: vless://961011c9-1244-414e-ba25-75479b35b553@89.208.197.6:5555?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=www.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2##🇩🇪
 DROP duplicate :: vless://20acd005-8b8d-406d-8419-66c8fb001d2a@217.13.105.1:9443?encryption=none&type=xhttp&security=reality&path=%2Fxhttp&mode=stream-up&extra=%7B%22host%22%3A%22%22%2C%22path%22%3A%22%22%2C%22mode%22%3A%22%22%2C%22headers%22%3Anull%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xPaddingObfsMode%22%3Afalse%2C%22xPaddingKey%22%3A%22%22%2C%22xPaddingHeader%22%3A%22%22%2C%22xPaddingPlacement%22%3A%22%22%2C%22xPaddingMethod%22%3A%22%22%2C%22uplinkHTTPMethod%22%3A%22%22%2C%22sessionPlacement%22%3A%22%22%2C%22sessionKey%22%3A%22%22%2C%22seqPlacement%22%3A%22%22%2C%22seqKey%22%3A%22%22%2C%22uplinkDataPlacement%22%3A%22%22%2C%22uplinkDataKey%22%3A%22%22%2C%22uplinkChunkSize%22%3A0%2C%22noGRPCHeader%22%3Afalse%2C%22noSSEHeader%22%3Afalse%2C%22scMaxEachPostBytes%22%3A%220%22%2C%22scMinPostsIntervalMs%22%3A%220%22%2C%22scMaxBufferedPosts%22%3A0%2C%22scStreamUpServerSecs%22%3A%220%22%2C%22xmux%22%3A%7B%22maxConcurrency%22%3A%224-7%22%2C%22maxConnections%22%3A%220%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%2C%22hKeepAlivePeriod%22%3A0%7D%2C%22downloadSettings%22%3Anull%2C%22extra%22%3Anull%7D&fp=randomized&sni=sun6-22.userapi.com&pbk=0mFqSDkqUDJTfIic1meOXK5buo8zn--9qUQjk5sypHw&sid=5a4ae62913b2f9f2&spx=%2F##🇩🇪
 DROP duplicate :: vless://bea7a5db-bb02-4bcd-bece-62832eb1bc94@89.208.230.172:1488?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2##🇩🇪
 DROP duplicate :: vless://3a81e5b7-47fa-5d58-97b4-4f6a5c3b40fe@104.17.71.206:8443?encryption=none&type=xhttp&security=tls&host=h9-7.digicala.online&path=%2F%3FTELEGRAM--CoOoW&mode=stream-up&extra=null&sni=h9-7.digicala.online&alpn=h2%2Chttp%2F1.1##🇩🇪
 DROP duplicate :: vless://69d38faa-21a1-4d18-82cb-796a942c181b@104.17.46.112:80?encryption=none&type=ws&security=none&host=sfsl.ardomains1.dpdns.org##🇩🇪
 DROP duplicate :: vless://bea7a5db-bb02-4bcd-bece-62832eb1bc94@89.208.231.172:1488?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc##🇩🇪
-DROP duplicate :: vless://20c50e3a-5b87-49dd-bd20-03c7f2735e40@104.17.148.22:80?encryption=none&type=ws&security=none&host=cvsoidswg.k3ckfz151a.workers.dev##🇩🇪
+DROP duplicate :: vless://bea7a5db-bb02-4bcd-bece-62832eb1bc94@146.185.242.30:1488?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2##🇩🇪
+DROP duplicate :: vless://961011c9-1244-414e-ba25-75479b35b553@89.208.197.6:5555?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=www.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2##🇩🇪
+DROP duplicate :: vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@172.67.172.86:80?encryption=none&type=ws&security=none&host=vpnpro.eshghiabolfazl2009.workers.dev##🇩🇪
 DROP duplicate :: vless://55cb8179-ce11-4ec8-a03c-333f797265f9@162.159.14.88:80?encryption=none&type=ws&security=none&host=long-forest-ac72.salari1382m.workers.dev##🇩🇪
-DROP duplicate :: vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@104.21.80.5:80?encryption=none&type=ws&security=none&host=vpnpro.eshghiabolfazl2009.workers.dev##🇩🇪
-DROP duplicate :: vless://623d675e-8748-4881-ac0f-dc1a10b595b1@104.18.4.46:8880?encryption=none&type=ws&security=none&path=%2F%3Fed%3D2560&host=vahidasd1988-se08ot-3.vahidasd1988.workers.dev##🇬🇧
+DROP duplicate :: vless://623d675e-8748-4881-ac0f-dc1a10b595b1@104.18.5.46:8880?encryption=none&type=ws&security=none&path=%2F%3Fed%3D2560&host=vahidasd1988-se08ot-3.vahidasd1988.workers.dev##🇬🇧
 DROP duplicate :: vless://961011c9-1244-414e-ba25-75479b35b553@89.208.230.173:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2##🇳🇱
 DROP duplicate :: vless://961011c9-1244-414e-ba25-75479b35b553@89.208.230.173:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2##🇳🇱
-DROP duplicate :: vless://7aa6f557-3297-4aa3-bd83-61585e1bfc2e@84.252.137.160:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&extra=null&fp=qq&sni=sun6-21.userapi.com&pbk=6I6-qYlY6rUY4BowDZzHpdfVPy6KvO4c2KC5QK3dMGQ&sid=6af4b1c3##🇳🇱
 DROP duplicate :: vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.32.47:2052?encryption=none&type=ws&security=none&path=%2F&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.##🇳🇱
+DROP duplicate :: vless://bea7a5db-bb02-4bcd-bece-62832eb1bc94@5.188.141.69:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2##🇵🇱
 DROP duplicate :: vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@172.67.159.58:80?encryption=none&type=ws&security=none&path=%2FhBasD7EdpBQ0zGAzsYHmsMrnO&host=bgn.1dd.ccwu.cc##🇺🇸
+DROP duplicate :: vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@104.21.60.191:80?encryption=none&type=ws&security=none&path=%2FhBasD7EdpBQ0zGAzsYHmsMrnO&host=nmjk.1hh.ccwu.cc##🇺🇸
+DROP duplicate :: vless://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@104.21.50.115:80?encryption=none&type=ws&security=none&path=%2FHoBSIvRY1m5xOEJ3dX414bl&host=vvvffgty.1xa.ccwu.cc##🇺🇸
 DROP duplicate :: vless://6b279ab4-10e8-4e66-fb5d-9092c6709a1e@104.21.8.31:8443?encryption=none&type=ws&security=tls&host=proxy.rahmancloud.ir&fp=chrome&sni=proxy.rahmancloud.ir&alpn=h3%2Ch2%2Chttp%2F1.1##🇺🇸
 DROP duplicate :: vless://8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba@172.67.200.168:80?encryption=none&type=ws&security=none&path=%2FIq3945ZsqJBAQ5Ah&host=sdfgbhy7.0ou.ccwu.cc##🇺🇸
 DROP duplicate :: vless://8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba@104.21.90.132:80?encryption=none&type=ws&security=none&path=%2FIq3945ZsqJBAQ5Ah&host=sdfgbhy7.0ou.ccwu.cc##🇺🇸
 DROP duplicate :: vless://8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba@104.21.9.173:80?encryption=none&type=ws&security=none&path=%2FIq3945ZsqJBAQ5Ah&host=dcvgtyu.0ww.ccwu.cc##🇺🇸
 DROP duplicate :: vless://c558328b-eb46-424c-b9e0-574770f0b072@172.67.197.251:80?encryption=none&type=ws&security=none&path=%2Fv8clafFSnPXNC0BXGtJ&host=rtg.ae1autumn.cc.cd##🇺🇸
-DROP duplicate :: vless://60c4d55d-bee3-4719-9568-aabf45153f9f@188.114.97.3:80?encryption=none&type=ws&security=none&path=%2FgPvZ4oCcNDyuc3szX7xhuvpEm&host=nu9.0g0.ccwu.cc##🇺🇸
 DROP duplicate :: vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@172.67.195.13:80?encryption=none&type=ws&security=none&path=%2FhBasD7EdpBQ0zGAzsYHmsMrnO&host=mkiuy.1x9.indevs.in##🇺🇸
 DROP duplicate :: vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@172.67.219.203:80?encryption=none&type=ws&security=none&path=%2FhBasD7EdpBQ0zGAzsYHmsMrnO&host=nmk9o.1yy.ccwu.cc##🇺🇸
 DROP duplicate :: vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@104.21.41.29:80?encryption=none&type=ws&security=none&path=%2FhBasD7EdpBQ0zGAzsYHmsMrnO&host=bgn.1dd.ccwu.cc##🇺🇸
@@ -1042,6 +1044,7 @@ DROP duplicate :: vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@170.114.46.1:443/
 DROP duplicate :: vless://6202b230-417c-4d8e-b624-0f71afa9c75d@43.130.105.166:65002?encryption=none&security=tls&sni=sni.111000.indevs.in&insecure=0&allowInsecure=0&type=ws&host=sni.111000.indevs.in&path=%2F%3Fed%3D2560##105.
 DROP duplicate :: vless://5a17e575-61c9-4468-a9fb-192bee5906bc@51.250.86.254:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=qq&pbk=kQ28oVEbO_bXT8eYAomCkyYxVdQPGF5AaqTBsRnNzSI&sid=b02962df2a56082c&sni=yandex.ru&path=&host=##106.
 DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VkFjbGw0UDh4UFRVVlZ0SGVTVDNvblJtTG9WSUJTVQ@94.131.104.147:443#%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%40LimeVPNFREE%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#%F0%9F%87%AB%F0%9F%87%AE%F0%9F%92%B0%F0%9F%8F%B4%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%40Lim
 DROP unsupported/blocked :: #profile-title:🍏 CID VPN 🍏
 DROP unsupported/blocked :: #profile-update-interval:1
 DROP unsupported/blocked :: #support-url:https://t.me/CID_VPN_HELP_bot
@@ -1070,7 +1073,7 @@ DROP unsupported/blocked :: #profile-title: 🐈‍⬛ VPN Cat
 DROP unsupported/blocked :: #profile-update-interval: 1
 DROP unsupported/blocked :: #support-url: https://t.me/vpn_cat
 DROP unsupported/blocked :: #profile-web-page-url: https://github.com/VPN-cat/VPN
-DROP unsupported/blocked :: #announce: Не все мысли проходят через мозг, некоторые — только через цензуру.
+DROP unsupported/blocked :: #announce: Существует несколько способов сжечь книгу. И мир полон людей, бегающих с зажженными спичками.
 DROP unsupported/blocked :: #subscription-userinfo: upload=0; download=0; total=0; expire=0
 DROP unsupported/blocked :: #profile-title: base64:0JHQtdC70YvQtSDRgdC/0LjRgdC60Lg=
 DROP unsupported/blocked :: # Updated Tue Jan 27 09:35:36 PM +05 2026
@@ -2396,6 +2399,7 @@ DROP unsupported/blocked :: #support-url: https://t.me/GhostVpn_Support_Bot
 DROP unsupported/blocked :: #profile-web-page-url: https://t.me/GhostVpn_net
 DROP unsupported/blocked :: #announce: base64:8J+RuyBHaG9zdFZQTiAtINCR0YvRgdGC0YDRi9C5INC4INCd0LDQtNGR0LbQvdGL0Lkg0JLQn9CdCuKciO+4jyDQotC10LvQtdCz0YDQsNC8OiBAR2hvc3RWcG5fbmV0
 DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VkFjbGw0UDh4UFRVVlZ0SGVTVDNvblJtTG9WSUJTVQ@94.131.104.147:443#%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%40LimeVPNFREE%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20
+DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#%F0%9F%87%AB%F0%9F%87%AE%F0%9F%92%B0%F0%9F%8F%B4%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%40Lim
 DROP unsupported/blocked :: ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.122:8080#%F0%9F%8F%B4%F0%9F%8F%B35
 DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206QmVkdWZnenRITzNCNUtxZQ==@46.250.254.170:443#%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%F0%9F%91%89%F0%9F%91%89%20%40%F0%9D%97%AB%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%F0%9D%97%BD%F0%9D%97%B9
 DROP unsupported/blocked :: ss://YWVzLTI1Ni1nY206azZydUp1d2dBVXhJcmtIYg==@154.53.63.32:80#%F0%9F%8C%8E%20%7C%20%F0%9F%91%89%F0%9F%91%89%20%40%F0%9D%97%AB%F0%9D%98%83%F0%9D%97%BD%F0%9D%97%BB%F0%9D%97%BD%F0%9D%97%B9%F0%9D%98%82%F0
