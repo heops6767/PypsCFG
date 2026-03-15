@@ -15,6 +15,7 @@ INPUT_FILES = [
 
 OUTPUT_DIR = Path("output")
 REPORT_DIR = Path("reports")
+
 OUTPUT_DIR.mkdir(exist_ok=True)
 REPORT_DIR.mkdir(exist_ok=True)
 
@@ -45,7 +46,7 @@ def fetch_text(url: str) -> str:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0 PypsCFG-Actions",
+            "User-Agent": "Mozilla/5.0 PypsCFG-Fast",
             "Accept": "*/*",
         },
     )
@@ -80,12 +81,23 @@ def split_lines(text: str):
     return [x.strip() for x in text.replace("\r", "\n").split("\n") if x.strip()]
 
 
-def short_label(label: str) -> str:
+def strip_trash_suffix(line: str) -> str:
+    line = line.strip()
+    if " | " in line:
+        line = line.split(" | ", 1)[0].strip()
+    return line
+
+
+def normalize_label(label: str) -> str:
     label = urllib.parse.unquote(label.strip())
     if not label:
         return ""
     label = label.split("|", 1)[0].strip()
     label = label.split(" ", 1)[0].strip()
+
+    if re.fullmatch(r"\d+", label):
+        return ""
+
     return label
 
 
@@ -103,67 +115,34 @@ def decode_vmess_payload(payload: str):
     return json.loads(raw.decode("utf-8", errors="ignore"))
 
 
-def vmess_dup_key(line: str) -> str:
-    data = decode_vmess_payload(line[len("vmess://"):].strip())
-    label = short_label(str(data.get("ps", "")))
+def duplicate_key(line: str) -> str:
+    line = strip_trash_suffix(line)
 
-    # Убираем только декоративное имя
-    data.pop("ps", None)
-
-    normalized = json.dumps(
-        data,
-        ensure_ascii=False,
-        sort_keys=True,
-        separators=(",", ":"),
-    )
-    if label:
-        return f"vmess::{normalized}##{label}"
-    return f"vmess::{normalized}"
-
-
-def non_vmess_dup_key(line: str) -> str:
-    line = line.strip()
+    if line.startswith("vmess://"):
+        try:
+            data = decode_vmess_payload(line[len("vmess://"):].strip())
+            label = normalize_label(str(data.get("ps", "")))
+            data.pop("ps", None)
+            normalized = json.dumps(
+                data,
+                ensure_ascii=False,
+                sort_keys=True,
+                separators=(",", ":"),
+            )
+            if label:
+                return f"vmess::{normalized}##{label}"
+            return f"vmess::{normalized}"
+        except Exception:
+            return f"broken-vmess::{line}"
 
     if "#" in line:
         main, frag = line.split("#", 1)
-        label = short_label(frag)
+        label = normalize_label(frag)
         if label:
             return f"{main.strip()}##{label}"
         return main.strip()
 
-    main = line.split("|", 1)[0].strip()
-    return main
-
-
-def duplicate_key(line: str) -> str:
-    if line.startswith("vmess://"):
-        try:
-            return vmess_dup_key(line)
-        except Exception:
-            return f"broken-vmess::{line.strip()}"
-    return non_vmess_dup_key(line)
-
-
-def extract_endpoint(line: str):
-    try:
-        if line.startswith("vmess://"):
-            data = decode_vmess_payload(line[len("vmess://"):].strip())
-            host = str(data.get("add", "")).strip()
-            port = str(data.get("port", "")).strip()
-            if host and port:
-                return f"{host}:{port}"
-            return ""
-
-        core = line.split("|", 1)[0]
-        core = core.split("#", 1)[0]
-        parsed = urllib.parse.urlsplit(core)
-        host = parsed.hostname
-        port = parsed.port
-        if host and port:
-            return f"{host}:{port}"
-    except Exception:
-        return ""
-    return ""
+    return line.strip()
 
 
 def collect_from_source(source_line: str):
@@ -205,13 +184,13 @@ def process_input_file(filename: str):
     final = []
     seen = set()
 
-    for line in expanded:
-        line = line.strip()
+    for raw_line in expanded:
+        line = strip_trash_suffix(raw_line)
         if not line:
             continue
 
         if not keep_protocol(line):
-            filter_log.append(f"DROP unsupported/blocked :: {line[:200]}")
+            filter_log.append(f"DROP unsupported/blocked :: {raw_line[:200]}")
             continue
 
         key = duplicate_key(line)
@@ -226,50 +205,21 @@ def process_input_file(filename: str):
 
 
 def save_txt_and_b64(name: str, lines):
-    txt_path = OUTPUT_DIR / f"{name}.txt"
-    b64_path = OUTPUT_DIR / f"{name}.b64"
-
     txt = "\n".join(lines).strip()
     if txt:
         txt += "\n"
 
-    txt_path.write_text(txt, encoding="utf-8")
-    b64_path.write_text(
+    (OUTPUT_DIR / f"{name}.txt").write_text(txt, encoding="utf-8")
+    (OUTPUT_DIR / f"{name}.b64").write_text(
         base64.b64encode(txt.encode("utf-8")).decode("ascii"),
         encoding="utf-8",
     )
 
 
-def write_endpoint_report(name: str, lines):
-    endpoints = []
-    seen = set()
-
-    for line in lines:
-        ep = extract_endpoint(line)
-        if not ep:
-            continue
-        if ep in seen:
-            continue
-        seen.add(ep)
-        endpoints.append(ep)
-
-    (REPORT_DIR / f"{name}_endpoints.txt").write_text(
-        "\n".join(endpoints) + ("\n" if endpoints else ""),
-        encoding="utf-8",
-    )
-
-
 def write_summary(per_file: dict, merged_all: list):
-    lines = []
-    for name in INPUT_FILES:
-        count = len(per_file.get(name, []))
-        lines.append(f"{name}: {count}")
+    lines = [f"{name}: {len(per_file.get(name, []))}" for name in INPUT_FILES]
     lines.append(f"merged_all: {len(merged_all)}")
-
-    (REPORT_DIR / "summary.txt").write_text(
-        "\n".join(lines) + "\n",
-        encoding="utf-8",
-    )
+    (REPORT_DIR / "summary.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def main():
@@ -281,7 +231,6 @@ def main():
         lines = process_input_file(name)
         per_file[name] = lines
         save_txt_and_b64(name, lines)
-        write_endpoint_report(name, lines)
 
         for line in lines:
             key = duplicate_key(line)
@@ -291,7 +240,6 @@ def main():
             merged_all.append(line)
 
     save_txt_and_b64("merged_all", merged_all)
-    write_endpoint_report("merged_all", merged_all)
 
     (REPORT_DIR / "fetch_report.txt").write_text(
         "\n".join(fetch_log) + ("\n" if fetch_log else ""),
