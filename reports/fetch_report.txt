@@ -38,3 +38,9 @@ OK URL https://raw.githubusercontent.com/Ai123999/7Sand/refs/heads/main/7Sand_No
 OK URL https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt
 OK URL https://raw.githubusercontent.com/VPN-cat/VPN/refs/heads/main/configs/VPN-cat-top-100
 OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/youtube
+OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt
+OK URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt
+OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
+OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+OK URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt
