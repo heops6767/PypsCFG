@@ -1,14 +1,18 @@
 import base64
 import json
-import os
 import re
-import socket
-import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
-INPUT_FILES = ["BlackList", "WhiteList", "FavoriteSubBlack", "LiteBlackList", "LiteWhiteList"]
+INPUT_FILES = [
+    "BlackList",
+    "WhiteList",
+    "FavoriteSubBlack",
+    "LiteBlackList",
+    "LiteWhiteList",
+]
+
 OUTPUT_DIR = Path("output")
 REPORT_DIR = Path("reports")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -22,6 +26,7 @@ ALLOWED_PREFIXES = (
     "hy2://",
     "tuic://",
 )
+
 BLOCKED_PREFIXES = (
     "ss://",
     "ssr://",
@@ -29,7 +34,6 @@ BLOCKED_PREFIXES = (
 
 fetch_log = []
 filter_log = []
-ping_log = []
 
 
 def is_url(s: str) -> bool:
@@ -45,27 +49,23 @@ def fetch_text(url: str) -> str:
             "Accept": "*/*",
         },
     )
-    with urllib.request.urlopen(req, timeout=25) as resp:
+    with urllib.request.urlopen(req, timeout=20) as resp:
         raw = resp.read()
-    try:
-        return raw.decode("utf-8")
-    except UnicodeDecodeError:
-        return raw.decode("utf-8", errors="ignore")
+    return raw.decode("utf-8", errors="ignore")
 
 
 def looks_like_base64_blob(text: str) -> bool:
     s = "".join(text.strip().split())
     if not s or len(s) < 16:
         return False
-    if re.search(r"(://)|[\r\n]", text):
+    if "://" in text:
         return False
     return re.fullmatch(r"[A-Za-z0-9+/=]+", s) is not None
 
 
 def try_decode_base64_text(text: str) -> str:
     s = "".join(text.strip().split())
-    pad = (-len(s)) % 4
-    s += "=" * pad
+    s += "=" * ((4 - len(s) % 4) % 4)
     try:
         decoded = base64.b64decode(s)
         out = decoded.decode("utf-8", errors="ignore")
@@ -81,7 +81,7 @@ def split_lines(text: str):
 
 
 def short_label(label: str) -> str:
-    label = label.strip()
+    label = urllib.parse.unquote(label.strip())
     if not label:
         return ""
     label = label.split("|", 1)[0].strip()
@@ -89,99 +89,81 @@ def short_label(label: str) -> str:
     return label
 
 
-def normalize_non_vmess(line: str) -> str:
-    line = line.strip()
-    main = line
-    label = ""
-
-    if "#" in line:
-        main, frag = line.split("#", 1)
-        label = short_label(urllib.parse.unquote(frag))
-    else:
-        main = line.split("|", 1)[0].strip()
-
-    main = main.strip()
-    if label:
-        return f"{main}#{label}"
-    return main
+def keep_protocol(line: str) -> bool:
+    low = line.lower().strip()
+    if low.startswith(BLOCKED_PREFIXES):
+        return False
+    return low.startswith(ALLOWED_PREFIXES)
 
 
 def decode_vmess_payload(payload: str):
     s = payload.strip()
-    pad = (-len(s)) % 4
-    s += "=" * pad
+    s += "=" * ((4 - len(s) % 4) % 4)
     raw = base64.b64decode(s)
     return json.loads(raw.decode("utf-8", errors="ignore"))
 
 
-def encode_vmess_payload(data: dict) -> str:
-    raw = json.dumps(data, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
-    return "vmess://" + base64.b64encode(raw.encode("utf-8")).decode("ascii")
+def vmess_dup_key(line: str) -> str:
+    data = decode_vmess_payload(line[len("vmess://"):].strip())
+    label = short_label(str(data.get("ps", "")))
 
+    # Убираем только декоративное имя
+    data.pop("ps", None)
 
-def normalize_vmess(line: str) -> str:
-    payload = line[len("vmess://"):].strip()
-    data = decode_vmess_payload(payload)
-
-    label = short_label(str(data.get("ps", "")).strip())
-
-    for k in ["ps"]:
-        data.pop(k, None)
-
-    normalized = json.dumps(data, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+    normalized = json.dumps(
+        data,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
     if label:
-        return f"vmess-json:{normalized}#${label}"
-    return f"vmess-json:{normalized}"
+        return f"vmess::{normalized}##{label}"
+    return f"vmess::{normalized}"
 
 
-def extract_host_port(line: str):
+def non_vmess_dup_key(line: str) -> str:
+    line = line.strip()
+
+    if "#" in line:
+        main, frag = line.split("#", 1)
+        label = short_label(frag)
+        if label:
+            return f"{main.strip()}##{label}"
+        return main.strip()
+
+    main = line.split("|", 1)[0].strip()
+    return main
+
+
+def duplicate_key(line: str) -> str:
+    if line.startswith("vmess://"):
+        try:
+            return vmess_dup_key(line)
+        except Exception:
+            return f"broken-vmess::{line.strip()}"
+    return non_vmess_dup_key(line)
+
+
+def extract_endpoint(line: str):
     try:
         if line.startswith("vmess://"):
             data = decode_vmess_payload(line[len("vmess://"):].strip())
             host = str(data.get("add", "")).strip()
-            port = int(str(data.get("port", "")).strip())
-            return host, port
+            port = str(data.get("port", "")).strip()
+            if host and port:
+                return f"{host}:{port}"
+            return ""
 
         core = line.split("|", 1)[0]
         core = core.split("#", 1)[0]
         parsed = urllib.parse.urlsplit(core)
         host = parsed.hostname
         port = parsed.port
-
         if host and port:
-            return host, int(port)
+            return f"{host}:{port}"
     except Exception:
-        return None, None
-    return None, None
-
-
-def tcp_check(host: str, port: int, timeout=3.5):
-    started = time.time()
-    try:
-        with socket.create_connection((host, port), timeout=timeout):
-            elapsed = round((time.time() - started) * 1000)
-            return True, elapsed
-    except Exception:
-        elapsed = round((time.time() - started) * 1000)
-        return False, elapsed
-
-
-def keep_protocol(line: str) -> bool:
-    low = line.lower()
-    if low.startswith(BLOCKED_PREFIXES):
-        return False
-    if low.startswith(ALLOWED_PREFIXES):
-        return True
-    return False
-
-
-def normalize_key(line: str) -> str:
-    if line.startswith("vmess://"):
-        try:
-            return normalize_vmess(line)
-        except Exception:
-            return "BROKEN_VM:" + line.strip()
-    return normalize_non_vmess(line)
+        return ""
+    return ""
 
 
 def collect_from_source(source_line: str):
@@ -209,15 +191,15 @@ def collect_from_source(source_line: str):
 
 
 def process_input_file(filename: str):
-    src_path = Path(filename)
-    if not src_path.exists():
+    path = Path(filename)
+    if not path.exists():
         fetch_log.append(f"MISSING FILE {filename}")
         return []
 
-    raw_lines = split_lines(src_path.read_text(encoding="utf-8", errors="ignore"))
+    source_lines = split_lines(path.read_text(encoding="utf-8", errors="ignore"))
 
     expanded = []
-    for line in raw_lines:
+    for line in source_lines:
         expanded.extend(collect_from_source(line))
 
     final = []
@@ -229,12 +211,12 @@ def process_input_file(filename: str):
             continue
 
         if not keep_protocol(line):
-            filter_log.append(f"DROP unsupported/blocked :: {line[:180]}")
+            filter_log.append(f"DROP unsupported/blocked :: {line[:200]}")
             continue
 
-        key = normalize_key(line)
+        key = duplicate_key(line)
         if key in seen:
-            filter_log.append(f"DROP duplicate key :: {key}")
+            filter_log.append(f"DROP duplicate :: {key}")
             continue
 
         seen.add(key)
@@ -252,59 +234,79 @@ def save_txt_and_b64(name: str, lines):
         txt += "\n"
 
     txt_path.write_text(txt, encoding="utf-8")
-    b64_path.write_text(base64.b64encode(txt.encode("utf-8")).decode("ascii"), encoding="utf-8")
+    b64_path.write_text(
+        base64.b64encode(txt.encode("utf-8")).decode("ascii"),
+        encoding="utf-8",
+    )
 
 
-def ping_report(lines, name: str):
-    report_lines = []
+def write_endpoint_report(name: str, lines):
+    endpoints = []
+    seen = set()
+
     for line in lines:
-        host, port = extract_host_port(line)
-        if not host or not port:
-            report_lines.append(f"SKIP ??:?? :: {line[:180]}")
+        ep = extract_endpoint(line)
+        if not ep:
             continue
-        ok, ms = tcp_check(host, port)
-        status = "OK" if ok else "FAIL"
-        report_lines.append(f"{status} {ms}ms {host}:{port} :: {line[:180]}")
-    (REPORT_DIR / f"{name}_ping.txt").write_text("\n".join(report_lines) + "\n", encoding="utf-8")
-    ping_log.extend(report_lines)
+        if ep in seen:
+            continue
+        seen.add(ep)
+        endpoints.append(ep)
+
+    (REPORT_DIR / f"{name}_endpoints.txt").write_text(
+        "\n".join(endpoints) + ("\n" if endpoints else ""),
+        encoding="utf-8",
+    )
+
+
+def write_summary(per_file: dict, merged_all: list):
+    lines = []
+    for name in INPUT_FILES:
+        count = len(per_file.get(name, []))
+        lines.append(f"{name}: {count}")
+    lines.append(f"merged_all: {len(merged_all)}")
+
+    (REPORT_DIR / "summary.txt").write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+    )
 
 
 def main():
-    all_merged = []
-    global_seen = set()
-
     per_file = {}
+    merged_all = []
+    global_seen = set()
 
     for name in INPUT_FILES:
         lines = process_input_file(name)
         per_file[name] = lines
         save_txt_and_b64(name, lines)
-        # ping_report(lines, name)
+        write_endpoint_report(name, lines)
 
         for line in lines:
-            key = normalize_key(line)
+            key = duplicate_key(line)
             if key in global_seen:
                 continue
             global_seen.add(key)
-            all_merged.append(line)
+            merged_all.append(line)
 
-    save_txt_and_b64("merged_all", all_merged)
+    save_txt_and_b64("merged_all", merged_all)
+    write_endpoint_report("merged_all", merged_all)
 
-    (REPORT_DIR / "fetch_report.txt").write_text("\n".join(fetch_log) + "\n", encoding="utf-8")
-    (REPORT_DIR / "filtered_report.txt").write_text("\n".join(filter_log) + "\n", encoding="utf-8")
-    (REPORT_DIR / "summary.txt").write_text(
-        "\n".join(
-            [
-                f"{name}: {len(per_file[name])}" for name in INPUT_FILES
-            ] + [f"merged_all: {len(all_merged)}"]
-        ) + "\n",
-        encoding="utf-8"
+    (REPORT_DIR / "fetch_report.txt").write_text(
+        "\n".join(fetch_log) + ("\n" if fetch_log else ""),
+        encoding="utf-8",
     )
+    (REPORT_DIR / "filtered_report.txt").write_text(
+        "\n".join(filter_log) + ("\n" if filter_log else ""),
+        encoding="utf-8",
+    )
+    write_summary(per_file, merged_all)
 
     print("Done.")
     for name in INPUT_FILES:
-        print(f"{name}: {len(per_file[name])}")
-    print(f"merged_all: {len(all_merged)}")
+        print(f"{name}: {len(per_file.get(name, []))}")
+    print(f"merged_all: {len(merged_all)}")
 
 
 if __name__ == "__main__":
