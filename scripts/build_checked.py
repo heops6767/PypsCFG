@@ -37,8 +37,8 @@ BLOCKED_PREFIXES = (
     "ssr://",
 )
 
-CONNECT_TIMEOUT = 1.2
-CONCURRENCY = 100
+CONNECT_TIMEOUT = 1.0
+CONCURRENCY = 20
 CACHE_TTL_SECONDS = 24 * 60 * 60
 
 fetch_log = []
@@ -90,12 +90,23 @@ def split_lines(text: str):
     return [x.strip() for x in text.replace("\r", "\n").split("\n") if x.strip()]
 
 
-def short_label(label: str) -> str:
+def strip_trash_suffix(line: str) -> str:
+    line = line.strip()
+    if " | " in line:
+        line = line.split(" | ", 1)[0].strip()
+    return line
+
+
+def normalize_label(label: str) -> str:
     label = urllib.parse.unquote(label.strip())
     if not label:
         return ""
     label = label.split("|", 1)[0].strip()
     label = label.split(" ", 1)[0].strip()
+
+    if re.fullmatch(r"\d+", label):
+        return ""
+
     return label
 
 
@@ -113,48 +124,39 @@ def decode_vmess_payload(payload: str):
     return json.loads(raw.decode("utf-8", errors="ignore"))
 
 
-def duplicate_key_non_vmess(line: str) -> str:
-    line = line.strip()
+def duplicate_key(line: str) -> str:
+    line = strip_trash_suffix(line)
+
+    if line.startswith("vmess://"):
+        try:
+            data = decode_vmess_payload(line[len("vmess://"):].strip())
+            label = normalize_label(str(data.get("ps", "")))
+            data.pop("ps", None)
+            normalized = json.dumps(
+                data,
+                ensure_ascii=False,
+                sort_keys=True,
+                separators=(",", ":"),
+            )
+            if label:
+                return f"vmess::{normalized}##{label}"
+            return f"vmess::{normalized}"
+        except Exception:
+            return f"broken-vmess::{line}"
 
     if "#" in line:
         main, frag = line.split("#", 1)
-        label = short_label(frag)
+        label = normalize_label(frag)
         if label:
             return f"{main.strip()}##{label}"
         return main.strip()
 
-    return line.split("|", 1)[0].strip()
-
-
-def duplicate_key_vmess(line: str) -> str:
-    payload = line[len("vmess://"):].strip()
-    data = decode_vmess_payload(payload)
-
-    label = short_label(str(data.get("ps", "")))
-    data.pop("ps", None)
-
-    normalized = json.dumps(
-        data,
-        ensure_ascii=False,
-        sort_keys=True,
-        separators=(",", ":"),
-    )
-
-    if label:
-        return f"vmess::{normalized}##{label}"
-    return f"vmess::{normalized}"
-
-
-def duplicate_key(line: str) -> str:
-    if line.startswith("vmess://"):
-        try:
-            return duplicate_key_vmess(line)
-        except Exception:
-            return f"broken-vmess::{line.strip()}"
-    return duplicate_key_non_vmess(line)
+    return line.strip()
 
 
 def extract_endpoint(line: str):
+    line = strip_trash_suffix(line)
+
     try:
         if line.startswith("vmess://"):
             data = decode_vmess_payload(line[len("vmess://"):].strip())
@@ -164,10 +166,8 @@ def extract_endpoint(line: str):
                 return host, port
             return None, None
 
-        core = line.split("|", 1)[0]
-        core = core.split("#", 1)[0]
+        core = line.split("#", 1)[0]
         parsed = urllib.parse.urlsplit(core)
-
         host = parsed.hostname
         port = parsed.port
 
@@ -218,13 +218,13 @@ def process_input_file(filename: str):
     final = []
     seen = set()
 
-    for line in expanded:
-        line = line.strip()
+    for raw_line in expanded:
+        line = strip_trash_suffix(raw_line)
         if not line:
             continue
 
         if not keep_protocol(line):
-            filter_log.append(f"DROP unsupported/blocked :: {line[:200]}")
+            filter_log.append(f"DROP unsupported/blocked :: {raw_line[:200]}")
             continue
 
         key = duplicate_key(line)
@@ -239,33 +239,30 @@ def process_input_file(filename: str):
 
 
 def save_txt_and_b64(name: str, lines):
-    txt_path = OUTPUT_DIR / f"{name}.txt"
-    b64_path = OUTPUT_DIR / f"{name}.b64"
-
     txt = "\n".join(lines).strip()
     if txt:
         txt += "\n"
 
-    txt_path.write_text(txt, encoding="utf-8")
-    b64_path.write_text(
+    (OUTPUT_DIR / f"{name}.txt").write_text(txt, encoding="utf-8")
+    (OUTPUT_DIR / f"{name}.b64").write_text(
         base64.b64encode(txt.encode("utf-8")).decode("ascii"),
         encoding="utf-8",
     )
 
 
 def load_cache():
-    cache_file = CACHE_DIR / "endpoint_cache.json"
-    if not cache_file.exists():
+    path = CACHE_DIR / "endpoint_cache.json"
+    if not path.exists():
         return {}
     try:
-        return json.loads(cache_file.read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return {}
 
 
 def save_cache(cache: dict):
-    cache_file = CACHE_DIR / "endpoint_cache.json"
-    cache_file.write_text(
+    path = CACHE_DIR / "endpoint_cache.json"
+    path.write_text(
         json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True),
         encoding="utf-8",
     )
@@ -300,15 +297,13 @@ async def check_endpoints(endpoints):
         key = f"{host}:{port}"
 
         cached = cache.get(key)
-        if cached:
-            age = now - int(cached.get("ts", 0))
-            if age < CACHE_TTL_SECONDS:
-                results[key] = {
-                    "ok": bool(cached.get("ok", False)),
-                    "ms": int(cached.get("ms", 9999)),
-                    "cached": True,
-                }
-                return
+        if cached and now - int(cached.get("ts", 0)) < CACHE_TTL_SECONDS:
+            results[key] = {
+                "ok": bool(cached.get("ok", False)),
+                "ms": int(cached.get("ms", 9999)),
+                "cached": True,
+            }
+            return
 
         async with semaphore:
             ok, ms = await tcp_check(host, port, CONNECT_TIMEOUT)
@@ -323,50 +318,43 @@ async def check_endpoints(endpoints):
                 "ts": now,
             }
 
-    await asyncio.gather(*(worker(host, port) for host, port in endpoints))
+    await asyncio.gather(*(worker(h, p) for h, p in endpoints))
     save_cache(cache)
     return results
 
 
-def write_checked_endpoint_report(name: str, lines, endpoint_results: dict):
+def write_endpoint_report(name: str, lines, results: dict):
     seen = set()
-    report_lines = []
+    out = []
 
     for line in lines:
         host, port = extract_endpoint(line)
         if not host or not port:
             continue
-
         ep = f"{host}:{port}"
         if ep in seen:
             continue
         seen.add(ep)
 
-        info = endpoint_results.get(ep, {})
-        ok = info.get("ok", False)
-        ms = info.get("ms", 9999)
-        cached = info.get("cached", False)
-
-        status = "OK" if ok else "FAIL"
-        cache_mark = " cached" if cached else ""
-        report_lines.append(f"{status} {ms}ms {ep}{cache_mark}")
+        item = results.get(ep, {})
+        status = "OK" if item.get("ok", False) else "FAIL"
+        ms = item.get("ms", 9999)
+        cached = " cached" if item.get("cached", False) else ""
+        out.append(f"{status} {ms}ms {ep}{cached}")
 
     (REPORT_DIR / f"{name}_Checked_endpoints.txt").write_text(
-        "\n".join(report_lines) + ("\n" if report_lines else ""),
+        "\n".join(out) + ("\n" if out else ""),
         encoding="utf-8",
     )
 
 
 def write_summary(raw_map: dict, checked_map: dict, merged_checked: list):
     lines = []
-
     for name in INPUT_FILES:
-        raw_count = len(raw_map.get(name, []))
-        checked_count = len(checked_map.get(name, []))
-        lines.append(f"{name}: raw={raw_count}, checked={checked_count}")
-
+        lines.append(
+            f"{name}: raw={len(raw_map.get(name, []))}, checked={len(checked_map.get(name, []))}"
+        )
     lines.append(f"merged_all_Checked: {len(merged_checked)}")
-
     (REPORT_DIR / "summary_checked.txt").write_text(
         "\n".join(lines) + "\n",
         encoding="utf-8",
@@ -377,11 +365,9 @@ def main():
     raw_map = {}
     checked_map = {}
 
-    # 1. Собираем и фильтруем конфиги
     for name in INPUT_FILES:
         raw_map[name] = process_input_file(name)
 
-    # 2. Уникальные endpoint'ы
     endpoint_set = set()
     for lines in raw_map.values():
         for line in lines:
@@ -390,21 +376,17 @@ def main():
                 endpoint_set.add((host, port))
 
     endpoints = sorted(endpoint_set)
-
     print(f"Unique endpoints to check: {len(endpoints)}")
 
-    # 3. Проверяем endpoint'ы
     endpoint_results = asyncio.run(check_endpoints(endpoints))
 
-    # 4. Фильтруем checked-списки
     merged_checked = []
     global_seen = set()
 
     for name in INPUT_FILES:
-        raw_lines = raw_map[name]
         checked_lines = []
 
-        for line in raw_lines:
+        for line in raw_map[name]:
             host, port = extract_endpoint(line)
             if not host or not port:
                 continue
@@ -420,7 +402,7 @@ def main():
 
         checked_map[name] = checked_lines
         save_txt_and_b64(f"{name}Checked", checked_lines)
-        write_checked_endpoint_report(name, checked_lines, endpoint_results)
+        write_endpoint_report(name, checked_lines, endpoint_results)
 
         for line in checked_lines:
             key = duplicate_key(line)
@@ -429,21 +411,17 @@ def main():
             global_seen.add(key)
             merged_checked.append(line)
 
-    # 5. merged checked
     save_txt_and_b64("merged_all_Checked", merged_checked)
-    write_checked_endpoint_report("merged_all", merged_checked, endpoint_results)
+    write_endpoint_report("merged_all", merged_checked, endpoint_results)
 
-    # 6. Отчёты
     (REPORT_DIR / "fetch_report_checked.txt").write_text(
         "\n".join(fetch_log) + ("\n" if fetch_log else ""),
         encoding="utf-8",
     )
-
     (REPORT_DIR / "filtered_report_checked.txt").write_text(
         "\n".join(filter_log + check_log) + ("\n" if (filter_log or check_log) else ""),
         encoding="utf-8",
     )
-
     write_summary(raw_map, checked_map, merged_checked)
 
     print("Done checked build.")
