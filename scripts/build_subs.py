@@ -8,7 +8,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-INPUT_FILES = ["BlackList", "WhiteList", "FavoriteSubBlack"]
+INPUT_FILES = ["BlackList", "WhiteList", "FavoriteSubBlack", "LiteBlackList", "LiteWhiteList"]
 OUTPUT_DIR = Path("output")
 REPORT_DIR = Path("reports")
 OUTPUT_DIR.mkdir(exist_ok=True)
