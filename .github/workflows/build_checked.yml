@@ -8,13 +8,20 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: pypscfg-build-checked
+  cancel-in-progress: false
+
 jobs:
   build-checked:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,8 +29,7 @@ jobs:
           python-version: '3.11'
 
       - name: Build checked lists
-        run: |
-          python scripts/build_checked.py
+        run: python scripts/build_checked.py
 
       - name: Upload checked artifact
         uses: actions/upload-artifact@v4
