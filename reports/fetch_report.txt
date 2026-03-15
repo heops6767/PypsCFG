@@ -21,9 +21,9 @@ OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/hea
 OK URL https://raw.githubusercontent.com/officialdakari/psychic-octo-tribble/refs/heads/main/subwl.txt
 OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt
 OK URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt
-OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
+FAIL URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt :: The read operation timed out
 OK URL https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/refs/heads/main/WhiteKeys
-OK URL https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt
+FAIL URL https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt :: The read operation timed out
 OK URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/whitelists.txt
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
@@ -45,5 +45,3 @@ OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt
 OK URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt
 OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
-OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
-OK URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt
