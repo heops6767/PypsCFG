@@ -19,8 +19,8 @@ OK URL https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/g
 OK URL https://raw.githubusercontent.com/VPN-cat/VPN/refs/heads/main/configs/VPN-cat-top-100
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt
 OK URL https://raw.githubusercontent.com/officialdakari/psychic-octo-tribble/refs/heads/main/subwl.txt
-FAIL URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt :: The read operation timed out
-FAIL URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt :: The read operation timed out
+OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt
+OK URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt
 OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
 OK URL https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/refs/heads/main/WhiteKeys
 OK URL https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt
