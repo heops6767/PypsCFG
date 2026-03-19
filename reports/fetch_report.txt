@@ -5,7 +5,7 @@ OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/
 OK URL https://raw.githubusercontent.com/LowiKLive/BypassWhitelistRu/refs/heads/main/WhiteList-Bypass_Ru.txt
 OK URL https://wlrus.lol/confs/selected.txt
 OK URL https://autosub-config.vercel.app/sub.txt
-OK URL https://raw.githubusercontent.com/VP01596/vless-top15/refs/heads/main/top100.txt
+FAIL URL https://raw.githubusercontent.com/VP01596/vless-top15/refs/heads/main/top100.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/heads/main/BlackList.txt
 OK URL https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt#%D0%90%D0%B2%D1%82%D0%BE%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9
 OK URL https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt
