@@ -1,215 +1,200 @@
-OK 131ms 51.250.97.241:443
-OK 131ms 51.250.97.241:8443
-OK 141ms de.pfvpn.cfd:443
-OK 125ms fi.pfvpn.cfd:443
-OK 150ms 194.36.39.78:8443 cached
-OK 239ms usa.darknet.run:443 cached
-OK 102ms 152.53.200.167:8444 cached
-OK 76ms 107.181.134.184:7443 cached
-OK 793ms www.gossipglove.com:443 cached
-OK 98ms 88.216.214.114:443 cached
-OK 656ms www.multiplydose.com:443 cached
-OK 78ms 18.130.13.55:4040 cached
-OK 81ms 89.124.80.54:8443 cached
-OK 771ms www.calmlunch.com:443 cached
-OK 102ms 152.53.18.173:7443 cached
-OK 111ms 151.115.96.243:7242 cached
-OK 84ms 45.90.116.22:443 cached
-OK 994ms v3.dabache.top:443 cached
-OK 121ms 185.5.38.111:443 cached
-OK 53ms 150.241.83.67:10121 cached
-OK 139ms 152.53.200.98:8444 cached
-OK 3ms 109.234.211.66:2087 cached
-OK 88ms 136.244.105.89:82 cached
-OK 247ms 172.232.248.242:2321 cached
-OK 304ms chatgpt.com:443 cached
-OK 732ms braskivo.ru:8443 cached
-OK 912ms www.creationlong.org:443 cached
-OK 109ms 217.13.104.133:1443 cached
-OK 152ms 45.12.134.57:8443 cached
-OK 118ms 92.60.78.221:443 cached
-OK 109ms 217.13.104.133:7443 cached
-OK 101ms 193.25.216.76:443 cached
-OK 18ms 185.18.250.252:443 cached
-OK 77ms chatgpt.com:8443 cached
-OK 3ms 109.234.211.66:8443 cached
-OK 99ms 45.15.125.8:8443 cached
-OK 219ms usa.visa.com:443 cached
-OK 969ms v3.dabache.top:8443 cached
-OK 83ms 23.236.186.166:443 cached
-OK 2ms 185.18.250.245:443 cached
-OK 138ms 144.31.94.4:42428 cached
-OK 540ms node1.bronzarena.club:443 cached
-OK 97ms 178.17.52.29:8083 cached
-OK 93ms 45.15.128.75:8443 cached
-OK 80ms 45.140.167.209:8443 cached
-OK 96ms 2.27.43.20:443 cached
-OK 108ms 77.221.143.154:443 cached
+OK 151ms 194.87.30.69:2083
+OK 83ms 5.83.218.19:2083
+OK 91ms 145.249.115.115:443
+OK 90ms 95.85.239.225:2083
+OK 271ms www.multiplydose.com:443
+OK 160ms 45.12.134.57:8443
 OK 238ms 45.82.14.144:2025 cached
-OK 93ms 193.202.10.135:443 cached
-OK 94ms 193.221.201.176:9443 cached
+OK 397ms www.gossipglove.com:443
+OK 812ms v3.dabache.top:443
+OK 3ms 109.234.211.66:8443
+OK 63ms 150.241.83.58:10965
+OK 632ms www.calmlunch.com:443
+OK 127ms 45.12.135.55:443
+OK 18ms 185.18.250.252:443 cached
+OK 8ms 94.131.101.19:8443
+OK 228ms 172.232.248.242:2321
+OK 65ms 150.241.83.67:10121
+OK 2ms 109.234.211.66:2087
+OK 101ms 152.53.200.167:8444
+OK 89ms 45.15.125.8:8443
+OK 58ms usa.visa.com:443
+OK 561ms www.creationlong.org:443
+OK 86ms 45.140.167.209:8443
+OK 132ms 23.236.186.166:443
+OK 139ms 152.53.200.98:8444 cached
+OK 93ms 81.19.141.96:8443
+OK 30ms chatgpt.com:8443
+OK 101ms 152.53.18.173:7443
+OK 295ms 166.88.197.60:26650
+OK 140ms 185.5.38.111:443
+OK 97ms 2.27.43.20:443
+OK 88ms 107.181.134.184:7443
+OK 807ms v3.dabache.top:8443
+OK 83ms 136.244.105.89:82
+OK 128ms chatgpt.com:443
+OK 168ms 152.32.203.199:8443
+OK 526ms braskivo.ru:8443
+OK 3ms 185.18.250.245:443
+OK 111ms 151.115.96.243:7242
+OK 92ms 45.15.128.75:8443
+OK 631ms 45.39.255.21:8443
+OK 82ms 89.124.77.162:443
+OK 136ms 92.60.78.221:443
+OK 138ms 144.31.94.4:42428 cached
+OK 94ms 178.17.52.29:8083
+OK 96ms 146.19.254.220:8443
+OK 118ms 46.202.191.75:8443
+OK 120ms 82.38.63.246:8443
+OK 150ms 194.36.39.78:8443 cached
+OK 245ms node1.bronzarena.club:443
+OK 61ms 172.86.127.99:8443
+OK 77ms 18.130.13.55:4040
+OK 90ms 89.124.80.54:8443
+OK 97ms 150.251.145.245:8443
+OK 93ms 172.86.94.48:8443
+OK 121ms 193.25.216.76:443
+OK 95ms 193.202.10.135:443
+OK 101ms 193.221.201.176:9443
 OK 139ms 45.67.139.93:7443 cached
-OK 94ms 193.233.75.2:9443 cached
-OK 342ms api99.maps-yandex.net:22231 cached
-OK 166ms 43.167.157.65:12345 cached
+OK 99ms 193.233.75.2:9443
+OK 186ms api99.maps-yandex.net:22231
+OK 157ms 43.167.157.65:12345
 OK 517ms n3.chateditimage.com:443 cached
 OK 33ms 64.186.255.102:443 cached
-OK 207ms 89.208.198.39:443 cached
-OK 124ms 95.163.212.9:443
-OK 223ms 89.208.222.191:8443 cached
-OK 206ms 89.208.198.39:8443 cached
-OK 190ms 212.233.121.106:443 cached
-OK 195ms 212.233.120.4:443 cached
-OK 256ms 83.166.251.71:443 cached
-OK 120ms 89.208.86.234:443
-OK 258ms 83.166.251.71:8443 cached
-OK 180ms cf.008500.xyz:443 cached
-OK 3ms 104.18.32.47:80 cached
-OK 2ms 173.245.59.190:80
-OK 3ms 188.114.98.0:443 cached
-OK 233ms vless.herogoing.top:443
-OK 3ms 172.64.155.209:80 cached
-OK 232ms chatgpt.com:2083 cached
-OK 200ms 95.163.212.77:443 cached
-OK 179ms 217.16.17.95:443
-OK 3ms 104.17.147.22:80 cached
-OK 89ms 89.191.226.63:8443 cached
-OK 17ms labeller.neonime83.workers.dev:443
-OK 369ms restless-dew-894b.amirhost4.workers.dev:443 cached
-OK 2ms 188.114.96.3:443 cached
-OK 2ms 188.114.97.1:2053 cached
-OK 220ms gardconfig12.bnam38637.workers.dev:443 cached
-OK 529ms v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev:443 cached
-OK 4ms 172.67.160.192:443
-OK 121ms 176.108.240.172:443
-OK 3ms 193.22.229.138:80 cached
-OK 3ms 104.17.148.22:80 cached
-OK 3ms 188.114.97.3:80 cached
-OK 858ms white-snowflake-e65e.queenmahsan1.workers.dev:443 cached
-OK 15ms 104.17.77.77:8443
-OK 724ms nuclear.us.kg:443 cached
-OK 261ms www.visaeurope.ch:2083 cached
-OK 191ms wl-ru-vk-02.ray-balance.space:443
-OK 225ms myanmar.visa.com:8443 cached
-OK 428ms chatgpt.com:80 cached
-OK 2ms 188.114.96.0:443
-OK 278ms www.visasoutheasteurope.com:2096 cached
-OK 697ms c3xq5rczf5.rutube.info:10212 cached
-OK 472ms www.speedtest.net:80 cached
-OK 316ms square-sea-36d2.sendconfig.workers.dev:443 cached
-OK 88ms 22b.net:2087 cached
-OK 2ms 188.114.97.3:443 cached
-OK 88ms cg1c12.waimaojd.com:443
-OK 438ms 217.16.22.90:8443 cached
-OK 17ms 60ysrd9-v10nswi4duhvlrv0yxuspeth.efownd9to.workers.dev:443
-OK 218ms stock.hostmonit.com:443 cached
-OK 328ms 217.16.22.161:8443 cached
-OK 2ms 104.18.185.26:443 cached
-OK 15ms 104.16.250.22:443
-OK 175ms 94.139.251.109:7443 cached
-OK 3ms 104.26.12.31:80 cached
-OK 568ms 123.dnscloudcloud.top:443
-OK 129ms 178.250.246.103:443 cached
-OK 417ms maxsun.tconnect.services:10443 cached
-OK 122ms 87.249.139.242:8443 cached
-OK 121ms 84.201.135.10:443 cached
+OK 131ms 51.250.97.241:8443 cached
+OK 135ms 51.250.27.77:443
+OK 127ms 185.175.47.234:4439
+OK 2ms 188.114.97.1:2053
+OK 134ms 188.225.36.144:443 cached
+OK 373ms www.panel.com:2053
+OK 29ms russia.com:443
+OK 571ms www.digitalcommerce360.com:2053
+OK 447ms www.speedtest.net:8443
+OK 2ms 104.17.128.1:2096
+OK 110ms chatgpt.com:2083
+OK 122ms 45.152.113.215:4444
+OK 3ms 104.18.185.26:443
+OK 15ms 104.16.250.22:443 cached
+OK 3ms 188.114.98.0:443
+OK 15ms 104.17.77.77:8443 cached
+OK 207ms nuclear.us.kg:443
+OK 129ms 31.129.109.109:443
+OK 2ms 188.114.96.3:443
+OK 124ms 51.250.17.199:443
+OK 131ms 51.250.96.237:443
+OK 698ms white-snowflake-e65e.queenmahsan1.workers.dev:443
+OK 568ms 123.dnscloudcloud.top:443 cached
+OK 94ms 22b.net:2087
+OK 4ms 172.67.160.192:443 cached
+OK 114ms 178.72.186.28:443 cached
+OK 130ms 51.250.99.24:443
+OK 202ms stock.hostmonit.com:443
+OK 342ms s1.db-link.in:443
+OK 121ms 176.108.240.172:443 cached
+OK 484ms 001-nl-srv.gbplekbyfdgy.ru:443
+OK 131ms 51.250.97.241:443 cached
+OK 129ms 45.152.113.190:4441
+OK 130ms maxsun.tconnect.services:10443
+OK 123ms 87.249.139.242:8443
+OK 135ms 84.201.135.10:443
 OK 210ms 45.151.30.160:8443 cached
-OK 503ms midorinote.online:8443 cached
-OK 120ms 89.223.68.185:8454 cached
-OK 133ms 79.137.175.150:443 cached
-OK 181ms 217.16.25.106:2053 cached
+OK 224ms midorinote.online:8443
+OK 121ms 89.223.68.185:8454
+OK 129ms 79.137.175.150:443
 OK 166ms 85.193.80.99:8454 cached
-OK 120ms 188.225.43.175:443 cached
+OK 121ms 188.225.43.175:443
 OK 160ms 87.249.54.138:8454 cached
-OK 312ms tr.tconnect.services:443 cached
+OK 123ms 91.243.86.229:443
+OK 196ms tr.tconnect.services:443
 OK 174ms 217.199.252.113:443 cached
 OK 182ms 79.137.174.196:443 cached
-OK 104ms 84.32.50.24:443 cached
-OK 731ms yt-noads.sbrf-cdn342.ru:443 cached
-OK 161ms 84.201.146.125:2053 cached
-OK 236ms swiz.tconnect.services:443 cached
-OK 105ms 31.59.168.248:443 cached
-OK 118ms 176.122.27.141:443 cached
-OK 104ms 152.233.41.1:8443 cached
-OK 767ms ch-gt-01.com:8443 cached
+OK 102ms 84.32.50.24:443
+OK 857ms yt-noads.sbrf-cdn342.ru:443
+OK 167ms 84.201.146.125:2053
+OK 311ms swiz.tconnect.services:443
+OK 111ms 31.59.168.248:443
+OK 110ms 152.233.41.1:8443
+OK 657ms ch-gt-01.com:8443
 OK 179ms 79.137.175.156:443 cached
-OK 463ms hk01-vlr01.tcp-reset-club.net:443 cached
+OK 540ms hk01-vlr01.tcp-reset-club.net:443
 OK 258ms 62.233.43.250:443 cached
-OK 111ms 84.17.62.174:8443 cached
+OK 106ms 84.17.62.174:8443
 OK 772ms pro-ru-217.emrata.top:443 cached
-OK 122ms 5.42.97.143:443 cached
-OK 128ms 95.163.211.228:2443 cached
-OK 124ms 94.139.251.91:7443 cached
-OK 171ms 51.250.107.122:2053 cached
-OK 135ms 5.188.141.64:1443 cached
-OK 245ms usa-2.tconnect.services:443 cached
+OK 128ms 5.42.97.143:443
+OK 180ms 51.250.107.122:2053
+OK 44ms usa-2.tconnect.services:443
 OK 596ms ru2.mambo-jambo.ru:49169 cached
 OK 177ms buzzserver.online:4433 cached
-OK 392ms che01-plr-vlr01.tcp-reset-club.net:443 cached
-OK 172ms 146.185.240.221:2053 cached
-OK 476ms ru-3.tconnect.services:443 cached
-OK 200ms 208.69.78.94:8443 cached
-OK 286ms us-bridge.sbrf-cdn342.ru:443 cached
+OK 436ms che01-plr-vlr01.tcp-reset-club.net:443
+OK 184ms 146.185.240.221:2053
+OK 224ms ru-3.tconnect.services:443
+OK 197ms 208.69.78.94:8443
+OK 282ms us-bridge.sbrf-cdn342.ru:443
 OK 240ms 62.233.43.250:8443 cached
-OK 639ms ru-pq-01.com:8443 cached
-OK 133ms 79.137.174.178:443 cached
-OK 99ms 84.32.49.104:443 cached
-OK 114ms 185.178.47.163:443 cached
-OK 104ms 185.93.3.39:8443 cached
+OK 662ms ru-pq-01.com:8443
+OK 104ms 84.32.49.104:443
+OK 116ms 185.178.47.163:443
+OK 106ms 185.93.3.39:8443
 OK 184ms 79.137.174.51:443 cached
 OK 151ms 62.182.192.98:443 cached
-OK 434ms cdn.tconnect.services:11444 cached
-OK 805ms de.sbrf-cdn342.ru:443 cached
+OK 129ms cdn.tconnect.services:11444
+OK 690ms de.sbrf-cdn342.ru:443
 OK 254ms 194.87.104.230:443 cached
-OK 126ms 91.196.35.103:443 cached
-OK 3ms 172.67.204.137:443 cached
-OK 3ms 172.67.135.69:443 cached
-OK 3ms 188.114.98.0:2087 cached
-OK 91ms 94.156.179.217:2053 cached
-OK 95ms 87.251.87.213:443 cached
-OK 2ms 104.18.15.201:2096 cached
-OK 3ms 188.114.97.0:443 cached
-OK 8ms 207.148.25.184:443 cached
-OK 2ms 172.67.206.184:443 cached
-OK 18ms 37.1.211.227:8443 cached
-OK 3ms 104.21.6.208:443 cached
-OK 3ms 172.67.134.91:443 cached
-OK 111ms 185.117.89.209:8443 cached
-OK 3ms 104.17.148.22:8443 cached
-OK 108ms 91.184.243.7:2053 cached
-OK 100ms 89.169.53.88:443 cached
-OK 3ms 104.18.2.108:8443 cached
-OK 2ms 172.67.216.218:443 cached
-OK 7ms 207.246.92.29:443 cached
-OK 3ms 44.217.235.114:2053 cached
-OK 3ms 208.113.133.223:2053 cached
-OK 3ms 104.18.3.150:443 cached
-OK 131ms 212.193.153.187:443 cached
-OK 3ms 172.67.204.84:443 cached
-OK 90ms 77.239.97.139:2053 cached
-OK 157ms 23.187.72.183:520 cached
-OK 106ms 46.28.68.114:8443 cached
-OK 2ms 104.17.147.22:8443 cached
-OK 2ms 162.159.7.2:443 cached
-OK 238ms www.speedtest.net:8443 cached
-OK 94ms 62.60.217.190:8443 cached
-OK 2ms 104.18.3.26:2083 cached
-OK 3ms 104.21.88.28:443 cached
-OK 3ms 104.17.28.89:443 cached
-OK 2ms 172.67.171.253:443 cached
-OK 10ms 38.146.27.51:443 cached
-OK 37ms 198.204.227.171:2053 cached
-OK 631ms alist.sm.uy:443 cached
-OK 3ms 104.18.2.150:443 cached
-OK 97ms 95.179.253.213:8443 cached
-OK 90ms 147.45.196.240:8443 cached
-OK 3ms 104.21.61.58:443 cached
-OK 114ms 82.117.84.249:443 cached
-OK 2ms 104.18.41.43:443 cached
-OK 19ms 38.180.203.118:443 cached
-OK 3ms 104.21.25.157:443 cached
-OK 67ms 165.1.79.60:8443 cached
-OK 2ms 172.64.229.165:443 cached
-OK 196ms 67.159.55.66:50043 cached
-OK 3ms 104.19.58.74:443 cached
-OK 9ms 5.180.24.182:443 cached
+OK 161ms square-sea-36d2.sendconfig.workers.dev:443
+OK 3ms 172.67.204.137:443
+OK 2ms 172.67.135.69:443
+OK 2ms 188.114.98.0:2087
+OK 3ms 104.18.15.201:2096
+OK 3ms 188.114.97.0:443
+OK 8ms 207.148.25.184:443
+OK 3ms 104.17.147.22:80
+OK 2ms 172.67.206.184:443
+OK 62ms gardconfig12.bnam38637.workers.dev:443
+OK 19ms 37.1.211.227:8443
+OK 2ms 104.21.6.208:443
+OK 2ms 172.67.134.91:443
+OK 3ms 104.17.148.22:80
+OK 100ms 185.117.89.209:8443
+OK 3ms 104.17.148.22:8443
+OK 129ms 91.184.243.7:2053
+OK 107ms 89.169.53.88:443
+OK 3ms 104.18.2.108:8443
+OK 167ms cf.008500.xyz:443
+OK 3ms 172.67.216.218:443
+OK 8ms 207.246.92.29:443
+OK 3ms 44.217.235.114:2053
+OK 2ms 208.113.133.223:2053
+OK 2ms 104.18.3.150:443
+OK 162ms 212.193.153.187:443
+OK 2ms 172.67.204.84:443
+OK 96ms 77.239.97.139:2053
+OK 164ms 23.187.72.183:520
+OK 101ms 46.28.68.114:8443
+OK 3ms 104.17.147.22:8443
+OK 2ms 162.159.7.2:443
+OK 111ms 62.60.217.190:8443
+OK 3ms 104.18.3.26:2083
+OK 3ms 104.26.12.31:80
+OK 2ms 104.21.88.28:443
+OK 3ms 104.17.28.89:443
+OK 2ms 172.67.171.253:443
+OK 8ms 38.146.27.51:443
+OK 31ms 198.204.227.171:2053
+OK 893ms alist.sm.uy:443
+OK 24ms myanmar.visa.com:8443
+OK 2ms 104.18.2.150:443
+OK 89ms 95.179.253.213:8443
+OK 96ms 147.45.196.240:8443
+OK 3ms 104.21.61.58:443
+OK 2ms 104.18.41.43:443
+OK 19ms 38.180.203.118:443
+OK 91ms v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev:443
+OK 3ms 104.21.25.157:443
+OK 68ms 165.1.79.60:8443
+OK 482ms www.speedtest.net:80
+OK 3ms 172.64.229.165:443
+OK 417ms www.visasoutheasteurope.com:2096
+OK 204ms 67.159.55.66:50043
+OK 3ms 104.19.58.74:443
+OK 8ms 5.180.24.182:443
