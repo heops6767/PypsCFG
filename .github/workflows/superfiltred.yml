@@ -37,13 +37,20 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          git add output/
+          # Добавляем все изменения
+          git add output/ reports/
           
+          # Если изменений нет — выходим
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           
           git commit -m "Auto-update: Filtred protocols [$(date +'%d.%m.%Y %H:%M')]"
+          
+          # СТРАТЕГИЯ: Забираем данные из репозитория, 
+          # но при любом конфликте В ПРИОРИТЕТЕ наши новые файлы (-X ours)
           git pull --rebase -X ours origin main
+          
+          # Силовая отправка, если ребейз прошел
           git push origin main
