@@ -1,28 +1,25 @@
-name: Build subscriptions
+name: Build Super Filtered Subscriptions
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Позволяет запустить вручную кнопкой
   push:
     branches: [main]
-    paths-ignore:
-      - 'output/**'
-      - 'reports/**'
-      - 'README.md'
+    paths:
+      - 'scripts/**'
+      - 'BlackList'
+      - 'WhiteList'
+      - 'FavoriteSubBlack'
   schedule:
-    - cron: '0 */4 * * *' # Каждые 4 часа
+    - cron: '0 */4 * * *' # Запуск каждые 4 часа
 
 permissions:
-  contents: write
-
-concurrency:
-  group: pypscfg-build
-  cancel-in-progress: true
+  contents: write  # КРИТИЧЕСКИ ВАЖНО для пуша в репо
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -32,19 +29,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Build fast lists
+      - name: Run Super Filter Script
         run: python scripts/build_subs.py
 
-      - name: Commit generated files
+      - name: Commit and Push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/
-          # Проверка: есть ли изменения, чтобы не спамить пустыми коммитами
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add output/*.txt
+          git add output/*.b64
+          # Проверка на наличие изменений, чтобы экшн не падал, если ничего не изменилось
           if git diff --cached --quiet; then
             echo "No changes to commit"
-            exit 0
+          else
+            git commit -m "Update FiltredHy2VlessTrojan [$(date +'%d.%m.%Y %H:%M')]"
+            git push origin main
           fi
-          git commit -m "Update: FiltredHy2VlessTrojan [$(date +'%Y-%m-%d %H:%M')]"
-          git pull --rebase origin main
-          git push
