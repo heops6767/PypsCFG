@@ -1,85 +1,77 @@
-import base64, json, re, urllib.parse, urllib.request
+import base64
+import urllib.request
 from pathlib import Path
 
-# Конфигурация
-INPUT_FILES = ["BlackList", "WhiteList", "FavoriteSubBlack", "LiteBlackList", "LiteWhiteList"]
+# Настройки входа
+BLACK_SOURCES = ["BlackList", "FavoriteSubBlack", "LiteBlackList"]
+WHITE_SOURCES = ["WhiteList", "LiteWhiteList"]
+
 OUTPUT_DIR = Path("output")
-REPORT_DIR = Path("reports")
 OUTPUT_DIR.mkdir(exist_ok=True)
-REPORT_DIR.mkdir(exist_ok=True)
 
-ALLOWED_PROTOCOLS = ("vless://", "trojan://", "hysteria2://", "hy2://")
-
-def get_masking_score(line: str) -> int:
-    score = 0
+def get_score(line: str) -> int:
+    """Приоритет: Reality > Vision > TLS"""
     low = line.lower()
-    # Приоритеты для "самых мощных"
-    if "reality" in low: score += 50
-    if "security=tls" in low: score += 20
-    if "flow=xtls-rprx-vision" in low: score += 30
-    if "sni=" in low: score += 10
-    if "fp=chrome" in low: score += 5
-    return score
+    if "security=reality" in low: return 50
+    if "flow=xtls-rprx-vision" in low: return 30
+    if "security=tls" in low or "sni=" in low: return 20
+    return 0
 
-def is_super_config(line: str) -> bool:
-    # Фильтр: оставляем только то, что имеет хоть какую-то защиту (Reality или TLS/SNI)
-    return get_masking_score(line) >= 20
+def fetch_content(source: str) -> str:
+    """Загрузка из URL или чтение локального файла"""
+    source = source.strip()
+    if source.startswith("http"):
+        try:
+            req = urllib.request.Request(source, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                return r.read().decode("utf-8", errors="ignore")
+        except: return ""
+    return source
 
-def fetch_text(url: str) -> str:
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 PypsCFG-Fast"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            return resp.read().decode("utf-8", errors="ignore")
-    except: return ""
-
-def main():
-    all_links = []
-    seen = set()
-
-    # Сбор данных
-    for raw_file in INPUT_FILES:
-        path = Path(raw_file)
+def process_list(files_list):
+    """Сбор, декодирование и фильтрация ссылок"""
+    unique_links = set()
+    for filename in files_list:
+        path = Path(filename)
         if not path.exists(): continue
         
         lines = path.read_text(encoding="utf-8").splitlines()
-        for link in lines:
-            link = link.strip()
-            if not link or link.startswith("#"): continue
-            
-            # Если это ссылка на подписку - скачиваем
-            content = fetch_text(link) if link.startswith("http") else link
-            
-            # Декодируем base64 если нужно
-            if content and not "://" in content:
+        for line in lines:
+            content = fetch_content(line)
+            # Если внутри base64 (подписка)
+            if content and "://" not in content[:20]:
                 try: content = base64.b64decode(content + "==").decode("utf-8", errors="ignore")
                 except: pass
-
-            for line in content.splitlines():
-                line = line.strip()
-                if line.startswith(ALLOWED_PROTOCOLS):
-                    # Очистка от мусора в названии
-                    clean_line = line.split(" | ")[0] if " | " in line else line
-                    if clean_line not in seen:
-                        seen.add(clean_line)
-                        all_links.append(clean_line)
-
-    # --- СУПЕР ФИЛЬТРАЦИЯ ---
-    # 1. Только Vless, Trojan, Hy2
-    # 2. Только с высоким скором маскировки
-    filtered = [l for l in all_links if is_super_config(l)]
+            
+            for sub_line in content.splitlines():
+                sub_line = sub_line.strip()
+                if sub_line.startswith(("vless://", "trojan://", "hysteria2://", "hy2://")):
+                    unique_links.add(sub_line.split()[0])
     
-    # Сортировка: самые мощные (Reality) в самом верху
-    filtered.sort(key=get_masking_score, reverse=True)
+    # Сортировка по качеству маскировки
+    return sorted(list(unique_links), key=get_score, reverse=True)
 
-    # Сохранение главного файла
-    output_file = OUTPUT_DIR / "FiltredHy2VlessTrojan.txt"
-    output_file.write_text("\n".join(filtered) + "\n", encoding="utf-8")
+def save_files(name_prefix, links):
+    """Сохранение .txt и .b64"""
+    if not links:
+        return
+    txt_data = "\n".join(links).strip() + "\n"
+    # Сохраняем TXT
+    (OUTPUT_DIR / f"{name_prefix}FiltredHy2VlessTrojan.txt").write_text(txt_data, encoding="utf-8")
+    # Сохраняем B64
+    b64_data = base64.b64encode(txt_data.encode("utf-8")).decode("ascii")
+    (OUTPUT_DIR / f"{name_prefix}FiltredHy2VlessTrojan.b64").write_text(b64_data, encoding="utf-8")
+
+def main():
+    # Обработка Чёрного списка
+    black_links = process_list(BLACK_SOURCES)
+    save_files("Black", black_links)
     
-    # Дубликат в base64 для некоторых клиентов
-    b64_content = base64.b64encode("\n".join(filtered).encode("utf-8")).decode("ascii")
-    (OUTPUT_DIR / "FiltredHy2VlessTrojan.b64").write_text(b64_content)
+    # Обработка Белого списка
+    white_links = process_list(WHITE_SOURCES)
+    save_files("White", white_links)
 
-    print(f"Done! Saved {len(filtered)} super-configs to {output_file}")
+    print(f"Готово! Black: {len(black_links)}, White: {len(white_links)}")
 
 if __name__ == "__main__":
     main()
