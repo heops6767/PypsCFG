@@ -26,39 +26,39 @@ def fetch_content(source: str) -> str:
             with urllib.request.urlopen(req, timeout=15) as r:
                 return r.read().decode("utf-8", errors="ignore")
         except: return ""
-    return source
+    
+    path = Path(source)
+    return path.read_text(encoding="utf-8", errors="ignore") if path.exists() else ""
 
 def process_list(files_list):
     """Сбор, декодирование и фильтрация ссылок"""
     unique_links = set()
     for filename in files_list:
-        path = Path(filename)
-        if not path.exists(): continue
+        content = fetch_content(filename)
+        if not content: continue
         
-        lines = path.read_text(encoding="utf-8").splitlines()
-        for line in lines:
-            content = fetch_content(line)
-            # Если внутри base64 (подписка)
-            if content and "://" not in content[:20]:
-                try: content = base64.b64decode(content + "==").decode("utf-8", errors="ignore")
-                except: pass
+        # Декодирование, если это подписка в Base64
+        if "://" not in content[:20]:
+            try: 
+                content = base64.b64decode(content + "==").decode("utf-8", errors="ignore")
+            except: pass
             
-            for sub_line in content.splitlines():
-                sub_line = sub_line.strip()
-                if sub_line.startswith(("vless://", "trojan://", "hysteria2://", "hy2://")):
-                    unique_links.add(sub_line.split()[0])
+        for sub_line in content.splitlines():
+            sub_line = sub_line.strip()
+            # Строгий фильтр протоколов
+            if sub_line.startswith(("vless://", "trojan://", "hysteria2://", "hy2://")):
+                unique_links.add(sub_line.split()[0])
     
-    # Сортировка по качеству маскировки
+    # Сортировка по весу (Reality наверх)
     return sorted(list(unique_links), key=get_score, reverse=True)
 
 def save_files(name_prefix, links):
     """Сохранение .txt и .b64"""
-    if not links:
-        return
+    if not links: return
     txt_data = "\n".join(links).strip() + "\n"
-    # Сохраняем TXT
+    
     (OUTPUT_DIR / f"{name_prefix}FiltredHy2VlessTrojan.txt").write_text(txt_data, encoding="utf-8")
-    # Сохраняем B64
+    
     b64_data = base64.b64encode(txt_data.encode("utf-8")).decode("ascii")
     (OUTPUT_DIR / f"{name_prefix}FiltredHy2VlessTrojan.b64").write_text(b64_data, encoding="utf-8")
 
