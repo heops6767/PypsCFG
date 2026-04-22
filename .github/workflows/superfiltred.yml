@@ -1,0 +1,50 @@
+name: Build subscriptions
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'output/**'
+      - 'reports/**'
+      - 'README.md'
+  schedule:
+    - cron: '0 */4 * * *' # Каждые 4 часа
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pypscfg-build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build fast lists
+        run: python scripts/build_subs.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/
+          # Проверка: есть ли изменения, чтобы не спамить пустыми коммитами
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update: FiltredHy2VlessTrojan [$(date +'%Y-%m-%d %H:%M')]"
+          git pull --rebase origin main
+          git push
