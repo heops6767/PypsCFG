@@ -1,7 +1,7 @@
 name: Build Super Filtered Subscriptions
 
 on:
-  workflow_dispatch: # Позволяет запустить вручную кнопкой
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
@@ -10,10 +10,10 @@ on:
       - 'WhiteList'
       - 'FavoriteSubBlack'
   schedule:
-    - cron: '0 */4 * * *' # Запуск каждые 4 часа
+    - cron: '0 */4 * * *'
 
 permissions:
-  contents: write  # КРИТИЧЕСКИ ВАЖНО для пуша в репо
+  contents: write
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Важно для работы git
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,16 +32,26 @@ jobs:
       - name: Run Super Filter Script
         run: python scripts/sort_protocols.py
 
-      - name: Commit and Push changes
+      - name: Commit and Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add output/*.txt
-          git add output/*.b64
-          # Проверка на наличие изменений, чтобы экшн не падал, если ничего не изменилось
+          
+          # Добавляем все изменения из output и reports
+          git add output/ reports/
+          
+          # Проверяем, есть ли что фиксировать
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "Update FiltredHy2VlessTrojan [$(date +'%d.%m.%Y %H:%M')]"
-            git push origin main
+            exit 0
           fi
+          
+          git commit -m "Auto-update: Filtred protocols [$(date +'%d.%m.%Y %H:%M')]"
+          
+          # СТРАТЕГИЯ ЗАЩИТЫ ОТ КОНФЛИКТОВ:
+          # Мы забираем изменения из репозитория, и если есть конфликт в выходных файлах,
+          # мы всегда выбираем нашу новую версию (стратегия -X ours)
+          git pull --rebase -X ours origin main
+          
+          # Отправляем в репозиторий
+          git push origin main
