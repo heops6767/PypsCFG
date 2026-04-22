@@ -30,7 +30,7 @@ jobs:
           python-version: '3.11'
 
       - name: Run Super Filter Script
-        run: python scripts/build_subs.py
+        run: python scripts/sort_protocols.py
 
       - name: Commit and Push changes
         run: |
