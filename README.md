@@ -75,6 +75,8 @@
 | `*Checked` | версии после проверки endpoint | реже | TXT + Base64 |
 | `merged_all` | общий объединённый список | часто | TXT + Base64 |
 | `merged_all_Checked` | общий checked-список | реже | TXT + Base64 |
+| `BlackFiltredHy2VlessTrojan` | супер-фильтр (Vless Reality/Trojan/Hy2) | **каждые 4 часа** | TXT + Base64 |
+| `WhiteFiltredHy2VlessTrojan` | белый супер-фильтр (Reality/TLS) | **каждые 4 часа** | TXT + Base64 |
 
 ---
 
@@ -121,6 +123,12 @@
 - merged_all_Checked.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/merged_all_Checked.txt>
 - merged_all_Checked.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/merged_all_Checked.b64>
 
+  **Супер-фильтры**
+- BlackFiltredHy2VlessTrojan.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/BlackFiltredHy2VlessTrojan.txt>
+- BlackFiltredHy2VlessTrojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/BlackFiltredHy2VlessTrojan.b64>
+- WhiteFiltredHy2VlessTrojan.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteFiltredHy2VlessTrojan.txt>
+- WhiteFiltredHy2VlessTrojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteFiltredHy2VlessTrojan.b64>
+
 </details>
 
 #### jsDelivr (быстрее в некоторых регионах)
@@ -142,6 +150,12 @@
 - LiteWhiteList.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/LiteWhiteList.b64>
 - merged_all.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/merged_all.txt>
 - merged_all.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/merged_all.b64>
+
+  **Супер-фильтры**
+- BlackFiltredHy2VlessTrojan.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackFiltredHy2VlessTrojan.txt>
+- BlackFiltredHy2VlessTrojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackFiltredHy2VlessTrojan.b64>
+- WhiteFiltredHy2VlessTrojan.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteFiltredHy2VlessTrojan.txt>
+- WhiteFiltredHy2VlessTrojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteFiltredHy2VlessTrojan.b64>
 
 **Checked-списки**
 - BlackListChecked.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackListChecked.txt>
