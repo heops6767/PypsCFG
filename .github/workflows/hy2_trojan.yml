@@ -1,0 +1,50 @@
+name: Build Hy2 and Trojan Only
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'BlackList'
+      - 'WhiteList'
+      - 'scripts/filter_hy2_trojan.py'
+  schedule:
+    - cron: '0 */4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Hy2-Trojan Filter
+        run: python scripts/filter_hy2_trojan.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add output/
+          
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "Update Hy2-Trojan subscriptions [$(date +'%d.%m.%Y %H:%M')]"
+          
+          # Решаем конфликты в пользу свежесгенерированных файлов
+          git pull --rebase -X ours origin main
+          git push origin main
