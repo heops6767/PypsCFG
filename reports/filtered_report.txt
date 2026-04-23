@@ -1226,7 +1226,7 @@ DROP unsupported/blocked :: html,body{margin:0;padding:0;height:100%;background:
 DROP unsupported/blocked :: pre{white-space:pre-wrap;word-break:break-all;padding:14px;outline:none}
 DROP unsupported/blocked :: </style></head><body><pre id="c">⏳</pre><script>
 DROP unsupported/blocked :: (function(){try{
-DROP unsupported/blocked :: var P={"a":[121,225,203,81,3,44,227,183,132,167,46,129,161,192,55,138,41,235,10,201,144,1,48,200,58,156,181,189,63,224,29,180,63,175,112,130,121,183,96,47,53,67,190,113,83,66,147,163,188,17,175,249,84
+DROP unsupported/blocked :: var P={"a":[121,164,118,225,3,183,46,139,87,129,55,138,41,235,10,201,48,200,220,63,58,189,63,134,65,224,85,93,29,175,112,130,25,4,121,183,140,157,96,70,194,47,190,113,147,17,175,249,153,64,138,148,135
 DROP unsupported/blocked :: // Функция "очистки" от декоев: берём каждый 3-й элемент, начиная с правильного смещения
 DROP unsupported/blocked :: function clean(arr,offset){var r=[],skip=0;for(var i=offset;i<arr.length;i++){if(skip%3===0)r.push(arr[i]);skip++;}return r;}
 DROP unsupported/blocked :: // Собираем 3 потока обратно
