@@ -46,7 +46,8 @@ def process_list(files_list):
         for sub_line in content.splitlines():
             sub_line = sub_line.strip()
             # Строгий фильтр протоколов
-            if sub_line.startswith(("vless://", "trojan://", "hysteria2://", "hy2://")):
+            # if sub_line.startswith(("vless://", "trojan://", "hysteria2://", "hy2://")):
+             if sub_line.startswith(("trojan://", "hysteria2://", "hy2://")):
                 unique_links.add(sub_line.split()[0])
     
     # Сортировка по весу (Reality наверх)
