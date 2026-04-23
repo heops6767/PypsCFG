@@ -77,6 +77,8 @@
 | `merged_all_Checked` | общий checked-список | реже | TXT + Base64 |
 | `BlackFiltredHy2VlessTrojan` | супер-фильтр (Vless Reality/Trojan/Hy2) | **каждые 4 часа** | TXT + Base64 |
 | `WhiteFiltredHy2VlessTrojan` | белый супер-фильтр (Reality/TLS) | **каждые 4 часа** | TXT + Base64 |
+| `BlackHy2Trojan` | только Hy2 и Trojan | **каждые 4 часа** | TXT + Base64 |
+| `WhiteHy2Trojan` | белый список Hy2 и Trojan | **каждые 4 часа** | TXT + Base64 |
 
 ---
 
@@ -128,6 +130,10 @@
 - BlackFiltredHy2VlessTrojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/BlackFiltredHy2VlessTrojan.b64>
 - WhiteFiltredHy2VlessTrojan.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteFiltredHy2VlessTrojan.txt>
 - WhiteFiltredHy2VlessTrojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteFiltredHy2VlessTrojan.b64>
+- BlackHy2Trojan.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/BlackHy2Trojan.txt>
+- BlackHy2Trojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/BlackHy2Trojan.b64>
+- WhiteHy2Trojan.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteHy2Trojan.txt>
+- WhiteHy2Trojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteHy2Trojan.b64>
 
 </details>
 
@@ -156,6 +162,10 @@
 - BlackFiltredHy2VlessTrojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackFiltredHy2VlessTrojan.b64>
 - WhiteFiltredHy2VlessTrojan.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteFiltredHy2VlessTrojan.txt>
 - WhiteFiltredHy2VlessTrojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteFiltredHy2VlessTrojan.b64>
+- BlackHy2Trojan.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackHy2Trojan.txt>
+- BlackHy2Trojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackHy2Trojan.b64>
+- WhiteHy2Trojan.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteHy2Trojan.txt>
+- WhiteHy2Trojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteHy2Trojan.b64>
 
 **Checked-списки**
 - BlackListChecked.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackListChecked.txt>
@@ -252,6 +262,8 @@ Automatically removed:
 | `merged_all_Checked` | merged list after checks | less frequent | TXT + Base64 |
 | `BlackFiltredHy2VlessTrojan` | super-filter (Vless Reality/Trojan/Hy2) | **every 4 hours** | TXT + Base64 |
 | `WhiteFiltredHy2VlessTrojan` | white super-filter (Reality/TLS) | **every 4 hours** | TXT + Base64 |
+| `BlackHy2Trojan` | only Hy2 and Trojan | **every 4 hours** | TXT + Base64 |
+| `WhiteHy2Trojan` | white list of Hy2 and Trojan | **every 4 hours** | TXT + Base64 |
 
 ---
 
@@ -303,6 +315,10 @@ Two update modes:
 - BlackFiltredHy2VlessTrojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/BlackFiltredHy2VlessTrojan.b64>
 - WhiteFiltredHy2VlessTrojan.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteFiltredHy2VlessTrojan.txt>
 - WhiteFiltredHy2VlessTrojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteFiltredHy2VlessTrojan.b64>
+- BlackHy2Trojan.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/BlackHy2Trojan.txt>
+- BlackHy2Trojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/BlackHy2Trojan.b64>
+- WhiteHy2Trojan.txt — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteHy2Trojan.txt>
+- WhiteHy2Trojan.b64 — <https://raw.githubusercontent.com/heops6767/PypsCFG/main/output/WhiteHy2Trojan.b64>
 
 </details>
 
@@ -331,6 +347,10 @@ Two update modes:
 - BlackFiltredHy2VlessTrojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackFiltredHy2VlessTrojan.b64>
 - WhiteFiltredHy2VlessTrojan.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteFiltredHy2VlessTrojan.txt>
 - WhiteFiltredHy2VlessTrojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteFiltredHy2VlessTrojan.b64>
+- BlackHy2Trojan.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackHy2Trojan.txt>
+- BlackHy2Trojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackHy2Trojan.b64>
+- WhiteHy2Trojan.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteHy2Trojan.txt>
+- WhiteHy2Trojan.b64 — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/WhiteHy2Trojan.b64>
 
 **Checked lists**
 - BlackListChecked.txt — <https://cdn.jsdelivr.net/gh/heops6767/PypsCFG@main/output/BlackListChecked.txt>
