@@ -30,21 +30,22 @@ jobs:
 
       - name: Run Hy2-Trojan Filter
         run: python scripts/filter_hy2_trojan.py
-
       - name: Commit and Push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "github-actions[bot]@://github.com"
           git config --local user.name "github-actions[bot]"
           
+          # Добавляем ТОЛЬКО папку output, чтобы не задеть чужие файлы
           git add output/
           
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes in output, skipping."
             exit 0
           fi
           
-          git commit -m "Update Hy2-Trojan subscriptions [$(date +'%d.%m.%Y %H:%M')]"
+          git commit -m "Update Hy2-Trojan [$(date +'%d.%m.%Y %H:%M')]"
           
-          # Решаем конфликты в пользу свежесгенерированных файлов
+          # Безопасное обновление: подтягиваем изменения других экшенов
+          # и накладываем свои сверху (-X ours защитит от конфликтов в данных)
           git pull --rebase -X ours origin main
           git push origin main
