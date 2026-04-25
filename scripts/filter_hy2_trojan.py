@@ -2,7 +2,7 @@ import base64
 import urllib.request
 from pathlib import Path
 
-# Конфигурация
+# ---------------- CONFIG ----------------
 BLACK_SOURCES = ["BlackList", "FavoriteSubBlack", "LiteBlackList"]
 WHITE_SOURCES = ["WhiteList", "LiteWhiteList"]
 
@@ -10,79 +10,136 @@ OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
+# ---------------- SCORE ----------------
 def get_score(line: str) -> int:
-    """Приоритет: Trojan с Reality/TLS выше обычного"""
     low = line.lower()
     score = 0
-    if "security=reality" in low:
-        score += 50
-    if "security=tls" in low or "sni=" in low:
+
+    if "trojan://" in low:
+        score += 100
+    if "hysteria2://" in low or "hy2://" in low:
+        score += 80
+
+    # бонусы (если есть — хорошо, если нет — не важно)
+    if "reality" in low:
+        score += 30
+    if "tls" in low:
         score += 20
+    if "sni=" in low:
+        score += 10
+
     return score
 
 
+# ---------------- FETCH ----------------
 def fetch_content(source: str) -> str:
     source = source.strip()
 
     if source.startswith("http"):
         try:
+            print(f"[FETCH] {source}")
             req = urllib.request.Request(
-                source, headers={"User-Agent": "Mozilla/5.0"}
+                source,
+                headers={"User-Agent": "Mozilla/5.0"}
             )
             with urllib.request.urlopen(req, timeout=15) as r:
-                return r.read().decode("utf-8", errors="ignore")
+                data = r.read().decode("utf-8", errors="ignore")
+                print(f"[OK] size={len(data)}")
+                return data
         except Exception as e:
-            print(f"[ERROR] Fetch {source}: {e}")
+            print(f"[ERROR] {source} -> {e}")
             return ""
 
     path = Path(source)
     if path.exists():
-        return path.read_text(encoding="utf-8", errors="ignore")
+        data = path.read_text(encoding="utf-8", errors="ignore")
+        print(f"[LOCAL] {source} size={len(data)}")
+        return data
 
+    print(f"[MISS] {source}")
     return ""
 
 
+# ---------------- BASE64 ----------------
 def try_decode_base64(content: str) -> str:
-    """Пытаемся декодировать Base64 безопасно"""
     try:
         decoded = base64.b64decode(content, validate=True)
-        return decoded.decode("utf-8", errors="ignore")
+        text = decoded.decode("utf-8", errors="ignore")
+
+        if "://" in text:
+            print("[B64] decoded OK")
+            return text
+
     except Exception:
-        return content
+        pass
+
+    return content
 
 
+# ---------------- PARSER ----------------
+def extract_links(content: str):
+    links = []
+
+    for line in content.splitlines():
+        line = line.strip()
+
+        if not line or line.startswith("#"):
+            continue
+
+        if "://" in line:
+            links.append(line.split()[0])
+
+    return links
+
+
+def filter_links(links):
+    result = []
+
+    for link in links:
+        low = link.lower()
+
+        if (
+            "trojan://" in low or
+            "hysteria2://" in low or
+            "hy2://" in low
+        ):
+            result.append(link)
+
+    return result
+
+
+# ---------------- PROCESS ----------------
 def process_list(files_list):
     unique_links = set()
 
     for filename in files_list:
+        print(f"\n=== {filename} ===")
+
         content = fetch_content(filename)
         if not content:
             continue
 
-        # Попытка декодировать Base64
-        decoded = try_decode_base64(content)
+        content = try_decode_base64(content)
 
-        # Если после декода появились ссылки — используем его
-        if "://" in decoded:
-            content = decoded
+        raw_links = extract_links(content)
 
-        for line in content.splitlines():
-            line = line.strip()
+        if any("trojan://" in x.lower() or "hysteria2://" in x.lower() for x in raw_links):
+            print(f"[FOUND] {filename} has target protocols")
+        else:
+            print(f"[EMPTY] {filename}")
 
-            if not line or line.startswith("#"):
-                continue
+        filtered = filter_links(raw_links)
 
-            # 🔥 СТРОГИЙ ФИЛЬТР
-            if line.startswith(("trojan://", "hysteria2://", "hy2://")):
-                unique_links.add(line.split()[0])
+        for link in filtered:
+            unique_links.add(link)
+
+    print(f"\n[TOTAL] {len(unique_links)} links found\n")
 
     return sorted(unique_links, key=get_score, reverse=True)
 
 
+# ---------------- SAVE ----------------
 def save_output(name_prefix, links):
-    if not links:
-        return
-
     content = "\n".join(links) + "\n"
 
     txt_file = OUTPUT_DIR / f"{name_prefix}Hy2Trojan.txt"
@@ -90,10 +147,14 @@ def save_output(name_prefix, links):
 
     txt_file.write_text(content, encoding="utf-8")
     b64_file.write_text(
-        base64.b64encode(content.encode()).decode(), encoding="utf-8"
+        base64.b64encode(content.encode()).decode(),
+        encoding="utf-8"
     )
 
+    print(f"[SAVE] {txt_file} ({len(links)} lines)")
 
+
+# ---------------- MAIN ----------------
 def main():
     black = process_list(BLACK_SOURCES)
     save_output("Black", black)
@@ -101,7 +162,7 @@ def main():
     white = process_list(WHITE_SOURCES)
     save_output("White", white)
 
-    print(f"Done! Hy2/Trojan found -> Black: {len(black)}, White: {len(white)}")
+    print(f"\nDONE → Black: {len(black)} | White: {len(white)}")
 
 
 if __name__ == "__main__":
