@@ -41,7 +41,7 @@ OK URL https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/g
 OK URL https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt
 FAIL URL https://raw.githubusercontent.com/VPN-cat/VPN/refs/heads/main/configs/VPN-cat-top-100 :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/Ai123999/7Sand/refs/heads/main/7Sand_Notorgamers
-FAIL URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt :: HTTP Error 502: Bad Gateway
+OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt
 FAIL URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt :: HTTP Error 400: Bad Request
 OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
