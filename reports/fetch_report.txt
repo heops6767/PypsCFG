@@ -10,9 +10,9 @@ OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/head
 OK URL https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt#%D0%90%D0%B2%D1%82%D0%BE%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9
 OK URL https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt
 OK URL https://raw.githubusercontent.com/Maskkost93/kizyak-vpn-4.0/refs/heads/main/kizyakbeta6BL.txt
-OK URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/free_vless_servers.txt
+FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/free_vless_servers.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/heads/main/BlackList.txt
-OK URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/free_vless_servers.txt
+FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/free_vless_servers.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/LimeHi/LimeVPN/refs/heads/main/LimeVPN.txt
 OK URL https://raw.githubusercontent.com/Ai123999/7Sand/refs/heads/main/7Sand_Notorgamers
 OK URL https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt
@@ -24,7 +24,7 @@ FAIL URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfr
 OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
 OK URL https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/refs/heads/main/WhiteKeys
 OK URL https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt
-OK URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/whitelists.txt
+FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/whitelists.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
