@@ -1,7 +1,7 @@
 OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/other
-FAIL URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/ytm :: The read operation timed out
+OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/ytm
 OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/youtube
-FAIL URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/gemini :: The read operation timed out
+OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/gemini
 FAIL URL https://raw.githubusercontent.com/LowiKLive/BypassWhitelistRu/refs/heads/main/WhiteList-Bypass_Ru.txt :: HTTP Error 404: Not Found
 OK URL https://wlrus.lol/confs/selected.txt
 OK URL https://autosub-config.vercel.app/sub.txt
