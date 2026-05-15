@@ -1,6 +1,6 @@
 OK 161ms 144.31.233.236:9443 cached
 OK 161ms 45.140.204.119:443 cached
-OK 156ms 77.239.126.152:7443 cached
+OK 122ms 77.239.126.152:7443
 OK 164ms fr.safepass.click:443 cached
 OK 374ms kz.keepsecurevpn.com:443 cached
 OK 221ms tr.safepass.click:443 cached
