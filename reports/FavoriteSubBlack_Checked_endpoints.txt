@@ -1,6 +1,6 @@
-OK 232ms ru.pool-b.vodkacore.pro:44003
-OK 336ms ru.pool-b.vodkacore.pro:44002
-OK 383ms ru.pool-b.vodkacore.pro:44001
-OK 99ms 144.31.200.56:443
-OK 82ms 51.158.206.26:23576
-OK 608ms r1.mizulina.top:22231
+OK 336ms ru.pool-b.vodkacore.pro:44002 cached
+OK 383ms ru.pool-b.vodkacore.pro:44001 cached
+OK 128ms 217.198.5.133:446
+OK 137ms 158.160.231.77:443
+OK 2ms 104.17.72.206:443 cached
+OK 608ms r1.mizulina.top:22231 cached
