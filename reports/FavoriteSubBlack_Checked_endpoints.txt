@@ -1,6 +1,7 @@
-OK 345ms ru.pool-b.vodkacore.pro:44002
-OK 344ms ru.pool-b.vodkacore.pro:44001
-OK 128ms 217.198.5.133:446 cached
-OK 137ms 158.160.231.77:443 cached
-OK 2ms 104.17.72.206:443
-OK 265ms r1.mizulina.top:22231
+OK 212ms wl4.safepass.click:9443 cached
+OK 102ms de5.safepass.click:443 cached
+OK 176ms de6.safepass.click:443
+OK 275ms nl5.safepass.click:443 cached
+OK 137ms fr.safepass.click:443 cached
+OK 215ms tr.safepass.click:443 cached
+OK 2ms 104.17.72.206:443 cached
