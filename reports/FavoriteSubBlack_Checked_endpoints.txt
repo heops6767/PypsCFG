@@ -1,7 +1,7 @@
-OK 212ms wl4.safepass.click:9443 cached
-OK 102ms de5.safepass.click:443 cached
-OK 176ms de6.safepass.click:443
-OK 275ms nl5.safepass.click:443 cached
-OK 137ms fr.safepass.click:443 cached
-OK 215ms tr.safepass.click:443 cached
+OK 97ms 194.58.41.60:8443 cached
+OK 94ms 95.85.235.240:8443 cached
+OK 140ms 64.188.76.88:8443 cached
+OK 99ms 64.188.80.199:8443 cached
+OK 98ms 64.188.76.251:8443 cached
+OK 90ms 95.85.226.117:8443 cached
 OK 2ms 104.17.72.206:443 cached
