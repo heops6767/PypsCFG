@@ -3,7 +3,7 @@ OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/
 OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/youtube
 OK URL https://cdn.jsdelivr.net/gh/EtoNeYaProject/EtoNeYaProject.github.io@refs/heads/main/gemini
 FAIL URL https://raw.githubusercontent.com/LowiKLive/BypassWhitelistRu/refs/heads/main/WhiteList-Bypass_Ru.txt :: HTTP Error 404: Not Found
-OK URL https://wlrus.lol/confs/selected.txt
+FAIL URL https://wlrus.lol/confs/selected.txt :: <urlopen error timed out>
 OK URL https://autosub-config.vercel.app/sub.txt
 FAIL URL https://raw.githubusercontent.com/VP01596/vless-top15/refs/heads/main/top100.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/heads/main/BlackList.txt
