@@ -1,13 +1,6 @@
-OK 137ms fl-4-direct.djarbnet.ru:443 cached
-OK 110ms 89.169.120.61:443 cached
-OK 126ms 84.32.209.96:443 cached
-OK 118ms 5.199.170.104:443 cached
-OK 96ms 66.201.4.248:443 cached
-OK 590ms de.dendibase.org:443 cached
-OK 88ms 212.46.33.4:443 cached
-OK 98ms 84.32.96.119:443 cached
-OK 898ms ru.memeplanet.org:443 cached
-OK 147ms 46.8.209.122:443 cached
-OK 10ms 104.17.72.206:443 cached
-OK 6ms 104.18.13.149:2053 cached
-OK 18ms 162.159.36.5:80
+OK 109ms 78.17.60.96:47200
+OK 129ms 78.17.216.44:47200
+OK 176ms 185.70.186.72:8443
+OK 3ms 104.17.72.206:443
+OK 136ms 45.15.160.132:443
+OK 246ms sw1tzerl4nd.gxcore.net:443
