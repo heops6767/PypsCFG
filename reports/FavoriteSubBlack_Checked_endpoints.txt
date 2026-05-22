@@ -1,6 +1,6 @@
-OK 109ms 78.17.60.96:47200
-OK 129ms 78.17.216.44:47200
-OK 176ms 185.70.186.72:8443
-OK 3ms 104.17.72.206:443
-OK 136ms 45.15.160.132:443
-OK 246ms sw1tzerl4nd.gxcore.net:443
+OK 109ms 78.17.60.96:47200 cached
+OK 129ms 78.17.216.44:47200 cached
+OK 176ms 185.70.186.72:8443 cached
+OK 3ms 104.17.72.206:443 cached
+OK 136ms 45.15.160.132:443 cached
+OK 246ms sw1tzerl4nd.gxcore.net:443 cached
