@@ -1,6 +1,6 @@
-OK 435ms de1.noesissite.ru:443
-OK 286ms nl1.noesissite.ru:443
-OK 417ms ps1.noesissite.ru:8443
+OK 435ms de1.noesissite.ru:443 cached
+OK 286ms nl1.noesissite.ru:443 cached
+OK 417ms ps1.noesissite.ru:8443 cached
 OK 180ms fr.safepass.click:443 cached
 OK 493ms kz.keepsecurevpn.com:443 cached
 OK 247ms tr.safepass.click:443 cached
@@ -158,9 +158,9 @@ OK 89ms 45.141.234.170:8443 cached
 OK 119ms ir20.novalynxhub.online:51847 cached
 OK 6ms 104.19.229.21:2096 cached
 OK 112ms 144.31.235.62:443 cached
-OK 7ms sourceforge.net:443
-OK 173ms 132.145.80.230:80
-OK 19ms 104.20.42.250:443
+OK 7ms sourceforge.net:443 cached
+OK 173ms 132.145.80.230:80 cached
+OK 19ms 104.20.42.250:443 cached
 OK 136ms l7.l-itx.info:7443 cached
 OK 157ms l10-1.l-itx.info:7443 cached
 OK 270ms 95.85.246.14.speed-storage.ru:573 cached
