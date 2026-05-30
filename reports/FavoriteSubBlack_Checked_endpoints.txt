@@ -1,71 +1,75 @@
-OK 39ms 64.186.225.13:8443 cached
-OK 144ms 144.31.235.62:443 cached
-OK 17ms 104.16.7.70:2095 cached
-OK 153ms 83.222.20.64:17910 cached
-OK 21ms 104.16.7.70:8443 cached
-OK 127ms 85.234.114.53:443 cached
-OK 180ms 3.106.214.88:31318 cached
-OK 17ms 104.18.120.34:8443 cached
-OK 200ms 172.232.103.186:22324 cached
+OK 128ms 83.222.20.64:17910
+OK 190ms 3.106.214.88:31318
 OK 193ms 43.203.249.214:39295 cached
-OK 2ms 188.114.96.12:443 cached
-OK 82ms 147.45.145.127:443 cached
 OK 95ms 91.99.145.207:443 cached
-OK 203ms 178.236.16.98:35728 cached
-OK 256ms cdn.cdnjst.org:443 cached
-OK 90ms 152.233.35.228:8443 cached
-OK 61ms 82.198.246.9:180 cached
+OK 178ms 178.236.16.98:35728
 OK 477ms empty-dust.ru:443 cached
+OK 106ms 85.234.114.53:443
+OK 61ms 82.198.246.9:180 cached
+OK 90ms 152.233.35.228:8443 cached
 OK 112ms 93.115.25.153:443 cached
-OK 106ms 152.233.28.198:8443 cached
-OK 189ms 84.17.37.19:8443 cached
-OK 14ms 104.18.20.213:443 cached
-OK 2ms 69.84.182.49:2096 cached
 OK 92ms 89.185.81.123:443 cached
-OK 17ms 89.117.94.111:54495 cached
 OK 155ms 90.156.254.164:19562 cached
-OK 163ms 211.76.176.99:19128 cached
-OK 111ms 5.175.178.183:443 cached
 OK 117ms 89.22.236.213:54346 cached
-OK 10ms 45.130.125.76:443 cached
-OK 425ms dongjing4.zqjsqapi.com:443 cached
 OK 106ms 88.210.9.69:443 cached
-OK 113ms 87.120.126.205:443 cached
-OK 10ms 50.62.198.124:443 cached
+OK 132ms 77.110.121.202:23164
 OK 19ms 104.18.32.47:2096 cached
-OK 749ms r1.mizulina.top:22231 cached
-OK 154ms 87.120.93.140:443 cached
+OK 370ms r1.mizulina.top:22231
 OK 96ms 144.31.157.56:443 cached
-OK 201ms freetg.strettenvpn.com:443 cached
-OK 77ms 66.163.117.58:22324 cached
-OK 142ms g1.steptofreedom.one:443 cached
-OK 16ms 185.18.250.127:2096 cached
 OK 600ms uk.connfull.org:2053 cached
-OK 12ms 14.102.228.76:2096 cached
-OK 96ms 162.217.249.74:48748 cached
+OK 3ms 185.18.250.127:2096
 OK 169ms cdg-1.fromblancwithlove.com:8443 cached
-OK 123ms 136.244.93.228:443 cached
 OK 85ms 213.108.2.130:443 cached
-OK 14ms 14.102.228.76:443 cached
-OK 43ms 185.139.214.254:443 cached
-OK 21ms 104.18.32.47:8443 cached
-OK 83ms 85.234.114.53:22231 cached
-OK 112ms 128.204.223.70:50401 cached
-OK 339ms srv154.towersflowerss.com:64534 cached
-OK 740ms yd3.ainivp.com:33402 cached
 OK 95ms 81.29.156.195:443 cached
+OK 82ms 147.45.145.127:443 cached
 OK 114ms 109.122.198.76:443 cached
-OK 131ms 141.11.45.214:8080 cached
-OK 105ms 5.175.178.184:443 cached
-OK 115ms 194.76.155.12:8443 cached
-OK 351ms sca9.myfymain.com:8880 cached
-OK 806ms a2.hamrahnode.ir:2053 cached
-OK 399ms de.connfull.org:8443 cached
-OK 125ms 185.226.95.155:80 cached
 OK 14ms 170.205.37.59:443 cached
-OK 9ms 172.64.47.168:2096 cached
-OK 148ms 193.163.203.76:50592 cached
 OK 96ms 194.33.34.167:443 cached
-OK 417ms ov-france1.09vpn.com:80 cached
-OK 2ms 45.130.125.69:2096 cached
-OK 17ms 104.17.121.129:2096 cached
+OK 136ms 193.163.203.76:50592
+OK 4ms 45.130.125.76:2053 cached
+OK 2ms 216.24.57.6:443 cached
+OK 17ms 104.17.121.71:2053 cached
+OK 3ms 104.18.32.47:2053
+OK 29ms 104.17.121.71:443 cached
+OK 2ms 45.130.125.76:443
+OK 2ms 216.24.57.7:443 cached
+OK 209ms 18.143.151.84:38967
+OK 107ms 45.92.70.236:22324
+OK 252ms nl-tx.sbrf-cdn342.ru:443
+OK 32ms 38.91.107.49:18000
+OK 193ms 54.253.37.164:23951
+OK 2ms 84.32.70.206:443
+OK 2ms 172.64.146.68:80 cached
+OK 3ms 172.64.146.163:80 cached
+OK 105ms 138.124.186.202:443
+OK 84ms 72.56.59.177:22231 cached
+OK 115ms 185.121.12.178:8443
+OK 3ms 172.64.154.211:80
+OK 3ms 104.18.8.83:443
+OK 2ms 208.103.161.33:443 cached
+OK 2ms 104.18.41.178:2087
+OK 3ms 173.245.59.233:2096
+OK 2ms 104.17.38.42:443
+OK 3ms 63.141.128.3:2083
+OK 544ms v843042.hosted-by-vdsina.com:443
+OK 128ms 185.215.184.95:443
+OK 3ms 172.64.33.162:443
+OK 3ms 173.245.58.75:443
+OK 102ms 152.233.28.198:8443
+OK 2ms 162.159.17.189:443
+OK 128ms 37.233.82.140:40478
+OK 2ms 162.159.18.105:443
+OK 264ms azmononline.konkuriran.sbs:2080
+OK 104ms 144.31.111.182:8443
+OK 235ms sca11.myfymain.com:8880
+OK 3ms 165.215.250.11:443
+OK 119ms 132.243.231.122:8443
+OK 309ms nld.pink-service.ru:443
+OK 123ms cdn-se-1.bigbossvpn.online:8443
+OK 108ms 95.85.228.146:8443
+OK 2ms 104.17.156.197:443
+OK 111ms 31.76.120.162:443
+OK 277ms fr-node.prostosetup.org:443
+OK 91ms 150.241.94.160:33199 cached
+OK 347ms clee.altanetworking.ink:443
+OK 421ms wvjtyz99v0zo.hosted-in.iranray.online:2052 cached
