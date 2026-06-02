@@ -1,95 +1,76 @@
-OK 28ms 162.159.19.202:80 cached
 OK 110ms 91.107.255.167:24391 cached
 OK 108ms 194.59.183.234:666 cached
-OK 187ms 144.31.96.174:443 cached
-OK 17ms v2configlab.v2configlab17.workers.dev:80
-OK 284ms 91.107.189.143:29039 cached
-OK 272ms 45.149.234.236:443 cached
-OK 868ms down.spectrum.vu:443 cached
-OK 216ms finporkzov.com:443 cached
-OK 116ms 144.31.96.48:443 cached
-OK 137ms 194.76.155.12:8443 cached
+OK 150ms 3.71.187.131:443 cached
 OK 114ms 5.75.252.191:27620 cached
+OK 321ms down.spectrum.vu:443
 OK 214ms sca8.myfymain.com:8880 cached
-OK 362ms 204.168.234.22:80 cached
-OK 150ms 144.31.131.17:443 cached
-OK 136ms 79.141.164.40:28167 cached
-OK 413ms 132.243.231.122:8443 cached
+OK 121ms 204.168.234.22:80
+OK 99ms 151.115.164.37:8880
+OK 90ms 79.141.164.40:28167
+OK 154ms sca10.myfymain.com:8880
+OK 216ms finporkzov.com:443 cached
 OK 119ms 155.117.127.137:443 cached
-OK 194ms 144.124.253.4:8443 cached
-OK 444ms v546965.hosted-by-vdsina.com:8443 cached
-OK 160ms 84.21.189.197:443 cached
-OK 132ms 95.128.157.212:510 cached
-OK 457ms 10.vles.space:510 cached
-OK 152ms 5.183.253.171:443 cached
-OK 282ms 62.238.32.25:443 cached
-OK 116ms 46.149.78.27:17113 cached
-OK 493ms fi2.vitok.cc:443 cached
-OK 203ms 185.228.232.216:443 cached
-OK 396ms freetg.strettenvpn.com:443 cached
-OK 148ms 144.124.237.144:443
+OK 103ms 5.183.253.171:443
+OK 138ms freetg.strettenvpn.com:443
+OK 108ms 185.228.232.216:443
+OK 111ms 185.228.232.215:443
+OK 651ms ru-nl.omuvpn.tech:23346
+OK 88ms 144.124.253.4:8443
+OK 89ms 185.112.59.40:5443
+OK 112ms 132.243.231.122:8443
+OK 101ms 194.226.169.189:443
+OK 91ms 150.241.94.160:33199
+OK 595ms rus.scroogethebest.com:443
+OK 141ms 217.26.24.101:23151
+OK 93ms 178.105.103.153:443
+OK 137ms de1.vitok.cc:443
 OK 122ms 185.228.232.150:443 cached
-OK 278ms 178.215.238.148:8443 cached
-OK 339ms 185.112.59.40:5443 cached
-OK 157ms 185.228.232.215:443 cached
-OK 132ms 150.241.94.160:33199 cached
-OK 99ms 45.66.161.10:8443 cached
-OK 361ms 194.226.169.189:443 cached
-OK 298ms 62.60.255.11:443 cached
-OK 178ms 217.26.24.101:23151 cached
-OK 430ms de1.vitok.cc:443 cached
-OK 739ms auk.url-shorter.online:4443 cached
-OK 148ms 178.105.103.153:443 cached
-OK 191ms 188.130.208.220:5443 cached
-OK 132ms 185.66.68.90:10444 cached
-OK 174ms 89.169.39.55:443 cached
-OK 384ms 185.237.223.36:13295 cached
-OK 323ms 185.177.239.95:14793 cached
-OK 272ms 91.225.217.94:443 cached
+OK 109ms 144.31.96.174:443
+OK 191ms 162.19.132.77:2095
+OK 112ms 62.60.255.11:443
 OK 115ms 195.96.132.125:443 cached
-OK 131ms 2.59.43.249:5443 cached
-OK 130ms 188.225.34.179:443 cached
-OK 146ms 217.114.12.187:443 cached
-OK 232ms 89.22.230.82:443 cached
-OK 246ms 72.56.4.94:443 cached
-OK 368ms 178.250.246.138:443 cached
-OK 262ms 89.169.177.117:443 cached
-OK 114ms 212.100.171.194:48862 cached
-OK 287ms 89.169.177.117:8443 cached
+OK 138ms 89.169.39.55:443
+OK 118ms 185.177.239.95:14793
+OK 128ms 185.237.223.36:13295
+OK 116ms 144.31.96.48:443 cached
+OK 118ms 91.225.217.94:443
+OK 122ms 188.130.208.220:5443
+OK 204ms by.api-yandex.net:443
+OK 110ms 81.177.212.216:443
+OK 133ms 158.160.150.233:443
+OK 136ms 89.22.230.82:443
+OK 116ms 84.21.189.197:443
+OK 112ms 144.31.131.17:443
 OK 292ms ru9.aimodelhub.top:443 cached
-OK 40ms 216.234.141.24:443 cached
-OK 195ms 45.12.75.242:26424 cached
-OK 250ms 158.160.7.200:443 cached
-OK 401ms cf.9999669.xyz:2087 cached
-OK 896ms sca17.myfymain.com:8880 cached
-OK 145ms 3.65.207.158:443 cached
-OK 125ms 15.204.97.214:23576 cached
+OK 132ms 185.66.68.90:10444 cached
+OK 114ms 212.100.171.194:48862 cached
+OK 176ms 178.215.238.148:8443
+OK 135ms 158.160.7.200:443
+OK 133ms 45.12.75.242:26424
+OK 155ms 31.58.76.181:5984
+OK 98ms 151.115.164.110:8880
+OK 194ms bc-pl-1c.ray-balance.space:4443 cached
+OK 234ms sca13.myfymain.com:8880 cached
+OK 151ms sca12.myfymain.com:8880
+OK 99ms 151.115.164.129:8880
+OK 38ms cf.9999669.xyz:2087
+OK 149ms 213.165.42.40:36985 cached
+OK 371ms support.zoom.us.cyylr.eu.cc:443
 OK 4ms 188.114.97.6:443 cached
-OK 113ms 172.236.220.10:443 cached
-OK 17ms a1-tss.pages.dev:443
-OK 214ms sca20.myfymain.com:8880
-OK 3ms 202.37.33.80:443 cached
-OK 34ms 104.19.229.21:443
-OK 783ms support.zoom.us.cyylr.eu.cc:443 cached
-OK 234ms sca13.myfymain.com:8880
-OK 109ms 172.238.120.124:443 cached
-OK 2ms 162.159.36.20:443
-OK 2ms 172.66.47.45:443
-OK 391ms 8.218.24.35:443 cached
-OK 149ms 213.165.42.40:36985
-OK 163ms yeksanaat.ir:8880
-OK 123ms 152.233.28.198:8443 cached
-OK 146ms 51.158.206.25:23576 cached
-OK 34ms 104.20.6.134:443
-OK 109ms 172.104.237.100:443 cached
-OK 308ms accountdb.ir:80
-OK 32ms 104.17.121.71:443 cached
-OK 2ms 45.130.125.160:443
-OK 2ms 172.64.146.138:443
-OK 6ms betty.ns.cloudflare.com:443
-OK 3ms 172.64.53.74:443
-OK 206ms cyylr.eu.cc:443
-OK 133ms 185.137.157.254:443 cached
-OK 2ms 208.103.161.170:443
-OK 34ms 109.234.211.66:8443
-OK 346ms 195.181.173.199:8443 cached
+OK 6ms 104.17.121.71:443
+OK 2ms 45.130.125.160:443 cached
+OK 3ms 172.64.53.74:443 cached
+OK 206ms cyylr.eu.cc:443 cached
+OK 6ms betty.ns.cloudflare.com:443 cached
+OK 2ms 208.103.161.170:443 cached
+OK 34ms 109.234.211.66:8443 cached
+OK 6ms 188.114.98.0:443
+OK 3ms 216.24.57.7:443 cached
+OK 137ms sca11.myfymain.com:8880
+OK 34ms 104.19.229.21:443 cached
+OK 2ms 141.193.213.30:443 cached
+OK 89ms 91.233.8.25:443
+OK 72ms 91.250.249.219:11196
+OK 2ms 45.130.125.69:443 cached
+OK 92ms 185.244.49.44:42346
+OK 7ms 45.130.125.0:80
