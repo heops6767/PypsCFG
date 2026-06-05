@@ -1,97 +1,105 @@
-OK 83ms 117.55.203.204:8443
-OK 92ms 194.59.183.234:666
-OK 94ms 45.149.234.236:443
-OK 96ms 91.107.191.12:29376
-OK 165ms nld02.helpbot.click:443 cached
-OK 181ms down.spectrum.vu:443 cached
-OK 101ms 2.27.13.15:443
-OK 384ms nl-s3.ru:443
-OK 97ms 91.107.162.63:8443
+OK 103ms 109.120.138.95:443 cached
+OK 7ms 162.159.19.202:80
+OK 92ms 194.59.183.234:666 cached
+OK 2ms 188.114.97.6:80 cached
+OK 451ms cyylr.eu.cc:80
+OK 282ms nlb2.mangshe.xyz:2056
+OK 96ms 91.107.191.12:29376 cached
+OK 144ms backend.xwhiteness.site:443
+OK 94ms 45.149.234.236:443 cached
+OK 352ms down.spectrum.vu:443
+OK 225ms 89.124.69.82:1310 cached
+OK 99ms 151.115.164.129:8880
+OK 110ms 144.31.171.103:4443 cached
+OK 99ms 151.115.164.36:8880
+OK 102ms 151.115.164.131:8880
+OK 99ms 151.115.164.37:8880 cached
+OK 102ms 151.115.164.132:8880
+OK 99ms 151.115.164.116:8880
+OK 99ms 151.115.166.233:8880
 OK 99ms 144.31.171.98:4443 cached
-OK 128ms sca12.myfymain.com:8880 cached
-OK 368ms finporkzov.com:443
-OK 118ms 144.124.253.4:8443 cached
-OK 963ms de-as2.connect-iskra.cv:8443
-OK 612ms pol.mkeycon.com:443
-OK 145ms 62.238.32.25:443 cached
-OK 179ms fi2.vitok.cc:443 cached
-OK 95ms 152.53.139.226:443 cached
-OK 118ms 167.104.223.14:443 cached
-OK 148ms 217.26.24.101:23151 cached
-OK 131ms 2.27.23.139:9443 cached
-OK 121ms 178.105.103.153:443 cached
-OK 155ms login.sempai.site:443 cached
-OK 193ms de1.vitok.cc:443 cached
-OK 111ms 144.31.171.104:4443 cached
-OK 161ms 51.250.4.238:443 cached
-OK 161ms 51.250.24.222:443 cached
-OK 140ms 51.250.24.232:443
-OK 79ms 195.96.132.125:443
-OK 135ms 51.250.103.104:443
-OK 170ms 89.169.39.55:443 cached
-OK 156ms 51.250.108.162:443 cached
-OK 145ms 185.177.239.95:14793 cached
-OK 117ms 95.128.71.74:443
-OK 155ms 144.31.190.130:8081 cached
-OK 151ms 185.237.223.36:13295 cached
-OK 167ms 51.250.47.193:443 cached
-OK 125ms 89.19.223.140:8443
-OK 162ms 158.160.17.171:443 cached
-OK 448ms d.lv-cdn.ru:443
-OK 160ms 158.160.197.131:443 cached
-OK 153ms 84.201.150.127:443 cached
-OK 149ms 158.160.231.81:443 cached
-OK 471ms ru9.aimodelhub.top:443
-OK 503ms auto.datamove.online:2040 cached
-OK 316ms de2.niekotin.de:80
-OK 139ms 91.198.77.242:8443 cached
-OK 117ms 89.19.223.29:8443
-OK 128ms 31.76.126.141:2040 cached
-OK 156ms bc-pl-1c.ray-balance.space:4443
 OK 100ms 144.31.171.99:4443 cached
-OK 278ms tw3.miyazono-kaori.com:443
-OK 415ms bg-s3.ru:443
-OK 350ms ae.s3-rus.ru:8443
-OK 779ms fra03.helpbot.click:443
-OK 127ms 185.181.211.81:37141
+OK 100ms 151.115.164.120:8880
+OK 99ms 151.115.164.43:8880
+OK 177ms sca21.myfymain.com:8880 cached
+OK 270ms sca10.myfymain.com:8880
+OK 128ms sca12.myfymain.com:8880 cached
+OK 190ms sca18.myfymain.com:8880 cached
+OK 246ms sca15.myfymain.com:8880
+OK 184ms sca14.myfymain.com:8880 cached
+OK 108ms 144.31.171.106:4443 cached
+OK 111ms 144.31.171.105:4443 cached
+OK 111ms 144.31.171.104:4443 cached
 OK 110ms 144.31.171.107:4443 cached
-OK 168ms 84.201.168.201:443 cached
-OK 336ms pl-in.api.dznn.net:443
-OK 114ms 2.26.88.118:8443
-OK 129ms cf.9999669.xyz:2087 cached
-OK 13ms 104.17.121.71:443 cached
-OK 2ms 45.130.125.160:443
-OK 3ms 172.64.53.74:443
-OK 472ms support.zoom.us.cyylr.eu.cc:443 cached
-OK 3ms 188.114.97.6:443
-OK 377ms cyylr.eu.cc:443
-OK 14ms 109.234.211.66:8443
-OK 2ms 208.103.161.170:443
-OK 2ms 216.24.57.7:443
-OK 14ms 104.19.229.21:443
-OK 2ms 141.193.213.30:443
-OK 13ms 45.130.125.0:80 cached
-OK 2ms 45.130.125.69:443
-OK 159ms 158.160.252.176:443 cached
-OK 10ms 45.130.125.76:443 cached
-OK 3ms 185.18.250.252:443
-OK 3ms 141.193.213.21:443
-OK 16ms 66.81.247.155:443 cached
-OK 12ms 45.130.125.96:443 cached
-OK 15ms 162.159.195.173:443 cached
-OK 13ms 45.130.125.0:443 cached
-OK 15ms 89.116.46.210:443 cached
-OK 3ms 141.193.213.10:443
-OK 15ms 89.116.46.68:443 cached
-OK 10ms 188.114.97.57:443 cached
-OK 13ms 141.193.213.11:443 cached
-OK 12ms chatgpt.com:80 cached
-OK 15ms 104.16.75.127:443 cached
-OK 2ms 188.114.97.6:80
-OK 10ms 173.245.58.75:443 cached
-OK 8ms betty.ns.cloudflare.com:443
-OK 13ms 172.64.32.75:443 cached
-OK 13ms 172.64.147.137:443 cached
-OK 10ms 172.67.70.149:443 cached
-OK 131ms 23.26.37.119:8443 cached
-OK 677ms web.subster.ir:2053 cached
+OK 101ms 151.115.166.249:8880
+OK 293ms sca16.myfymain.com:8880
+OK 214ms sca9.myfymain.com:8880
+OK 156ms bc-pl-1c.ray-balance.space:4443 cached
+OK 93ms 151.115.167.190:8880 cached
+OK 94ms 31.76.126.141:2040
+OK 100ms 151.115.165.172:8880
+OK 111ms 144.31.171.101:4443 cached
+OK 197ms sca28.myfymain.com:8880
+OK 265ms sca22.myfymain.com:8880
+OK 273ms sca17.myfymain.com:8880
+OK 247ms sca32.myfymain.com:8880
+OK 210ms sca8.myfymain.com:8880
+OK 100ms 151.115.164.126:8880 cached
+OK 99ms 151.115.164.117:8880
+OK 101ms 151.115.164.134:8880
+OK 241ms sca20.myfymain.com:8880
+OK 219ms sca24.myfymain.com:8880
+OK 183ms sca11.myfymain.com:8880 cached
+OK 314ms sca13.myfymain.com:8880
+OK 93ms 151.115.164.110:8880 cached
+OK 277ms sca27.myfymain.com:8880
+OK 254ms sca31.myfymain.com:8880
+OK 436ms sca19.myfymain.com:8880 cached
+OK 101ms 2.27.13.15:443 cached
+OK 146ms 45.77.138.104:443
+OK 155ms login.sempai.site:443 cached
+OK 119ms 62.238.32.25:443
+OK 164ms fi2.vitok.cc:443
+OK 94ms 144.124.253.4:8443
+OK 100ms 31.76.126.135:2040
+OK 127ms 185.181.211.81:37141 cached
+OK 95ms 152.53.139.226:443 cached
+OK 98ms 213.165.57.224:4443 cached
+OK 112ms 213.165.57.223:4443 cached
+OK 38ms cf.9999669.xyz:2087
+OK 6ms 104.17.121.71:443
+OK 2ms 45.130.125.160:443 cached
+OK 3ms 172.64.53.74:443 cached
+OK 338ms support.zoom.us.cyylr.eu.cc:443
+OK 3ms 188.114.97.6:443 cached
+OK 377ms cyylr.eu.cc:443 cached
+OK 14ms 109.234.211.66:8443 cached
+OK 2ms 208.103.161.170:443 cached
+OK 2ms 216.24.57.7:443 cached
+OK 14ms 104.19.229.21:443 cached
+OK 2ms 141.193.213.30:443 cached
+OK 7ms 45.130.125.0:80
+OK 2ms 45.130.125.69:443 cached
+OK 128ms 158.160.252.176:443
+OK 7ms 45.130.125.76:443
+OK 3ms 185.18.250.252:443 cached
+OK 3ms 141.193.213.21:443 cached
+OK 6ms 66.81.247.155:443
+OK 7ms 45.130.125.96:443
+OK 7ms 162.159.195.173:443
+OK 7ms 45.130.125.0:443
+OK 7ms 89.116.46.210:443
+OK 3ms 141.193.213.10:443 cached
+OK 7ms 89.116.46.68:443
+OK 6ms 188.114.97.57:443
+OK 6ms 141.193.213.11:443
+OK 52ms chatgpt.com:80
+OK 7ms 104.16.75.127:443
+OK 6ms 173.245.58.75:443
+OK 8ms betty.ns.cloudflare.com:443 cached
+OK 6ms 172.64.32.75:443
+OK 6ms 172.64.147.137:443
+OK 6ms 172.67.70.149:443
+OK 94ms 23.26.37.119:8443
+OK 91ms 213.202.223.72:443
+OK 594ms web.subster.ir:2053
