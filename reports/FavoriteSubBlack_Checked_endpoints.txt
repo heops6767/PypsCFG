@@ -1,129 +1,56 @@
-OK 127ms 176.97.210.14:443
-OK 299ms nl01.goodmaximum.com:443
-OK 121ms 8.208.22.155:10034
-OK 7ms 162.159.19.202:80 cached
-OK 282ms nlb2.mangshe.xyz:2056 cached
-OK 149ms 194.59.183.234:666
-OK 129ms 117.55.203.204:8443
-OK 125ms 94.183.219.239:443
-OK 136ms 37.49.230.95:443
-OK 131ms 37.49.230.97:443
-OK 142ms 91.107.191.12:29376
-OK 136ms 37.49.230.92:443
-OK 110ms 82.165.133.113:80 cached
-OK 493ms finporkzov.com:443
-OK 139ms 151.115.164.37:8880
-OK 246ms sca15.myfymain.com:8880 cached
-OK 101ms 151.115.167.190:8880 cached
-OK 101ms 151.115.166.249:8880 cached
-OK 100ms 31.76.126.135:2040 cached
-OK 150ms 104.165.244.183:50095
-OK 125ms 144.31.30.69:443
-OK 468ms de2.niekotin.de:80
-OK 102ms 151.115.164.132:8880 cached
-OK 101ms 151.115.164.134:8880 cached
-OK 226ms sca12.myfymain.com:8880
-OK 99ms 151.115.166.233:8880 cached
-OK 99ms 151.115.164.36:8880 cached
-OK 142ms 2.27.13.15:443
-OK 210ms sca8.myfymain.com:8880 cached
-OK 139ms 151.115.164.110:8880
-OK 212ms 89.124.69.82:1310
-OK 99ms 151.115.164.117:8880 cached
-OK 102ms 151.115.164.131:8880 cached
-OK 99ms 151.115.164.129:8880 cached
-OK 134ms 151.115.164.126:8880
-OK 99ms 151.115.164.116:8880 cached
-OK 99ms 151.115.164.43:8880 cached
-OK 134ms 206.245.166.30:19086
-OK 602ms me.colorbox.space:80
-OK 124ms 72.56.18.179:443
-OK 241ms sca20.myfymain.com:8880 cached
-OK 270ms sca10.myfymain.com:8880 cached
-OK 532ms white77.alexanderoff.ru:1240
-OK 230ms sca11.myfymain.com:8880
-OK 608ms de-as2.connect-iskra.cv:8443
-OK 119ms 62.238.32.25:443 cached
-OK 91ms 88.218.120.60:8443 cached
-OK 147ms 103.119.19.201:2087
-OK 312ms poland.milas.click:443
-OK 513ms white77.alexanderoff.ru:8443
-OK 95ms 195.74.93.254:443 cached
-OK 128ms 217.26.24.101:23151 cached
-OK 51ms 82.29.129.105:40443
-OK 425ms pl-1.illusion-vpn.ru:443
-OK 114ms 188.130.208.220:5443 cached
-OK 106ms 2.27.23.139:9443 cached
-OK 132ms freetg.strettenvpn.com:443 cached
-OK 424ms fl-modx.webedg.net:443
-OK 327ms centos.ubuntuhosting.host:443
-OK 143ms 38.244.137.150:8443
-OK 131ms de1.vitok.cc:443 cached
-OK 647ms kz-1.illusion-vpn.ru:8443
-OK 136ms 51.250.106.87:443 cached
-OK 132ms 51.250.24.222:443 cached
-OK 182ms 5.42.126.157:443
-OK 131ms 51.250.108.162:443 cached
-OK 171ms 51.250.24.232:443
-OK 137ms 51.250.102.69:443 cached
-OK 162ms 51.250.103.104:443
-OK 188ms at.synthori.space:8443
-OK 111ms 185.177.239.95:14793 cached
-OK 132ms 89.169.39.55:443 cached
-OK 168ms 51.250.97.18:443
-OK 167ms 51.250.104.246:443
-OK 128ms 89.208.208.92:9443 cached
-OK 150ms 195.96.132.125:443
-OK 280ms ru-lv.illusion-vpn.ru:443
-OK 163ms 2.26.88.118:8443
-OK 162ms 47.86.55.200:19321
-OK 729ms ru9.aimodelhub.top:443
-OK 407ms auto.datamove.online:2040 cached
-OK 122ms 81.200.151.140:443 cached
-OK 414ms ar.vpnburger.ru:443
-OK 162ms 103.119.19.179:8443
-OK 174ms 155.254.102.74:443
-OK 140ms 2.27.40.241:8443
-OK 420ms india.milas.click:443
-OK 185ms 45.152.67.34:47488
-OK 222ms 143.198.223.118:53327 cached
-OK 322ms antix.ubuntuhosting.host:443
-OK 166ms 146.185.211.107:8444
-OK 38ms cf.9999669.xyz:2087 cached
-OK 6ms 104.17.121.71:443 cached
-OK 20ms 45.130.125.160:443
-OK 18ms 172.64.53.74:443
-OK 338ms support.zoom.us.cyylr.eu.cc:443 cached
-OK 18ms 188.114.97.6:443
-OK 415ms cyylr.eu.cc:443
-OK 19ms 109.234.211.66:8443
-OK 19ms 208.103.161.170:443
-OK 18ms 216.24.57.7:443
-OK 31ms 104.19.229.21:443
-OK 18ms 141.193.213.30:443
-OK 7ms 45.130.125.0:80 cached
-OK 18ms 45.130.125.69:443
-OK 128ms 158.160.252.176:443 cached
-OK 7ms 45.130.125.76:443 cached
-OK 19ms 185.18.250.252:443
-OK 18ms 141.193.213.21:443
-OK 6ms 66.81.247.155:443 cached
-OK 7ms 45.130.125.96:443 cached
-OK 7ms 162.159.195.173:443 cached
-OK 7ms 45.130.125.0:443 cached
-OK 7ms 89.116.46.210:443 cached
-OK 18ms 141.193.213.10:443
-OK 7ms 89.116.46.68:443 cached
-OK 6ms 188.114.97.57:443 cached
-OK 6ms 141.193.213.11:443 cached
-OK 52ms chatgpt.com:80 cached
-OK 7ms 104.16.75.127:443 cached
-OK 18ms 188.114.97.6:80
-OK 6ms 173.245.58.75:443 cached
-OK 67ms betty.ns.cloudflare.com:443
-OK 6ms 172.64.32.75:443 cached
-OK 6ms 172.64.147.137:443 cached
-OK 6ms 172.67.70.149:443 cached
-OK 94ms 23.26.37.119:8443 cached
-OK 91ms 213.202.223.72:443 cached
-OK 594ms web.subster.ir:2053 cached
+OK 120ms 194.150.220.93:443
+OK 125ms 144.31.30.69:443 cached
+OK 493ms finporkzov.com:443 cached
+OK 579ms sca24.myfymain.com:8880
+OK 125ms 94.183.219.239:443 cached
+OK 139ms 62.238.32.25:443
+OK 113ms 88.218.120.60:8443
+OK 125ms 195.74.93.254:443
+OK 122ms 188.130.208.220:5443
+OK 273ms freetg.strettenvpn.com:443
+OK 158ms 217.26.24.101:23151
+OK 468ms de2.niekotin.de:80 cached
+OK 222ms de1.vitok.cc:443
+OK 134ms 206.245.166.30:19086 cached
+OK 152ms 51.250.102.69:443
+OK 147ms 185.177.239.95:14793
+OK 147ms 103.119.19.201:2087 cached
+OK 150ms 195.96.132.125:443 cached
+OK 188ms at.synthori.space:8443 cached
+OK 152ms 193.232.178.78:8443
+OK 149ms 194.59.183.234:666 cached
+OK 602ms me.colorbox.space:80 cached
+OK 729ms ru9.aimodelhub.top:443 cached
+OK 185ms 45.152.67.34:47488 cached
+OK 200ms 143.198.223.118:53327
+OK 150ms 104.165.244.183:50095 cached
+OK 420ms india.milas.click:443 cached
+OK 174ms 155.254.102.74:443 cached
+OK 212ms 89.124.69.82:1310 cached
+OK 140ms 2.27.40.241:8443 cached
+OK 602ms www.lianchuang123.com:80
+OK 469ms cncdn.cc:80
+OK 166ms 89.169.39.55:443
+OK 124ms 72.56.18.179:443 cached
+OK 425ms pl-1.illusion-vpn.ru:443 cached
+OK 122ms 151.115.166.249:8880
+OK 163ms 2.26.88.118:8443 cached
+OK 142ms 2.27.13.15:443 cached
+OK 18ms 172.64.53.74:443 cached
+OK 86ms cf.9999669.xyz:2087
+OK 19ms 109.234.211.66:8443 cached
+OK 15ms 89.116.46.68:443
+OK 18ms 188.114.97.6:443 cached
+OK 15ms 172.64.147.137:443
+OK 18ms 141.193.213.10:443 cached
+OK 11ms 172.67.191.106:443
+OK 132ms grok.com:443
+OK 12ms 104.16.75.127:443
+OK 12ms 199.232.78.158:443
+OK 231ms www.speedtest.net:2086
+OK 573ms sca10.myfymain.com:8880
+OK 113ms 45.86.159.186:7443
+OK 202ms 52.77.224.71:443
+OK 12ms 151.101.108.223:443
+OK 9ms 104.17.108.189:443
+OK 226ms vpn.smartrahand.com:2026
