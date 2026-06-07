@@ -1,56 +1,86 @@
-OK 120ms 194.150.220.93:443
-OK 125ms 144.31.30.69:443 cached
-OK 493ms finporkzov.com:443 cached
-OK 579ms sca24.myfymain.com:8880
-OK 125ms 94.183.219.239:443 cached
-OK 139ms 62.238.32.25:443
-OK 113ms 88.218.120.60:8443
-OK 125ms 195.74.93.254:443
-OK 122ms 188.130.208.220:5443
-OK 273ms freetg.strettenvpn.com:443
-OK 158ms 217.26.24.101:23151
-OK 468ms de2.niekotin.de:80 cached
-OK 222ms de1.vitok.cc:443
-OK 134ms 206.245.166.30:19086 cached
-OK 152ms 51.250.102.69:443
-OK 147ms 185.177.239.95:14793
-OK 147ms 103.119.19.201:2087 cached
-OK 150ms 195.96.132.125:443 cached
-OK 188ms at.synthori.space:8443 cached
-OK 152ms 193.232.178.78:8443
-OK 149ms 194.59.183.234:666 cached
-OK 602ms me.colorbox.space:80 cached
-OK 729ms ru9.aimodelhub.top:443 cached
-OK 185ms 45.152.67.34:47488 cached
-OK 200ms 143.198.223.118:53327
-OK 150ms 104.165.244.183:50095 cached
-OK 420ms india.milas.click:443 cached
-OK 174ms 155.254.102.74:443 cached
-OK 212ms 89.124.69.82:1310 cached
-OK 140ms 2.27.40.241:8443 cached
-OK 602ms www.lianchuang123.com:80
-OK 469ms cncdn.cc:80
-OK 166ms 89.169.39.55:443
-OK 124ms 72.56.18.179:443 cached
-OK 425ms pl-1.illusion-vpn.ru:443 cached
-OK 122ms 151.115.166.249:8880
-OK 163ms 2.26.88.118:8443 cached
-OK 142ms 2.27.13.15:443 cached
-OK 18ms 172.64.53.74:443 cached
-OK 86ms cf.9999669.xyz:2087
-OK 19ms 109.234.211.66:8443 cached
-OK 15ms 89.116.46.68:443
-OK 18ms 188.114.97.6:443 cached
-OK 15ms 172.64.147.137:443
-OK 18ms 141.193.213.10:443 cached
-OK 11ms 172.67.191.106:443
-OK 132ms grok.com:443
-OK 12ms 104.16.75.127:443
-OK 12ms 199.232.78.158:443
-OK 231ms www.speedtest.net:2086
-OK 573ms sca10.myfymain.com:8880
-OK 113ms 45.86.159.186:7443
-OK 202ms 52.77.224.71:443
-OK 12ms 151.101.108.223:443
-OK 9ms 104.17.108.189:443
-OK 226ms vpn.smartrahand.com:2026
+OK 88ms 148.253.213.81:443
+OK 88ms 176.97.210.14:443
+OK 80ms 8.208.22.155:10034
+OK 93ms 194.59.183.234:666
+OK 94ms 31.76.38.85:7443
+OK 84ms 45.43.92.110:7443
+OK 78ms 45.86.159.171:7443
+OK 89ms 94.183.219.239:443
+OK 319ms me.colorbox.space:80
+OK 90ms 130.12.242.102:7443
+OK 9ms 162.159.19.202:80 cached
+OK 88ms 144.31.30.69:443
+OK 90ms 206.245.166.30:19086
+OK 181ms options.core-multiplayer.com:443
+OK 403ms uk-gthost-01.com:8443
+OK 102ms 91.107.191.12:29376
+OK 228ms new.noorify.indevs.in:8080
+OK 113ms 57.131.16.203:80
+OK 122ms white77.alexanderoff.ru:1770
+OK 84ms 89.124.69.82:1310
+OK 110ms api-maps.xwhiteness.top:443
+OK 79ms 167.104.223.57:7443
+OK 130ms 144.31.237.74:603 cached
+OK 176ms nid.pink-perfect.ru:443
+OK 125ms white77.alexanderoff.ru:1210
+OK 241ms nl1.foxnezia.dev:443
+OK 391ms de2.niekotin.de:80
+OK 303ms panel.dibaux.ir:80
+OK 122ms 151.115.166.249:8880 cached
+OK 180ms sca12.myfymain.com:8880
+OK 94ms 151.115.166.233:8880
+OK 93ms 151.115.164.131:8880
+OK 160ms sca11.myfymain.com:8880
+OK 93ms 151.115.164.117:8880
+OK 251ms finporkzov.com:443
+OK 93ms 151.115.164.120:8880
+OK 93ms 151.115.164.37:8880
+OK 183ms sca20.myfymain.com:8880
+OK 95ms 151.115.164.36:8880
+OK 93ms 151.115.164.129:8880
+OK 98ms sca9.myfymain.com:8880
+OK 579ms sca24.myfymain.com:8880 cached
+OK 103ms sca8.myfymain.com:8880
+OK 190ms sca21.myfymain.com:8880
+OK 93ms 151.115.166.43:8880
+OK 142ms sca17.myfymain.com:8880
+OK 193ms sca28.myfymain.com:8880
+OK 573ms sca10.myfymain.com:8880 cached
+OK 95ms 151.115.164.132:8880
+OK 92ms 151.115.166.68:8880
+OK 95ms 151.115.165.172:8880
+OK 127ms 151.115.164.43:8880 cached
+OK 92ms 151.115.164.110:8880
+OK 94ms 151.115.164.116:8880
+OK 102ms sca13.myfymain.com:8880
+OK 131ms sca16.myfymain.com:8880
+OK 96ms 151.115.164.134:8880
+OK 125ms sca14.myfymain.com:8880
+OK 532ms sca15.myfymain.com:8880 cached
+OK 93ms 151.115.167.190:8880
+OK 98ms 151.115.164.126:8880
+OK 96ms 151.115.167.188:8880
+OK 94ms 151.115.167.1:8880
+OK 98ms sca32.myfymain.com:8880
+OK 120ms sca29.myfymain.com:8880
+OK 99ms 2.27.13.15:443
+OK 501ms bypass.uk-gthost-01.com:8443
+OK 95ms 31.76.113.249:7443
+OK 145ms sca31.myfymain.com:8880
+OK 95ms 151.115.166.221:8880
+OK 159ms white77.alexanderoff.ru:449
+OK 137ms sca18.myfymain.com:8880
+OK 135ms sca26.myfymain.com:8880
+OK 82ms 72.56.18.179:443
+OK 143ms 103.112.70.124:443 cached
+OK 136ms white77.alexanderoff.ru:1230
+OK 412ms l10.l-itx.info:7443
+OK 189ms sca19.myfymain.com:8880
+OK 119ms sca27.myfymain.com:8880
+OK 2ms 172.64.53.74:443
+OK 86ms cf.9999669.xyz:2087 cached
+OK 3ms 109.234.211.66:8443
+OK 202ms 52.77.224.71:443 cached
+OK 12ms 199.232.78.158:443 cached
+OK 2ms 188.114.97.6:443
+OK 12ms 151.101.108.223:443 cached
