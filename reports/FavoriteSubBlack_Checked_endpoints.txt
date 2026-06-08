@@ -1,62 +1,97 @@
-OK 206ms g7.steptofsvo.com:443
-OK 252ms g3.steptofsvo.com:443
-OK 199ms g11.steptofsvo.com:443
-OK 233ms g2.steptofsvo.com:443
-OK 539ms de-dp-01.com:8443
-OK 151ms best2.darkteam.info:443
-OK 632ms bypass.fr-gt-01.com:8443
-OK 88ms 144.31.30.69:443 cached
-OK 600ms tralalero.site:8443
-OK 303ms panel.dibaux.ir:80 cached
-OK 82ms 72.56.18.179:443 cached
-OK 99ms 2.27.13.15:443 cached
-OK 554ms fi-m247-01.com:8443
-OK 617ms bypass.ch-gt-01.com:8443
-OK 95ms 31.76.113.249:7443 cached
-OK 140ms 62.238.32.25:443
-OK 204ms fi2.vitok.cc:443
-OK 730ms main.gsupport.support:443
-OK 266ms g4.steptofsvo.com:443
-OK 127ms 195.74.93.254:443
-OK 121ms 188.130.208.220:5443
-OK 211ms freetg.strettenvpn.com:443
-OK 251ms finporkzov.com:443 cached
-OK 174ms de1.vitok.cc:443
-OK 210ms g5.steptofsvo.com:443
-OK 121ms 178.105.103.153:443
-OK 141ms 62.60.255.11:443
-OK 391ms de2.niekotin.de:80 cached
-OK 202ms 43.175.169.174:80
-OK 610ms de-1.borshclick.tech:443
-OK 135ms 185.177.239.95:14793
-OK 114ms 151.242.191.161:443 cached
-OK 79ms 195.96.132.125:443 cached
-OK 126ms 51.250.103.104:443 cached
-OK 124ms 51.250.108.162:443 cached
-OK 110ms api-maps.xwhiteness.top:443 cached
-OK 164ms poland.milas.click:443 cached
-OK 420ms ru9.aimodelhub.top:443 cached
-OK 134ms 51.250.24.232:443 cached
-OK 133ms 217.149.25.106:443 cached
-OK 118ms 194.55.245.34:58888 cached
-OK 269ms bm.xq-vpn.com:80 cached
-OK 116ms 2.26.88.118:8443 cached
-OK 127ms 84.201.174.25:443 cached
-OK 204ms 143.198.223.118:53327
-OK 352ms india.milas.click:443 cached
-OK 146ms 103.112.70.124:443
-OK 366ms jp.gsupport.support:443 cached
-OK 93ms 194.59.183.234:666 cached
-OK 84ms 89.124.69.82:1310 cached
-OK 177ms 89.169.39.55:443
-OK 379ms bypass.tralalero.site:8443 cached
-OK 89ms 94.183.219.239:443 cached
-OK 139ms 72.56.39.45:443 cached
-OK 296ms g6.steptofsvo.com:443
-OK 2ms 172.64.53.74:443 cached
-OK 214ms cf.9999669.xyz:2087
-OK 3ms 109.234.211.66:8443 cached
-OK 203ms 52.77.224.71:443
-OK 12ms 199.232.78.158:443
-OK 2ms 188.114.97.6:443 cached
-OK 12ms 151.101.108.223:443
+OK 173ms access.technocoms.com:8443
+OK 144ms 88.218.123.242:443
+OK 146ms 91.132.58.167:443
+OK 151ms 18.192.50.101:443
+OK 571ms 148.253.213.81:443
+OK 146ms 89.150.41.81:443
+OK 146ms 91.132.57.205:443
+OK 151ms 157.22.181.114:443
+OK 146ms 91.132.224.140:443
+OK 145ms 89.150.59.156:443
+OK 147ms 157.22.181.118:443
+OK 2ms 188.114.97.6:80
+OK 288ms pl-modx.nodexphere.net:443 cached
+OK 142ms 104.194.148.116:23821
+OK 143ms 31.76.119.158:443
+OK 149ms 31.76.38.85:7443
+OK 151ms 157.22.181.141:443
+OK 539ms de-dp-01.com:8443 cached
+OK 632ms bypass.fr-gt-01.com:8443 cached
+OK 13ms 104.17.3.81:80 cached
+OK 146ms 45.43.92.110:7443
+OK 145ms 157.22.181.135:443
+OK 234ms kaere.ther0ck.top:443
+OK 242ms nid.pink-perfect.ru:443
+OK 150ms 157.22.181.180:443
+OK 157ms 130.12.242.102:7443
+OK 146ms 185.117.0.232:7443
+OK 519ms bypass.uk-gthost-01.com:8443
+OK 138ms 45.86.159.171:7443
+OK 143ms 31.76.111.55:443
+OK 150ms 31.76.111.52:443
+OK 162ms api-maps.xwhiteness.top:443
+OK 143ms 31.76.111.51:443
+OK 147ms 46.175.150.23:443
+OK 192ms 89.124.69.82:1310
+OK 496ms uk-gthost-01.com:8443
+OK 146ms 103.112.70.124:443 cached
+OK 142ms 13.38.79.180:30981
+OK 390ms blog.matcloud.ir:22186
+OK 44ms cncdn.cc:80
+OK 314ms www.lianchuang123.com:80
+OK 148ms 157.22.181.104:443
+OK 149ms 194.58.41.121:7443
+OK 158ms 91.107.191.12:29376
+OK 2ms 45.130.125.160:80
+OK 202ms 43.175.169.174:80 cached
+OK 138ms 167.104.223.57:7443
+OK 138ms 167.104.223.58:7443
+OK 267ms de2.niekotin.de:80
+OK 409ms panel.dibaux.ir:80
+OK 154ms 31.76.113.247:7443
+OK 157ms 31.76.113.249:7443
+OK 41ms chatgpt.com:2086
+OK 617ms bypass.ch-gt-01.com:8443 cached
+OK 156ms 151.115.164.37:8880
+OK 156ms 151.115.164.116:8880
+OK 153ms 151.115.164.134:8880
+OK 153ms 151.115.164.129:8880
+OK 153ms 151.115.164.126:8880
+OK 253ms sca16.myfymain.com:8880
+OK 219ms sca14.myfymain.com:8880
+OK 177ms sca12.myfymain.com:8880
+OK 172ms sca11.myfymain.com:8880
+OK 157ms 151.115.164.120:8880
+OK 183ms finporkzov.com:443
+OK 155ms 151.115.164.132:8880
+OK 153ms 151.115.167.188:8880
+OK 158ms sca9.myfymain.com:8880
+OK 236ms sca18.myfymain.com:8880
+OK 293ms sca15.myfymain.com:8880 cached
+OK 175ms 104.165.244.183:50095
+OK 201ms sca13.myfymain.com:8880
+OK 156ms 151.115.167.1:8880
+OK 564ms bypass.tralalero.site:8443
+OK 155ms 151.115.165.172:8880
+OK 405ms sca24.myfymain.com:8880 cached
+OK 182ms sca28.myfymain.com:8880
+OK 234ms sca26.myfymain.com:8880
+OK 156ms 95.169.191.225:443
+OK 600ms tralalero.site:8443 cached
+OK 128ms 151.115.164.43:8880 cached
+OK 156ms 151.115.167.174:8880
+OK 250ms sca22.myfymain.com:8880
+OK 180ms sca31.myfymain.com:8880
+OK 148ms 144.31.30.69:443
+OK 163ms 151.115.166.68:8880
+OK 156ms 151.115.164.117:8880
+OK 155ms 151.115.166.43:8880
+OK 156ms 151.115.166.221:8880
+OK 162ms 151.115.164.131:8880
+OK 156ms 151.115.166.233:8880
+OK 2ms 188.114.97.6:443
+OK 12ms 151.101.108.223:443 cached
+OK 17ms 104.16.174.12:443
+OK 14ms 104.16.75.127:443 cached
+OK 2ms 209.46.30.149:443
+OK 298ms tg.riotvpn.eu:443
