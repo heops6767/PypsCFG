@@ -1,89 +1,47 @@
-OK 97ms 148.253.213.81:443 cached
-OK 15ms 188.114.97.6:80 cached
-OK 93ms 195.184.247.138:443 cached
-OK 551ms bypass.fr-gt-01.com:8443
-OK 94ms 195.184.247.137:443
-OK 2ms 104.17.3.81:80
-OK 88ms 31.76.119.204:443
-OK 1ms 151.101.2.219:80
-OK 330ms uk-gthost-01.com:8443 cached
-OK 2ms 199.232.197.131:80
-OK 522ms bypass.ch-gt-01.com:8443
-OK 93ms 91.107.191.12:29376 cached
-OK 418ms bypass.uk-gthost-01.com:8443 cached
-OK 334ms anriqkeqsd.online:8443
-OK 100ms 151.115.164.37:8880 cached
-OK 100ms 151.115.166.68:8880 cached
-OK 92ms 151.115.166.76:8880
-OK 316ms tralalero.site:8443
-OK 103ms 151.115.164.131:8880 cached
-OK 104ms 78.17.147.66:443
-OK 222ms sca8.myfymain.com:8880
-OK 438ms bypass.tralalero.site:8443 cached
-OK 100ms 151.115.167.1:8880 cached
-OK 309ms sca28.myfymain.com:8880 cached
-OK 91ms 89.125.19.237:47200 cached
-OK 6ms 172.67.211.74:80 cached
-OK 3ms 188.114.97.3:80
-OK 6ms 188.114.96.3:80
-OK 222ms pro-fi.emrata.top:753 cached
-OK 7ms 104.21.23.131:80 cached
-OK 152ms 103.119.18.159:443 cached
-OK 237ms treng.loralden.com:443 cached
-OK 79ms 152.114.193.11:47200 cached
-OK 110ms 78.17.134.254:47200 cached
-OK 114ms 78.17.96.198:443
-OK 120ms 31.207.5.43:47200 cached
-OK 126ms 31.76.84.184:443
-OK 112ms 46.229.215.189:8443
-OK 498ms lv-cdn.ru:443
-OK 112ms 188.130.208.220:5443
-OK 599ms main.boobie.eu.cc:80 cached
-OK 279ms w6.homestorage.online:443
-OK 127ms 72.56.11.76:443
-OK 131ms 51.250.108.162:443 cached
-OK 133ms 51.250.97.18:443 cached
-OK 139ms 51.250.17.80:443 cached
-OK 136ms 51.250.24.232:443 cached
-OK 131ms 51.250.104.246:443 cached
-OK 124ms 51.250.102.69:443
-OK 132ms 51.250.103.104:443 cached
-OK 125ms 51.250.106.87:443
-OK 510ms ru2.cdn-global.pro:443
-OK 133ms 51.250.24.222:443
-OK 110ms 37.9.4.147:443
-OK 114ms 188.68.218.190:443
-OK 130ms 89.22.230.82:443
-OK 155ms 85.239.34.16:7443
-OK 355ms ru1.cdn-global.pro:443
-OK 506ms ru-selectel-01.com:8443
-OK 123ms 62.152.58.112:443
-OK 128ms 146.185.209.234:443 cached
-OK 131ms 217.16.21.116:5443 cached
-OK 130ms 89.208.208.92:9443
-OK 120ms 45.151.183.101:443 cached
-OK 190ms 195.133.198.249:19443 cached
-OK 135ms 5.188.140.160:5443 cached
-OK 147ms 217.herumhas.shop:5443 cached
-OK 115ms 2.26.116.183:47200 cached
-OK 124ms 45.12.75.242:26424
-OK 45ms speedtest.net:80 cached
-OK 92ms 31.76.113.60:443
-OK 251ms pishdad.org:8080
-OK 17ms www.parsvds.com:8080
-OK 8ms static.cloudflareinsights.com:443
-OK 7ms 172.64.53.240:443 cached
-OK 93ms 46.229.243.130:8443
-OK 2ms 167.82.0.1:80
-OK 93ms 77.74.123.166:8443
-OK 93ms 46.229.243.68:8443
-OK 12ms acha.claudify.org:443
-OK 154ms 95.169.191.225:443 cached
-OK 300ms sca11.myfymain.com:8880
-OK 99ms 5.75.196.174:443
-OK 267ms sca14.myfymain.com:8880
-OK 272ms sca31.myfymain.com:8880
-OK 345ms personal.sabteahval.qzz.io:2083
-OK 10ms 109.234.211.66:8443
-OK 102ms 151.115.164.110:8880
-OK 188ms dnn4.avaaaal.ir:2087
+OK 551ms bypass.fr-gt-01.com:8443 cached
+OK 522ms bypass.ch-gt-01.com:8443 cached
+OK 529ms ch-gt-01.com:8443 cached
+OK 316ms tralalero.site:8443 cached
+OK 240ms bypass.tralalero.site:8443
+OK 108ms 144.31.30.69:443
+OK 359ms treng.loralden.com:443
+OK 3ms 188.114.97.3:80 cached
+OK 6ms 188.114.96.3:80 cached
+OK 107ms 89.125.19.237:47200
+OK 352ms main.boobie.eu.cc:80
+OK 3ms 104.21.23.131:80
+OK 3ms 172.67.211.74:80
+OK 91ms 152.114.193.11:47200
+OK 120ms 31.207.5.43:47200
+OK 135ms 78.17.134.254:47200
+OK 112ms 188.130.208.220:5443 cached
+OK 132ms 2.26.116.183:47200
+OK 140ms 91.108.249.35:443
+OK 150ms 51.250.108.162:443
+OK 279ms w6.homestorage.online:443 cached
+OK 130ms 89.22.230.82:443 cached
+OK 181ms ru6.cdn-global.pro:443
+OK 124ms 45.12.75.242:26424 cached
+OK 112ms 151.115.167.1:8880
+OK 126ms 31.76.84.184:443 cached
+OK 54ms speedtest.net:80
+OK 92ms 31.76.113.60:443 cached
+OK 251ms pishdad.org:8080 cached
+OK 17ms www.parsvds.com:8080 cached
+OK 8ms static.cloudflareinsights.com:443 cached
+OK 14ms 172.64.53.240:443
+OK 93ms 46.229.243.130:8443 cached
+OK 2ms 167.82.0.1:80 cached
+OK 93ms 77.74.123.166:8443 cached
+OK 93ms 46.229.243.68:8443 cached
+OK 12ms acha.claudify.org:443 cached
+OK 168ms 95.169.191.225:443
+OK 300ms sca11.myfymain.com:8880 cached
+OK 99ms 5.75.196.174:443 cached
+OK 267ms sca14.myfymain.com:8880 cached
+OK 272ms sca31.myfymain.com:8880 cached
+OK 345ms personal.sabteahval.qzz.io:2083 cached
+OK 140ms sca28.myfymain.com:8880
+OK 10ms 109.234.211.66:8443 cached
+OK 102ms 151.115.164.110:8880 cached
+OK 188ms dnn4.avaaaal.ir:2087 cached
