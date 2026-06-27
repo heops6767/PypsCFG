@@ -1,15 +1,23 @@
-OK 111ms vl1.webnetvpn.xyz:443
-OK 96ms fr.janusgate.org:443
-OK 471ms pl.boxypn.com:443 cached
-OK 196ms flu.dns-crypto-yandex.com:443
-OK 123ms 82.202.156.57:443
-OK 102ms 83.228.231.188:22000 cached
-OK 121ms 82.202.177.144:5269 cached
-OK 230ms us.janusgate.org:443
-OK 302ms bg.janusgate.org:443
-OK 70ms 5.78.163.117:55555 cached
-OK 111ms fr2.janusgate.org:443
-OK 162ms 95.163.209.42:443
+OK 213ms 45.195.137.99:8443 cached
+OK 214ms 45.195.137.60:8443 cached
+OK 220ms 45.195.137.150:8443 cached
+OK 108ms 45.144.48.114:443
+OK 397ms grif.dns-crypto-yandex.com:443
+OK 110ms 83.228.251.6:443 cached
+OK 130ms 85.208.85.235:9877
+OK 196ms flu.dns-crypto-yandex.com:443 cached
+OK 127ms 89.37.192.58:443
+OK 128ms 217.149.29.251:9888
+OK 122ms 94.26.249.65:9830
+OK 73ms support.zoom.us:80 cached
+OK 226ms 163.128.98.252:443
+OK 64ms 38.244.20.47:443
+OK 146ms 82.202.137.6:9887
+OK 177ms 116.206.93.244:443
+OK 318ms 116.206.93.44:443
+OK 89ms 18.153.49.40:2053
+OK 131ms 176.108.251.45:9893
+OK 125ms 81.163.23.124:12443
 OK 103ms 83.168.71.216:443 cached
 OK 2ms 162.120.94.30:8880 cached
 OK 124ms 89.169.39.55:443 cached
