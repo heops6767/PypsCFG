@@ -1,13 +1,20 @@
-OK 133ms nl-t2.vinnypuxtomoon.today:2053
-OK 107ms 31.56.188.190:443
-OK 260ms ee-t2.vinnypuxtomoon.today:2053
-OK 165ms 78.159.250.32:1111 cached
+OK 88ms 178.18.147.226:2053
+OK 133ms nl-t2.vinnypuxtomoon.today:2053 cached
+OK 89ms 31.76.38.23:443
+OK 79ms 31.76.39.41:443
+OK 107ms 31.56.188.190:443 cached
+OK 96ms 31.76.113.185:443
+OK 92ms 217.60.23.156:443 cached
+OK 260ms ee-t2.vinnypuxtomoon.today:2053 cached
+OK 38ms 178.248.238.85:17443 cached
+OK 122ms 146.70.161.33:14304 cached
+OK 137ms 46.243.142.157:8443
+OK 127ms 46.8.209.132:8443
+OK 221ms cam-msk-6.videomonitor.cloud:2053
+OK 6ms 178.248.238.85:1443
+OK 74ms 5.78.25.164:55555 cached
+OK 56ms 144.225.187.179:51015
 OK 269ms 81.163.23.115:2097 cached
-OK 391ms 5d74fed1.apruxdomain.lol:80
-OK 161ms 217.16.29.31:65535 cached
-OK 206ms 81.94.148.75:8443 cached
-OK 163ms 95.163.211.206:443 cached
-OK 144ms swed-yott.red-panda.top:1443
 OK 521ms kz.keepsecurevpn.com:443 cached
 OK 277ms gb.safepass.click:443 cached
 OK 136ms 107.149.184.246:10501 cached
