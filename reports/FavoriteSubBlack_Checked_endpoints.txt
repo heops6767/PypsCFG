@@ -1,190 +1,194 @@
-OK 125ms bc-nl-rdp.ray-balance.space:10443
-OK 152ms ndstzn.nodeserv.xyz:443
-OK 396ms api.yandex-cloud.org:443
-OK 460ms api.yandex-api.org:443
-OK 452ms dp-hu-01.live:443 cached
-OK 206ms 45.197.134.52:8443 cached
-OK 248ms gt-ch-01.live:8443 cached
-OK 121ms 155.117.137.110:443
-OK 126ms 153.76.122.94:443
-OK 141ms 78.159.250.32:1111
-OK 268ms api.yandex-dev.online:443
-OK 356ms tr.c2horizon.app:443
-OK 188ms tr-ist-3.blook.network:443
-OK 393ms cdn.yandex-api.it.com:443 cached
-OK 190ms api.gruztrack.online:2053
-OK 158ms cab.gruztrack.online:2053
-OK 134ms 144.31.190.191:8443 cached
-OK 175ms gp1.steptofsvo.com:18443
-OK 165ms lk.gruztrack.online:2053
-OK 21ms 170.114.45.6:80 cached
-OK 132ms 37.139.34.124:443 cached
-OK 29ms 104.167.197.135:443 cached
-OK 139ms 45.135.164.190:8443
-OK 41ms hayabusa.proxy.rlwy.net:18771
-OK 209ms jc.20120222.xyz:10443
-OK 47ms hayabusa.proxy.rlwy.net:53478
-OK 270ms us2.c2horizon.app:443
-OK 20ms support.zoom.us:80 cached
-OK 365ms v2ray.simspeedup.com:80
-OK 195ms 213.148.1.43:443
-OK 168ms 43.108.23.174:32521
-OK 346ms connect.nyxserver.ir:80
-OK 141ms 45.139.27.106:443
-OK 409ms 153.76.122.197:443 cached
-OK 153ms 217.herumhas.shop:5443 cached
-OK 217ms omg.herumhas.shop:5443 cached
-OK 133ms 185.86.146.15:5443 cached
-OK 6ms 108.162.194.135:443 cached
-OK 5ms 173.245.58.75:443 cached
-OK 119ms 217.28.48.29:25752 cached
-OK 7ms 188.114.97.6:443 cached
-OK 198ms 45.206.0.44:8443 cached
-OK 6ms 104.16.75.223:443 cached
-OK 15ms betty.ns.cloudflare.com:443 cached
-OK 6ms 172.66.44.211:443 cached
-OK 6ms 104.21.40.34:443 cached
-OK 95ms 77.73.131.154:443 cached
-OK 6ms 172.64.147.166:443 cached
-OK 98ms 194.164.217.139:448 cached
-OK 6ms 141.193.213.20:443 cached
-OK 94ms 85.234.114.53:443 cached
-OK 201ms 45.206.0.38:8443 cached
-OK 6ms 45.130.125.158:8443 cached
-OK 120ms 217.217.247.253:443 cached
-OK 6ms 108.162.192.75:443 cached
-OK 119ms 5.199.170.105:443 cached
-OK 82ms 45.13.119.219:8888 cached
-OK 111ms all.tellmethetrue.shop:443 cached
-OK 6ms 104.16.75.224:443 cached
-OK 7ms 188.114.97.6:8443 cached
-OK 93ms 159.195.44.159:443 cached
-OK 6ms 45.130.125.158:2053 cached
-OK 90ms 5.255.110.147:443 cached
-OK 96ms 144.31.241.7:8443 cached
-OK 120ms 217.217.247.252:443 cached
-OK 111ms 5.180.173.222:448 cached
-OK 96ms 144.31.216.98:8443 cached
-OK 87ms 45.43.75.199:7443 cached
-OK 93ms 89.23.107.137:443 cached
-OK 7ms 45.130.125.126:443 cached
-OK 330ms www.speedtest.net:443 cached
-OK 7ms 104.17.121.43:443 cached
-OK 6ms 45.130.125.160:443 cached
-OK 10ms 104.26.12.222:443 cached
-OK 6ms 104.16.174.121:443 cached
-OK 15ms 172.64.32.75:443 cached
-OK 114ms 95.85.233.181:443 cached
-OK 6ms 45.130.125.158:443 cached
-OK 5ms 172.67.71.247:443
-OK 6ms 104.16.72.70:443 cached
-OK 110ms 185.137.157.72:443
-OK 220ms 138.252.100.85:18746
-OK 94ms 45.196.224.103:8443 cached
-OK 108ms 193.23.219.140:56453
-OK 88ms 51.158.206.97:23576 cached
-OK 195ms 45.206.0.53:8443 cached
-OK 6ms 45.130.125.112:443 cached
-OK 201ms 45.206.0.41:8443 cached
-OK 89ms 85.234.65.130:6000 cached
-OK 218ms 45.195.137.229:8443
-OK 6ms 104.16.72.101:443 cached
-OK 219ms 45.195.137.142:8443
-OK 224ms 45.195.137.53:8443
-OK 225ms 45.195.137.144:8443
-OK 220ms 45.195.137.211:8443
-OK 226ms 45.195.137.75:8443
-OK 18ms 104.16.72.70:2096
-OK 18ms 104.16.72.2:2096
-OK 141ms de-3.coinbridge.nl:443
-OK 18ms 104.16.72.2:443
-OK 6ms 104.18.153.10:443 cached
-OK 115ms 104.238.31.71:443
-OK 18ms 104.18.153.10:2096
-OK 102ms 188.166.69.138:443
-OK 4ms 192.71.82.2:443
-OK 106ms 167.86.83.211:443
-OK 5ms 5.10.214.151:443
-OK 124ms nl.go-vpn.club:443
-OK 3ms 172.67.180.92:443
-OK 111ms 45.13.119.3:8443
-OK 15ms 172.64.53.65:443
-OK 101ms 109.120.176.37:443 cached
-OK 111ms 103.112.71.228:443
-OK 225ms 45.197.134.50:8443
-OK 226ms 45.195.137.30:8443
-OK 155ms rvg-production-cae2.up.railway.app:443 cached
-OK 222ms 45.195.137.240:8443
-OK 222ms 45.195.137.66:8443
-OK 6ms 104.16.174.36:443 cached
-OK 18ms 104.16.72.139:443
-OK 225ms 45.195.137.251:8443
-OK 2ms 141.193.213.21:443
-OK 90ms 154.83.159.14:8443 cached
-OK 2ms 45.130.125.2:443
-OK 101ms 57.128.176.87:443
-OK 137ms 45.152.113.206:443
-OK 97ms 138.124.67.165:443 cached
-OK 17ms 104.19.2.175:443
-OK 39ms support.zoom.us:443
-OK 123ms 217.217.247.245:443
-OK 14ms 172.64.52.240:443
-OK 14ms 91.193.58.77:443 cached
-OK 24ms 162.159.45.218:443
-OK 106ms www.speedtest.org:443 cached
-OK 17ms 104.18.12.149:443
-OK 6ms 173.245.59.14:2053 cached
-OK 6ms 104.21.95.236:2053 cached
-OK 9ms 172.66.46.250:443 cached
-OK 88ms 72.56.59.177:443 cached
-OK 6ms 172.64.150.130:443 cached
-OK 96ms 50.7.41.142:443 cached
-OK 14ms rvg-production-dfeb.up.railway.app:443 cached
-OK 22ms 104.16.72.208:443 cached
-OK 583ms cdg-1.fromblancwithlove.com:8443 cached
-OK 18ms 104.16.72.41:443
-OK 6ms 104.16.72.41:2096 cached
-OK 7ms 188.114.98.193:443 cached
-OK 98ms 151.115.167.190:8880 cached
-OK 75ms reseau.proxy.rlwy.net:56136 cached
-OK 391ms cherry-lt-01.live:8443
-OK 98ms 151.115.167.1:8880 cached
-OK 116ms 45.198.87.214:8443 cached
-OK 6ms 108.162.193.162:443 cached
-OK 130ms 155.103.69.33:42841 cached
-OK 77ms rvg-production-fa4d.up.railway.app:443 cached
-OK 6ms 104.16.72.201:443 cached
-OK 117ms 45.198.87.221:8443 cached
-OK 224ms 45.195.137.150:8443
-OK 216ms 45.195.137.185:8443
-OK 222ms 45.195.137.140:8443
-OK 5ms 199.232.78.159:443 cached
-OK 220ms 45.195.137.62:8443
-OK 211ms 152.67.8.205:80 cached
-OK 792ms germany.lorluma.ir:6300 cached
-OK 6ms 104.19.119.133:443 cached
-OK 113ms 193.247.82.40:448 cached
-OK 103ms 83.228.228.243:2083 cached
-OK 83ms 104.248.173.190:443 cached
-OK 22ms ansooyefilter-channel.up.railway.app:443 cached
-OK 6ms 156.154.245.83:443 cached
-OK 110ms 144.31.171.249:443 cached
-OK 103ms 138.199.233.214:443 cached
-OK 81ms 144.126.239.205:8443 cached
-OK 95ms 152.53.139.226:443 cached
-OK 263ms mag3.portal-guard.com:8443 cached
-OK 114ms 89.124.118.227:443 cached
-OK 6ms 104.25.161.29:443 cached
-OK 42ms rvg-production-94f3.up.railway.app:443 cached
-OK 6ms 188.114.98.125:443 cached
-OK 70ms 84.17.41.2:18000 cached
-OK 24ms 162.159.38.119:443
-OK 196ms ipv4.daimondweb.ir:2053 cached
-OK 112ms 90.156.255.198:51114 cached
-OK 81ms 57.129.137.57:443 cached
-OK 291ms bot.sobhanpor.ir:443 cached
-OK 95ms 167.233.89.8:443 cached
-OK 83ms 13.40.188.81:443 cached
-OK 6ms 104.18.37.237:8443 cached
-OK 229ms 45.195.137.157:8443
-OK 83ms blog.webex.com:443
+OK 202ms hu99.bearbeer.digital:443
+OK 288ms gt-ch-01.live:8443
+OK 230ms 45.197.134.53:8443
+OK 121ms 155.117.137.110:443 cached
+OK 47ms hayabusa.proxy.rlwy.net:53478 cached
+OK 145ms 194.55.239.86:1443 cached
+OK 202ms 46.8.209.121:16321
+OK 162ms bc-pl-hn.ray-balance.space:4443 cached
+OK 160ms 194.55.239.86:10443
+OK 166ms 144.31.190.191:8443
+OK 161ms 192.144.13.35:45079
+OK 18ms 108.162.194.135:443
+OK 15ms 173.245.58.75:443
+OK 15ms 188.114.97.6:443
+OK 36ms betty.ns.cloudflare.com:443
+OK 12ms 104.16.75.223:443
+OK 119ms 77.73.131.154:443
+OK 15ms 141.193.213.20:443
+OK 122ms 194.164.217.139:448
+OK 214ms 45.206.0.38:8443
+OK 227ms 45.206.0.44:8443
+OK 142ms 217.28.48.29:25752
+OK 15ms 108.162.192.75:443
+OK 139ms 217.217.247.253:443
+OK 133ms 5.199.170.105:443
+OK 113ms 45.13.119.219:8888
+OK 39ms all.tellmethetrue.shop:443
+OK 14ms 104.16.75.224:443
+OK 114ms 159.195.44.159:443
+OK 14ms 45.130.125.158:2053
+OK 118ms 5.255.110.147:443
+OK 124ms 144.31.216.98:8443
+OK 132ms 217.217.247.252:443
+OK 112ms 45.43.75.199:7443
+OK 14ms 45.130.125.126:443
+OK 14ms 104.26.12.222:443
+OK 12ms 172.64.32.75:443
+OK 130ms 95.85.233.181:443
+OK 14ms 45.130.125.158:443
+OK 5ms 172.67.71.247:443 cached
+OK 13ms 104.16.72.70:443
+OK 112ms 45.196.224.103:8443
+OK 220ms 138.252.100.85:18746 cached
+OK 108ms 193.23.219.140:56453 cached
+OK 109ms 51.158.206.97:23576
+OK 215ms 45.206.0.53:8443
+OK 214ms 45.206.0.41:8443
+OK 218ms 45.195.137.229:8443 cached
+OK 14ms 104.16.72.101:443
+OK 225ms 45.195.137.144:8443 cached
+OK 219ms 45.195.137.142:8443 cached
+OK 224ms 45.195.137.53:8443 cached
+OK 220ms 45.195.137.211:8443 cached
+OK 226ms 45.195.137.75:8443 cached
+OK 18ms 104.16.72.70:2096 cached
+OK 18ms 104.16.72.2:2096 cached
+OK 18ms 104.16.72.2:443 cached
+OK 141ms de-3.coinbridge.nl:443 cached
+OK 18ms 104.18.153.10:2096 cached
+OK 12ms 104.18.153.10:443
+OK 4ms 192.71.82.2:443 cached
+OK 102ms 188.166.69.138:443 cached
+OK 5ms 5.10.214.151:443 cached
+OK 106ms 167.86.83.211:443 cached
+OK 124ms nl.go-vpn.club:443 cached
+OK 117ms 109.120.176.37:443
+OK 15ms 172.64.53.65:443 cached
+OK 111ms 103.112.71.228:443 cached
+OK 225ms 45.197.134.50:8443 cached
+OK 226ms 45.195.137.30:8443 cached
+OK 222ms 45.195.137.240:8443 cached
+OK 222ms 45.195.137.66:8443 cached
+OK 225ms 45.195.137.251:8443 cached
+OK 18ms 104.16.72.139:443 cached
+OK 2ms 45.130.125.2:443 cached
+OK 101ms 57.128.176.87:443 cached
+OK 112ms 154.83.159.14:8443
+OK 39ms support.zoom.us:443 cached
+OK 14ms 172.64.52.240:443 cached
+OK 12ms 91.193.58.77:443
+OK 24ms 162.159.45.218:443 cached
+OK 67ms www.speedtest.org:443
+OK 12ms 172.66.46.250:443
+OK 15ms 104.16.72.208:443
+OK 132ms 50.7.41.142:443
+OK 204ms rvg-production-dfeb.up.railway.app:443
+OK 18ms 104.16.72.41:443 cached
+OK 747ms cdg-1.fromblancwithlove.com:8443
+OK 10ms 104.16.72.41:2096
+OK 15ms 188.114.98.193:443
+OK 117ms 151.115.167.190:8880
+OK 391ms cherry-lt-01.live:8443 cached
+OK 121ms 151.115.167.1:8880
+OK 13ms 108.162.193.162:443
+OK 133ms 45.198.87.214:8443
+OK 15ms 104.16.72.201:443
+OK 330ms de.vpnbase.net:80
+OK 132ms 45.198.87.221:8443
+OK 224ms 45.195.137.150:8443 cached
+OK 216ms 45.195.137.185:8443 cached
+OK 222ms 45.195.137.140:8443 cached
+OK 220ms 45.195.137.62:8443 cached
+OK 109ms 104.248.173.190:443
+OK 136ms 193.247.82.40:448
+OK 14ms 156.154.245.83:443
+OK 124ms 144.31.171.249:443
+OK 105ms 144.126.239.205:8443
+OK 129ms 138.199.233.214:443
+OK 114ms 152.53.139.226:443
+OK 661ms mag3.portal-guard.com:8443
+OK 134ms 89.124.118.227:443
+OK 13ms 188.114.98.125:443
+OK 24ms 162.159.38.119:443 cached
+OK 68ms 84.17.41.2:18000
+OK 132ms 90.156.255.198:51114
+OK 108ms 57.129.137.57:443
+OK 2ms 141.193.213.21:443 cached
+OK 12ms 104.18.37.237:8443
+OK 229ms 45.195.137.157:8443 cached
+OK 83ms blog.webex.com:443 cached
+OK 135ms 43.163.241.110:24477
+OK 118ms 217.60.63.44:2053
+OK 711ms benitoo1.naxm.ir:2086
+OK 128ms 45.196.31.129:8443 cached
+OK 278ms sc-thenetherlands2.09vpn.com:8443
+OK 111ms 51.44.16.107:31413
+OK 418ms pumped-eft.rooster465.autos:443
+OK 116ms 85.155.98.34:443
+OK 589ms love.ns.cloudflare.com:443
+OK 111ms 165.232.81.187:2053
+OK 175ms hayabusa.proxy.rlwy.net:39550
+OK 29ms www.speedtest.net:443
+OK 73ms celestara.biz:443
+OK 10ms 104.19.230.21:443
+OK 132ms 206.251.49.44:443
+OK 48ms 109.207.170.8:26783 cached
+OK 44ms 109.207.170.8:52051 cached
+OK 119ms 195.74.93.254:443
+OK 15ms 104.21.34.145:443
+OK 44ms ansooyefilter-bot.up.railway.app:443 cached
+OK 369ms bot.sobhanpor.ir:443
+OK 142ms 167.17.70.76:8080
+OK 275ms 178.105.176.9:6300
+OK 59ms 23.173.104.222:2053
+OK 12ms 199.181.197.228:443
+OK 408ms vip2.firelinkvpn.shop:8443
+OK 16ms 45.130.125.229:443
+OK 95ms velocore.co:443
+OK 30ms assets.fiverr.com:443
+OK 119ms 151.115.165.172:8880
+OK 127ms 89.22.228.57:443
+OK 15ms 104.20.42.250:443
+OK 126ms 151.115.164.37:8880
+OK 120ms 161.35.217.79:2087
+OK 14ms 69.84.182.49:80
+OK 10ms 104.16.149.244:2083
+OK 15ms 188.114.98.169:443
+OK 196ms 149.28.136.177:443
+OK 133ms 217.217.247.248:443
+OK 12ms 162.159.36.166:8443
+OK 224ms direct.ircybersec.org:1000
+OK 112ms 13.40.188.81:443
+OK 126ms 45.194.10.98:8443 cached
+OK 138ms 45.194.10.5:8443
+OK 12ms 104.18.152.225:443
+OK 228ms 45.195.137.48:8443
+OK 15ms 104.17.121.110:443
+OK 496ms yx.cloudflare.182682.xyz:443
+OK 106ms 31.77.161.2:8443 cached
+OK 198ms chatgpt.com:443
+OK 111ms 51.195.235.8:55025
+OK 15ms 69.84.182.44:443
+OK 414ms xn-ip.dbsll.ir:2083
+OK 519ms pl-allnet.onlinernet.ir:20000
+OK 14ms 108.162.198.43:8443
+OK 258ms sca33.speedmeter.shop:8880
+OK 117ms 198.211.121.165:443
+OK 13ms 199.232.78.143:443
+OK 12ms 199.232.78.120:443
+OK 225ms olds-1.lubbs.de:2086
+OK 15ms 188.114.98.130:443
+OK 28ms 8.221.112.154:8433
+OK 123ms 51.91.254.99:443
+OK 112ms 77.110.101.130:443
+OK 2ms 91.193.58.201:443 cached
+OK 56ms bestcf.030101.xyz:80
+OK 313ms www.baipiao.eu.org:8880
+OK 178ms bestinclass.soft98ver2.com:2082
+OK 34ms 162.159.45.15:443
+OK 198ms 8.219.155.125:443
+OK 14ms 162.159.4.2:8443
+OK 222ms rvg-production-88b2.up.railway.app:443
+OK 147ms 77.221.143.28:443
+OK 185ms teain.org:1005
