@@ -15,7 +15,7 @@ OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/head
 FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/free_vless_servers.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/LimeHi/LimeVPN/refs/heads/main/LimeVPN.txt
 OK URL https://raw.githubusercontent.com/Ai123999/7Sand/refs/heads/main/7Sand_Notorgamers
-FAIL URL https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt :: HTTP Error 429: Too Many Requests
+OK URL https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt
 FAIL URL https://raw.githubusercontent.com/VPN-cat/VPN/refs/heads/main/configs/VPN-cat-top-100 :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt
 OK URL https://raw.githubusercontent.com/officialdakari/psychic-octo-tribble/refs/heads/main/subwl.txt
