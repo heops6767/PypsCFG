@@ -22,7 +22,7 @@ OK URL https://raw.githubusercontent.com/officialdakari/psychic-octo-tribble/ref
 OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/selected.txt
 FAIL URL https://gitverse.ru/api/repos/LowiK/LowiKLive/raw/branch/main/ObhodBSfree.txt :: HTTP Error 400: Bad Request
 OK URL https://gitverse.ru/api/repos/bywarm/rser/raw/branch/master/wl.txt
-OK URL https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/refs/heads/main/WhiteKeys
+FAIL URL https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/refs/heads/main/WhiteKeys :: HTTP Error 429: Too Many Requests
 OK URL https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt
 FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/whitelists.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt
