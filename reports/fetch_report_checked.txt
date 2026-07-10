@@ -26,7 +26,7 @@ OK URL https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/refs/head
 OK URL https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt
 FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/whitelists.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt
-OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+FAIL URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
 OK URL https://github.com/FLEXIY0/matryoshka-vpn/raw/main/configs/russia_whitelist.txt
 OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/heads/main/BlackList.txt
