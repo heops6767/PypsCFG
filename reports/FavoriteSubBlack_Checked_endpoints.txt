@@ -1,194 +1,183 @@
-OK 494ms servge0.auragg.org:443 cached
-OK 323ms upgg2ge.auragg.org:443
-OK 291ms app-syncge3.auragg.org:443
-OK 157ms ggge04.auragg.org:443
-OK 6ms betty.ns.cloudflare.com:443
-OK 143ms 45.13.119.219:8888
-OK 170ms all.tellmethetrue.shop:443
-OK 2ms 104.16.75.224:443
-OK 4ms 45.130.125.158:2053
-OK 2ms 173.245.58.75:443
-OK 2ms 45.130.125.158:443
-OK 464ms nl.go-vpn.club:443
-OK 141ms 50.7.41.142:443
-OK 174ms 5.199.170.105:443
-OK 13ms support.zoom.us:443
-OK 19ms 84.17.41.2:18000
-OK 911ms benitoo1.naxm.ir:2086
-OK 160ms 89.22.228.57:443
-OK 140ms 51.195.235.8:55025
-OK 460ms love.ns.cloudflare.com:443
-OK 158ms 194.164.217.139:448
-OK 2ms 104.16.75.226:443
-OK 163ms 83.168.71.216:443
-OK 2ms 170.114.45.6:443
-OK 2ms 172.64.147.24:443
-OK 143ms 37.59.96.25:443
-OK 16ms 15.204.97.198:23576
-OK 185ms 185.181.209.211:443
-OK 9ms 216.227.169.104:443
-OK 2ms 104.19.230.21:443
-OK 137ms 57.128.181.26:443
-OK 145ms 89.105.206.151:443
-OK 2ms 8.6.112.0:443
-OK 12ms 144.225.187.179:51015
-OK 2ms 104.16.250.22:443
-OK 2ms 104.17.28.104:443
-OK 166ms 147.45.78.118:443
-OK 155ms 62.60.248.105:2053
-OK 3ms 188.114.97.6:443
-OK 2ms 162.159.46.226:8443
-OK 9ms 82.198.246.37:180
-OK 2ms 108.162.192.75:443
-OK 68ms 38.91.107.49:18000
-OK 2ms 104.17.223.103:443
-OK 9ms 162.159.38.119:443
-OK 2ms 162.251.82.2:443
-OK 272ms 38.54.64.247:443
-OK 107ms 157.85.230.247:2052
-OK 141ms 149.202.58.99:443
-OK 154ms 62.60.155.0:443
-OK 48ms x4g-production-d71a.up.railway.app:443
-OK 14ms ansooyefilter-production-454e.up.railway.app:443
-OK 154ms 159.195.22.155:443
-OK 64ms 47.253.226.114:443
-OK 2ms 104.21.52.100:8443
-OK 90ms x4g-production-213b.up.railway.app:443
-OK 20ms www.speedtest.net:443
-OK 148ms 45.196.224.79:8443
-OK 145ms 153.80.249.227:443
-OK 30ms 69.46.46.48:443 cached
-OK 2ms 104.16.72.2:443
-OK 65ms 47.89.186.170:55861 cached
-OK 2ms 104.16.9.20:443
-OK 332ms upright-hamster.rooster465.autos:443
-OK 63ms 170.39.224.151:443
-OK 172ms 148.253.211.10:443 cached
-OK 168ms 207.148.119.176:8443
-OK 150ms 51.91.251.198:443
-OK 181ms 178.250.243.230:9823
-OK 55ms node-7946883854-bfd146-production.up.railway.app:443
-OK 157ms 168.222.244.66:10277
-OK 9ms 69.46.46.21:443
-OK 30ms 69.46.46.20:443 cached
-OK 199ms 78.135.73.38:449
-OK 2ms 162.159.5.231:443
-OK 72ms x4g-production-7c77.up.railway.app:443
-OK 3ms 104.17.180.39:443
-OK 149ms 185.137.157.72:443
-OK 77ms x4g-production-06e2.up.railway.app:443
-OK 145ms 2.26.254.83:443
-OK 9ms 172.64.40.49:443
-OK 153ms 185.233.106.243:443
-OK 5ms 172.67.193.253:443 cached
-OK 5ms 188.114.97.6:2053 cached
-OK 5ms 104.21.90.210:443 cached
-OK 68ms 104.19.164.155:2083 cached
-OK 229ms us.hagrid-connected.com:443 cached
-OK 160ms 31.76.21.58:57176 cached
-OK 451ms x4g-production-984b.up.railway.app:443 cached
-OK 163ms 151.115.166.129:8880 cached
-OK 67ms 1405-4-19-ansooyefilter-telegram.up.railway.app:443 cached
-OK 17ms ansooyefilter-production-4623.up.railway.app:443
-OK 193ms hayabusa.proxy.rlwy.net:55876 cached
-OK 333ms moji.daltoonserver.ir:330 cached
-OK 153ms 94.249.148.8:22000 cached
-OK 31ms 69.46.46.127:443 cached
-OK 5ms 162.159.38.101:443 cached
-OK 157ms 81.19.137.144:40443
-OK 8ms 162.251.82.132:443 cached
-OK 216ms hayabusa.proxy.rlwy.net:21818 cached
-OK 152ms 144.31.164.108:443
-OK 481ms singular-lark.rooster465.autos:443 cached
-OK 5ms 172.67.75.194:443 cached
-OK 67ms 104.16.71.48:443 cached
-OK 67ms 104.16.71.109:443 cached
-OK 5ms 162.159.38.119:8443 cached
-OK 351ms x4g-production-7fdc.up.railway.app:443 cached
-OK 779ms netherland.panelbaz.com:5000 cached
-OK 5ms 173.245.58.87:443 cached
-OK 2ms 104.18.32.47:443
-OK 221ms visa.com:443 cached
-OK 433ms nate.plytob.ir:2026 cached
-OK 66ms ans-channel-production-b262.up.railway.app:443 cached
-OK 307ms pl.karzino-connected.com:443
-OK 5ms 173.245.59.162:443 cached
-OK 416ms bot.sobhanpor.ir:443
-OK 272ms rvg-production-aa24.up.railway.app:443 cached
-OK 156ms 31.77.201.77:443 cached
-OK 157ms 138.124.52.85:443
-OK 713ms raff-vpn-kz-server1.ru:443
-OK 154ms 178.215.238.148:8443
-OK 5ms 162.159.39.2:2096 cached
-OK 193ms 213.176.19.11:443 cached
-OK 6ms 188.114.97.6:8443 cached
-OK 184ms bc-ua-hn.ray-balance.space:4443 cached
-OK 2ms 172.64.34.119:443
-OK 168ms 89.125.26.125:8445
-OK 165ms 1405.up.railway.app:443 cached
-OK 5ms 172.64.145.158:443 cached
-OK 38ms 38.244.20.203:443 cached
-OK 145ms 45.86.159.134:2085
-OK 5ms 172.64.147.236:443 cached
-OK 180ms trollhastambotrvg-production-162c.up.railway.app:443 cached
-OK 5ms 45.130.125.75:443 cached
-OK 68ms 104.18.152.225:443 cached
-OK 151ms redis.io:443 cached
-OK 132ms openai.com:443 cached
-OK 42ms 69.46.46.76:443 cached
-OK 678ms xucigi.mbcloudynias.ir:56625 cached
-OK 151ms 3.73.181.118:22222 cached
-OK 319ms ge04.alilago.org:443 cached
-OK 399ms ge06.alilago.org:443 cached
-OK 319ms ge01.alilago.org:443 cached
-OK 310ms ge03.alilago.org:443 cached
-OK 325ms ge05.alilago.org:443 cached
-OK 356ms osit1.ghast.sbs:443 cached
-OK 193ms fr06.alilago.org:443 cached
-OK 35ms x4g-update-production.up.railway.app:443
-OK 320ms www.speedtest.net:8080 cached
-OK 349ms x4g-production-23fd.up.railway.app:443 cached
-OK 146ms 15.188.191.198:22223 cached
-OK 158ms 185.204.170.178:443 cached
-OK 441ms 0e806ccdc7a782a3.instasup.ir:2003 cached
-OK 162ms 153.76.122.225:443
-OK 141ms 23.254.226.60:19351
-OK 152ms 5.255.102.165:443
-OK 155ms 130.49.161.70:443
-OK 207ms 141.98.87.48:9999
-OK 75ms 76.13.29.145:28168
-OK 145ms 45.86.159.135:2085
-OK 3ms 185.106.96.231:443
-OK 13ms 172.247.109.66:443
-OK 145ms 51.158.206.25:23576
-OK 146ms 62.210.124.146:22000
-OK 8ms 112.121.184.10:26057
-OK 161ms 95.85.250.97:443
-OK 146ms 193.233.174.195:27331
-OK 181ms 160.191.164.164:8443
-OK 157ms 204.216.216.23:10086
-OK 147ms 72.56.81.165:40443
-OK 150ms 138.124.114.29:40443
-OK 150ms 93.127.160.203:610
-OK 240ms 149.33.0.214:14302
-OK 144ms 144.124.246.55:443
-OK 145ms 45.86.159.136:2085
-OK 2ms 195.85.59.187:2095
-OK 156ms 46.4.230.210:443
-OK 158ms 51.116.101.212:443
-OK 156ms 144.31.87.16:2053
-OK 162ms 31.76.251.3:443
-OK 2ms 155.46.167.30:8880
-OK 138ms 20.0.105.19:443 cached
-OK 177ms 109.120.132.142:40617
-OK 112ms 152.69.195.67:47878
-OK 198ms 185.28.172.123:443
-OK 148ms 64.188.79.53:48161
-OK 150ms 144.31.159.84:443
-OK 29ms www.multiplydose.com:443
-OK 132ms 43.108.23.174:32521
-OK 164ms 67.159.52.159:443 cached
-OK 176ms 93.114.194.131:443
-OK 145ms 45.86.159.142:2085
-OK 116ms 157.85.230.247:64371 cached
-OK 153ms 85.17.145.65:12068
+OK 114ms 31.76.87.210:8443
+OK 183ms 5.188.140.216:2053 cached
+OK 190ms 95.163.183.109:2053 cached
+OK 6ms betty.ns.cloudflare.com:443 cached
+OK 143ms 45.13.119.219:8888 cached
+OK 170ms all.tellmethetrue.shop:443 cached
+OK 2ms 104.16.75.224:443 cached
+OK 4ms 45.130.125.158:2053 cached
+OK 2ms 173.245.58.75:443 cached
+OK 2ms 45.130.125.158:443 cached
+OK 464ms nl.go-vpn.club:443 cached
+OK 141ms 50.7.41.142:443 cached
+OK 174ms 5.199.170.105:443 cached
+OK 13ms support.zoom.us:443 cached
+OK 19ms 84.17.41.2:18000 cached
+OK 911ms benitoo1.naxm.ir:2086 cached
+OK 160ms 89.22.228.57:443 cached
+OK 140ms 51.195.235.8:55025 cached
+OK 460ms love.ns.cloudflare.com:443 cached
+OK 158ms 194.164.217.139:448 cached
+OK 2ms 104.16.75.226:443 cached
+OK 163ms 83.168.71.216:443 cached
+OK 2ms 170.114.45.6:443 cached
+OK 2ms 172.64.147.24:443 cached
+OK 143ms 37.59.96.25:443 cached
+OK 16ms 15.204.97.198:23576 cached
+OK 185ms 185.181.209.211:443 cached
+OK 9ms 216.227.169.104:443 cached
+OK 2ms 104.19.230.21:443 cached
+OK 137ms 57.128.181.26:443 cached
+OK 145ms 89.105.206.151:443 cached
+OK 2ms 8.6.112.0:443 cached
+OK 12ms 144.225.187.179:51015 cached
+OK 2ms 104.16.250.22:443 cached
+OK 2ms 104.17.28.104:443 cached
+OK 166ms 147.45.78.118:443 cached
+OK 155ms 62.60.248.105:2053 cached
+OK 3ms 188.114.97.6:443 cached
+OK 2ms 162.159.46.226:8443 cached
+OK 9ms 82.198.246.37:180 cached
+OK 2ms 108.162.192.75:443 cached
+OK 68ms 38.91.107.49:18000 cached
+OK 2ms 104.17.223.103:443 cached
+OK 9ms 162.159.38.119:443 cached
+OK 2ms 162.251.82.2:443 cached
+OK 272ms 38.54.64.247:443 cached
+OK 107ms 157.85.230.247:2052 cached
+OK 141ms 149.202.58.99:443 cached
+OK 154ms 62.60.155.0:443 cached
+OK 48ms x4g-production-d71a.up.railway.app:443 cached
+OK 14ms ansooyefilter-production-454e.up.railway.app:443 cached
+OK 154ms 159.195.22.155:443 cached
+OK 64ms 47.253.226.114:443 cached
+OK 2ms 104.21.52.100:8443 cached
+OK 90ms x4g-production-213b.up.railway.app:443 cached
+OK 20ms www.speedtest.net:443 cached
+OK 148ms 45.196.224.79:8443 cached
+OK 145ms 153.80.249.227:443 cached
+OK 5ms 69.46.46.48:443
+OK 2ms 104.16.72.2:443 cached
+OK 2ms 104.16.9.20:443 cached
+OK 332ms upright-hamster.rooster465.autos:443 cached
+OK 63ms 170.39.224.151:443 cached
+OK 119ms 148.253.211.10:443
+OK 168ms 207.148.119.176:8443 cached
+OK 150ms 51.91.251.198:443 cached
+OK 181ms 178.250.243.230:9823 cached
+OK 55ms node-7946883854-bfd146-production.up.railway.app:443 cached
+OK 157ms 168.222.244.66:10277 cached
+OK 9ms 69.46.46.21:443 cached
+OK 5ms 69.46.46.20:443
+OK 199ms 78.135.73.38:449 cached
+OK 2ms 162.159.5.231:443 cached
+OK 72ms x4g-production-7c77.up.railway.app:443 cached
+OK 3ms 104.17.180.39:443 cached
+OK 149ms 185.137.157.72:443 cached
+OK 77ms x4g-production-06e2.up.railway.app:443 cached
+OK 145ms 2.26.254.83:443 cached
+OK 9ms 172.64.40.49:443 cached
+OK 153ms 185.233.106.243:443 cached
+OK 6ms 172.67.193.253:443
+OK 6ms 188.114.97.6:2053
+OK 35ms 104.21.90.210:443
+OK 35ms 104.19.164.155:2083
+OK 146ms us.hagrid-connected.com:443
+OK 152ms 31.76.21.58:57176
+OK 15ms x4g-production-984b.up.railway.app:443
+OK 101ms 151.115.166.129:8880
+OK 41ms 1405-4-19-ansooyefilter-telegram.up.railway.app:443
+OK 17ms ansooyefilter-production-4623.up.railway.app:443 cached
+OK 186ms hayabusa.proxy.rlwy.net:55876
+OK 351ms moji.daltoonserver.ir:330
+OK 94ms 94.249.148.8:22000
+OK 6ms 69.46.46.127:443
+OK 6ms 162.159.38.101:443
+OK 157ms 81.19.137.144:40443 cached
+OK 6ms 162.251.82.132:443
+OK 194ms hayabusa.proxy.rlwy.net:21818
+OK 152ms 144.31.164.108:443 cached
+OK 95ms singular-lark.rooster465.autos:443
+OK 6ms 172.67.75.194:443
+OK 35ms 104.16.71.48:443
+OK 34ms 104.16.71.109:443
+OK 6ms 162.159.38.119:8443
+OK 43ms x4g-production-7fdc.up.railway.app:443
+OK 216ms netherland.panelbaz.com:5000
+OK 6ms 173.245.58.87:443
+OK 2ms 104.18.32.47:443 cached
+OK 23ms visa.com:443
+OK 324ms nate.plytob.ir:2026
+OK 18ms ans-channel-production-b262.up.railway.app:443
+OK 307ms pl.karzino-connected.com:443 cached
+OK 6ms 173.245.59.162:443
+OK 416ms bot.sobhanpor.ir:443 cached
+OK 26ms rvg-production-aa24.up.railway.app:443
+OK 99ms 31.77.201.77:443
+OK 157ms 138.124.52.85:443 cached
+OK 713ms raff-vpn-kz-server1.ru:443 cached
+OK 154ms 178.215.238.148:8443 cached
+OK 8ms 162.159.39.2:2096
+OK 141ms 213.176.19.11:443
+OK 6ms 188.114.97.6:8443
+OK 137ms bc-ua-hn.ray-balance.space:4443
+OK 2ms 172.64.34.119:443 cached
+OK 168ms 89.125.26.125:8445 cached
+OK 41ms 1405.up.railway.app:443
+OK 6ms 172.64.145.158:443
+OK 61ms 38.244.20.203:443
+OK 547ms 56a186a3d3464b11.sorcepack.ir:56625
+OK 145ms 45.86.159.134:2085 cached
+OK 6ms 172.64.147.236:443
+OK 46ms trollhastambotrvg-production-162c.up.railway.app:443
+OK 6ms 45.130.125.75:443
+OK 35ms 104.18.152.225:443
+OK 51ms redis.io:443
+OK 13ms openai.com:443
+OK 14ms 69.46.46.76:443
+OK 205ms ge04.alilago.org:443
+OK 201ms ge06.alilago.org:443
+OK 205ms ge01.alilago.org:443
+OK 198ms ge03.alilago.org:443
+OK 140ms ge05.alilago.org:443
+OK 262ms osit1.ghast.sbs:443
+OK 243ms fr06.alilago.org:443
+OK 35ms x4g-update-production.up.railway.app:443 cached
+OK 57ms www.speedtest.net:8080
+OK 26ms x4g-production-23fd.up.railway.app:443
+OK 97ms 185.204.170.178:443
+OK 304ms 0e806ccdc7a782a3.instasup.ir:2003
+OK 141ms 23.254.226.60:19351 cached
+OK 152ms 5.255.102.165:443 cached
+OK 155ms 130.49.161.70:443 cached
+OK 204ms 188.72.103.3:443 cached
+OK 75ms 76.13.29.145:28168 cached
+OK 145ms 45.86.159.135:2085 cached
+OK 207ms 141.98.87.48:9999 cached
+OK 13ms 172.247.109.66:443 cached
+OK 145ms 51.158.206.25:23576 cached
+OK 146ms 62.210.124.146:22000 cached
+OK 161ms 95.85.250.97:443 cached
+OK 146ms 193.233.174.195:27331 cached
+OK 181ms 160.191.164.164:8443 cached
+OK 157ms 204.216.216.23:10086 cached
+OK 147ms 72.56.81.165:40443 cached
+OK 150ms 138.124.114.29:40443 cached
+OK 150ms 93.127.160.203:610 cached
+OK 144ms 144.124.246.55:443 cached
+OK 2ms 195.85.59.187:2095 cached
+OK 156ms 46.4.230.210:443 cached
+OK 158ms 51.116.101.212:443 cached
+OK 156ms 144.31.87.16:2053 cached
+OK 162ms 31.76.251.3:443 cached
+OK 2ms 155.46.167.30:8880 cached
+OK 177ms 109.120.132.142:40617 cached
+OK 112ms 152.69.195.67:47878 cached
+OK 198ms 185.28.172.123:443 cached
+OK 148ms 64.188.79.53:48161 cached
+OK 150ms 144.31.159.84:443 cached
+OK 29ms www.multiplydose.com:443 cached
+OK 132ms 43.108.23.174:32521 cached
+OK 145ms 45.86.159.136:2085 cached
+OK 145ms 45.86.159.142:2085 cached
+OK 153ms 85.17.145.65:12068 cached
