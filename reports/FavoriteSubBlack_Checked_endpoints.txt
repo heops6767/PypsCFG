@@ -1,199 +1,181 @@
-OK 294ms fl03.auragg.org:8443
-OK 221ms a7x-01.ge.auragg.org:8444
-OK 443ms z9m-ctrl.nu.auragg.org:443
-OK 395ms pl01.auragg.org:443
-OK 381ms pl03.auragg.org:8443
-OK 315ms fl01.auragg.org:443
-OK 304ms armgnl03.auragg.org:443
-OK 458ms sh02.auragg.org:8444
-OK 317ms virgin.ggsw01.auragg.org:443
-OK 165ms all.tellmethetrue.shop:443 cached
-OK 125ms 45.13.119.219:8888 cached
-OK 51ms 84.17.41.2:18000 cached
-OK 156ms 50.7.41.142:443 cached
-OK 159ms 5.199.170.105:443 cached
-OK 51ms support.zoom.us:443 cached
-OK 448ms love.ns.cloudflare.com:443 cached
-OK 343ms nl.go-vpn.club:443 cached
-OK 144ms 194.164.217.139:448 cached
-OK 114ms 51.195.235.8:55025 cached
-OK 152ms 89.22.228.57:443 cached
-OK 18ms 170.114.45.6:443 cached
-OK 123ms 37.59.96.25:443 cached
-OK 34ms 15.204.97.198:23576 cached
-OK 134ms 89.105.206.151:443 cached
-OK 120ms 57.128.181.26:443 cached
-OK 36ms 216.227.169.104:443 cached
-OK 168ms 185.181.209.211:443 cached
-OK 29ms 104.17.28.104:443 cached
-OK 38ms 144.225.187.179:51015 cached
-OK 140ms 62.60.248.105:2053 cached
-OK 149ms 147.45.78.118:443 cached
-OK 24ms 82.198.246.37:180 cached
-OK 48ms 38.91.107.49:18000 cached
-OK 18ms 162.251.82.2:443 cached
-OK 123ms 149.202.58.99:443 cached
-OK 146ms 62.60.155.0:443 cached
-OK 191ms 77.91.68.70:55983 cached
-OK 135ms 159.195.22.155:443 cached
-OK 19ms 104.16.72.2:443 cached
-OK 18ms 104.16.9.20:443 cached
-OK 394ms upright-hamster.rooster465.autos:443 cached
-OK 136ms 168.222.244.66:10277 cached
-OK 140ms 81.19.137.144:40443 cached
-OK 236ms singular-lark.rooster465.autos:443
-OK 193ms pl.karzino-connected.com:443 cached
-OK 220ms bc-ua-hn.ray-balance.space:4443
-OK 125ms 45.86.159.134:2085 cached
-OK 157ms 89.125.26.125:8445 cached
-OK 228ms yx.l110.us.ci:443 cached
-OK 208ms gr.teraideri.sbs:38733 cached
-OK 287ms am1.foot8all.ir:56625 cached
-OK 19ms 162.159.38.119:443 cached
-OK 18ms 104.16.72.110:443 cached
-OK 19ms 165.215.250.14:443 cached
-OK 128ms 151.80.147.30:443 cached
-OK 209ms 178.236.17.86:443 cached
-OK 166ms 62.60.159.137:50443 cached
-OK 19ms 104.17.122.62:443 cached
-OK 18ms 89.116.250.135:443 cached
-OK 84ms basecamp.com:443 cached
-OK 68ms www.speedtest.net:443 cached
-OK 165ms teain.org:1003 cached
-OK 182ms teain.org:1001 cached
-OK 304ms teain.org:1006 cached
-OK 156ms teain.org:1004 cached
-OK 340ms teain.org:1000 cached
-OK 145ms 104.245.242.4:443 cached
-OK 19ms 172.67.191.52:2053 cached
-OK 29ms 140.235.168.9:993 cached
-OK 122ms 144.124.246.55:443 cached
-OK 142ms 104.245.242.4:993 cached
-OK 18ms 185.18.250.252:443 cached
-OK 29ms 45.130.125.207:443 cached
-OK 18ms 212.183.88.136:443 cached
-OK 17ms 162.159.18.122:443 cached
-OK 25ms 82.198.246.9:180
-OK 140ms 23.26.37.119:8443
-OK 124ms 144.124.248.186:443
-OK 41ms 165.140.216.141:443 cached
-OK 132ms 134.209.195.46:56625
-OK 573ms mypanel.unixzone.us:12068 cached
-OK 383ms ppm.nsuex.com:55715
-OK 36ms 15.204.97.216:23576 cached
-OK 168ms 195.162.69.241:4433 cached
-OK 136ms 31.76.39.116:443 cached
-OK 309ms bot.sobhanpor.ir:443 cached
-OK 23ms 172.66.214.247:8880
-OK 336ms westmusic.ojcenter.com:3468
-OK 96ms 91.107.179.255:50567 cached
-OK 131ms 167.172.35.27:56625
-OK 19ms 185.18.250.245:443 cached
-OK 530ms q4x-lab.se.auragg.org:443 cached
-OK 132ms 130.49.185.196:443 cached
-OK 349ms po.fastbrokencompony.com:2053 cached
-OK 391ms cdn-61bd6d.fim.dnsstatic.net:40443 cached
-OK 146ms 77.221.159.165:40443 cached
-OK 168ms assets.gateway-stream.com:52002 cached
-OK 156ms 31.77.201.85:443 cached
-OK 153ms 144.31.0.100:443
-OK 421ms 30078f12035fb0b9.mechanicir.ir:56625
-OK 440ms cf380c40b2993608.nimaghaffarzadeh.ir:56625
-OK 131ms 130.12.46.79:443
-OK 23ms 45.130.125.114:8443
-OK 224ms us.hagrid-connected.com:443
-OK 536ms dew.fizikade.ir:443
-OK 338ms ronaldo27.fordnsdirect.shop:8880
-OK 105ms de1.linkto.sbs:443 cached
-OK 150ms ansooyefilter-channel-production-9ff9.up.railway.app:443
-OK 588ms melinet.sav-savteam.ir:44444
-OK 344ms ronaldo13.fordnsdirect.shop:8880
-OK 18ms 104.18.43.174:443
-OK 519ms e2d89c6c10610582.nimaghaffarzadeh.ir:56625
-OK 381ms dd08e90ee38b1a0f.mbcloudy.ir:56625
-OK 147ms 31.76.80.205:443
-OK 374ms 7a1a266ed1a66705.mechanicir.ir:56625
-OK 328ms skk.moe:8880
-OK 301ms 4e0540dcdf7095a2.mbmovietime.ir:50567
-OK 261ms gbos2.osvp.online:443
-OK 232ms assets.gateway-stream.com:52000
-OK 173ms 63.179.29.71:22222 cached
-OK 144ms 185.155.97.58:45176
-OK 142ms 138.124.61.172:50443
-OK 107ms 140.233.177.250:55715 cached
-OK 136ms 18.194.9.102:22222 cached
-OK 143ms 144.31.128.14:10443
-OK 24ms 64.23.143.23:34045 cached
-OK 16ms 151.101.1.194:443 cached
-OK 179ms 188.72.103.3:443 cached
-OK 195ms assets.gateway-stream.com:52008 cached
-OK 104ms 64.188.126.226:3468 cached
-OK 149ms 138.124.52.85:443 cached
-OK 144ms 85.192.49.5:443 cached
-OK 193ms 130.49.161.70:443 cached
-OK 166ms 185.5.75.151:23806 cached
-OK 18ms 151.101.56.7:443 cached
-OK 139ms 31.77.56.218:443
-OK 91ms 63.183.108.90:22222 cached
-OK 982ms 185.28.172.123:443 cached
-OK 53ms 172.247.109.66:443 cached
-OK 140ms 51.158.206.25:23576 cached
-OK 122ms 194.87.222.7:4443
-OK 204ms 107.161.174.153:59142
-OK 193ms 20.196.153.157:2233 cached
-OK 125ms 91.209.71.83:43264 cached
-OK 145ms 141.98.87.48:9999 cached
-OK 597ms ltu-02.node.lumixnet.com:443
-OK 150ms 64.188.79.53:48161 cached
-OK 137ms www.multiplydose.com:443 cached
-OK 135ms 159.195.44.159:443 cached
-OK 122ms 43.165.186.226:443 cached
-OK 153ms 61.221.84.107:10000 cached
-OK 125ms 5.255.102.165:443 cached
-OK 142ms 43.108.23.174:32521 cached
-OK 81ms 50.7.177.179:443 cached
-OK 127ms 217.179.220.67:8443
-OK 133ms 107.189.16.18:443 cached
-OK 17ms 199.232.22.39:443 cached
-OK 149ms 104.238.29.241:443
-OK 222ms 165.22.56.20:8443 cached
-OK 141ms 23.26.37.120:8443
-OK 94ms 185.68.184.237:443 cached
-OK 134ms 45.86.159.142:2085 cached
-OK 99ms 64.188.76.21:443 cached
-OK 130ms 93.127.160.203:610 cached
-OK 134ms 81.31.211.116:2085
-OK 112ms 128.204.223.94:9815 cached
-OK 123ms 45.86.159.136:2085 cached
-OK 134ms 185.5.75.151:8443 cached
-OK 90ms 213.189.16.91:1446 cached
-OK 129ms 45.86.159.137:2085
-OK 113ms assets.gateway-stream.com:52003 cached
-OK 147ms 31.76.251.3:443 cached
-OK 164ms 195.162.69.241:8080 cached
-OK 138ms 178.215.238.148:8443 cached
-OK 154ms 89.208.113.54:50443
-OK 63ms 159.89.87.21:28190
-OK 134ms 18.194.9.102:22223
-OK 2ms 199.232.78.140:443 cached
-OK 93ms 31.76.27.171:110 cached
-OK 123ms 5.35.34.181:443 cached
-OK 178ms 72.5.42.70:40443 cached
-OK 144ms assets.gateway-stream.com:52005 cached
-OK 127ms 45.86.159.138:2085
-OK 42ms 47.89.186.170:55861
-OK 138ms 46.4.230.210:443 cached
-OK 510ms fi.karzino-connected.com:443 cached
-OK 132ms 18.194.9.102:22224
-OK 127ms 152.69.195.67:47878 cached
-OK 49ms 104.167.199.234:51138 cached
-OK 127ms 45.131.182.141:443 cached
-OK 151ms 2.27.16.166:443
-OK 140ms 204.216.216.23:10086 cached
-OK 131ms 45.86.159.130:2085
-OK 146ms 152.53.0.209:443 cached
-OK 92ms 63.183.108.90:22224 cached
-OK 92ms 63.183.108.90:22223 cached
-OK 799ms nld-01.node.lumixnet.com:443
-OK 124ms 45.86.159.135:2085 cached
-OK 45ms 47.253.226.114:443 cached
+OK 294ms fl03.auragg.org:8443 cached
+OK 221ms a7x-01.ge.auragg.org:8444 cached
+OK 443ms z9m-ctrl.nu.auragg.org:443 cached
+OK 395ms pl01.auragg.org:443 cached
+OK 381ms pl03.auragg.org:8443 cached
+OK 315ms fl01.auragg.org:443 cached
+OK 304ms armgnl03.auragg.org:443 cached
+OK 458ms sh02.auragg.org:8444 cached
+OK 317ms virgin.ggsw01.auragg.org:443 cached
+OK 182ms all.tellmethetrue.shop:443
+OK 156ms 45.13.119.219:8888
+OK 19ms 84.17.41.2:18000
+OK 141ms 50.7.41.142:443
+OK 171ms 5.199.170.105:443
+OK 3ms support.zoom.us:443
+OK 841ms love.ns.cloudflare.com:443
+OK 543ms nl.go-vpn.club:443
+OK 161ms 194.164.217.139:448
+OK 172ms 89.22.228.57:443
+OK 2ms 170.114.45.6:443
+OK 151ms 37.59.96.25:443
+OK 16ms 15.204.97.198:23576
+OK 155ms 89.105.206.151:443
+OK 144ms 57.128.181.26:443
+OK 9ms 216.227.169.104:443
+OK 190ms 185.181.209.211:443
+OK 2ms 104.17.28.104:443
+OK 14ms 144.225.187.179:51015
+OK 157ms 62.60.248.105:2053
+OK 166ms 147.45.78.118:443
+OK 8ms 82.198.246.37:180
+OK 66ms 38.91.107.49:18000
+OK 2ms 162.251.82.2:443
+OK 145ms 149.202.58.99:443
+OK 159ms 159.195.22.155:443
+OK 2ms 104.16.72.2:443
+OK 2ms 104.16.9.20:443
+OK 730ms upright-hamster.rooster465.autos:443
+OK 153ms 168.222.244.66:10277
+OK 158ms 81.19.137.144:40443
+OK 236ms singular-lark.rooster465.autos:443 cached
+OK 220ms bc-ua-hn.ray-balance.space:4443 cached
+OK 154ms 45.86.159.134:2085
+OK 166ms 89.125.26.125:8445
+OK 441ms yx.l110.us.ci:443
+OK 205ms gr.teraideri.sbs:38733
+OK 303ms am1.foot8all.ir:56625
+OK 9ms 162.159.38.119:443
+OK 2ms 104.16.72.110:443
+OK 2ms 165.215.250.14:443
+OK 149ms 151.80.147.30:443
+OK 218ms 178.236.17.86:443
+OK 156ms 62.60.159.137:50443
+OK 2ms 104.17.122.62:443
+OK 2ms 89.116.250.135:443
+OK 6ms basecamp.com:443
+OK 394ms www.speedtest.net:443
+OK 363ms teain.org:1003
+OK 384ms teain.org:1001
+OK 358ms teain.org:1006
+OK 360ms teain.org:1004
+OK 479ms teain.org:1000
+OK 173ms 104.245.242.4:443
+OK 2ms 172.67.191.52:2053
+OK 20ms 140.235.168.9:993
+OK 150ms 144.124.246.55:443
+OK 179ms 104.245.242.4:993
+OK 2ms 185.18.250.252:443
+OK 2ms 45.130.125.207:443
+OK 2ms 212.183.88.136:443
+OK 2ms 162.159.18.122:443
+OK 25ms 82.198.246.9:180 cached
+OK 140ms 23.26.37.119:8443 cached
+OK 124ms 144.124.248.186:443 cached
+OK 3ms 165.140.216.141:443
+OK 132ms 134.209.195.46:56625 cached
+OK 963ms mypanel.unixzone.us:12068
+OK 383ms ppm.nsuex.com:55715 cached
+OK 16ms 15.204.97.216:23576
+OK 134ms 31.76.39.116:443
+OK 334ms bot.sobhanpor.ir:443
+OK 23ms 172.66.214.247:8880 cached
+OK 336ms westmusic.ojcenter.com:3468 cached
+OK 150ms 91.107.179.255:50567
+OK 131ms 167.172.35.27:56625 cached
+OK 2ms 185.18.250.245:443
+OK 154ms 130.49.185.196:443
+OK 403ms po.fastbrokencompony.com:2053
+OK 474ms cdn-61bd6d.fim.dnsstatic.net:40443
+OK 180ms 77.221.159.165:40443
+OK 298ms assets.gateway-stream.com:52002
+OK 158ms 31.77.201.85:443
+OK 153ms 144.31.0.100:443 cached
+OK 421ms 30078f12035fb0b9.mechanicir.ir:56625 cached
+OK 440ms cf380c40b2993608.nimaghaffarzadeh.ir:56625 cached
+OK 131ms 130.12.46.79:443 cached
+OK 23ms 45.130.125.114:8443 cached
+OK 224ms us.hagrid-connected.com:443 cached
+OK 536ms dew.fizikade.ir:443 cached
+OK 338ms ronaldo27.fordnsdirect.shop:8880 cached
+OK 150ms ansooyefilter-channel-production-9ff9.up.railway.app:443 cached
+OK 588ms melinet.sav-savteam.ir:44444 cached
+OK 344ms ronaldo13.fordnsdirect.shop:8880 cached
+OK 18ms 104.18.43.174:443 cached
+OK 519ms e2d89c6c10610582.nimaghaffarzadeh.ir:56625 cached
+OK 381ms dd08e90ee38b1a0f.mbcloudy.ir:56625 cached
+OK 147ms 31.76.80.205:443 cached
+OK 374ms 7a1a266ed1a66705.mechanicir.ir:56625 cached
+OK 328ms skk.moe:8880 cached
+OK 301ms 4e0540dcdf7095a2.mbmovietime.ir:50567 cached
+OK 261ms gbos2.osvp.online:443 cached
+OK 232ms assets.gateway-stream.com:52000 cached
+OK 144ms 185.155.97.58:45176 cached
+OK 142ms 138.124.61.172:50443 cached
+OK 143ms 144.31.128.14:10443 cached
+OK 1ms 151.101.1.194:443
+OK 200ms 188.72.103.3:443
+OK 247ms assets.gateway-stream.com:52008
+OK 179ms 84.32.209.210:443
+OK 155ms 138.124.52.85:443
+OK 122ms 194.87.222.7:4443 cached
+OK 156ms 85.192.49.5:443
+OK 206ms 130.49.161.70:443
+OK 1ms 151.101.56.7:443
+OK 139ms 31.77.56.218:443 cached
+OK 767ms 185.28.172.123:443
+OK 132ms 13.39.46.17:22224 cached
+OK 152ms 51.158.206.25:23576
+OK 137ms 64.188.57.161:4443 cached
+OK 204ms 107.161.174.153:59142 cached
+OK 142ms 91.209.71.83:43264
+OK 167ms 141.98.87.48:9999
+OK 597ms ltu-02.node.lumixnet.com:443 cached
+OK 182ms 64.188.79.53:48161
+OK 380ms www.multiplydose.com:443
+OK 159ms 159.195.44.159:443
+OK 108ms 43.165.186.226:443
+OK 139ms 61.221.84.107:10000
+OK 148ms 5.255.102.165:443
+OK 131ms 43.108.23.174:32521
+OK 147ms 50.7.177.179:443
+OK 127ms 217.179.220.67:8443 cached
+OK 142ms 107.189.16.18:443
+OK 1ms 199.232.22.39:443
+OK 147ms 144.31.128.56:443 cached
+OK 126ms 13.39.46.17:22223 cached
+OK 149ms 104.238.29.241:443 cached
+OK 141ms 23.26.37.120:8443 cached
+OK 152ms 185.68.184.237:443
+OK 150ms 45.86.159.142:2085
+OK 215ms 64.188.76.21:443
+OK 134ms 81.31.211.116:2085 cached
+OK 150ms 45.86.159.136:2085
+OK 671ms 185.5.75.151:8443
+OK 129ms 45.86.159.137:2085 cached
+OK 306ms assets.gateway-stream.com:52003
+OK 163ms 31.76.251.3:443
+OK 161ms 144.31.129.42:443 cached
+OK 148ms 178.215.238.148:8443
+OK 154ms 89.208.113.54:50443 cached
+OK 134ms 18.194.9.102:22223 cached
+OK 1ms 199.232.78.140:443
+OK 145ms 5.35.34.181:443
+OK 129ms 13.39.46.17:22222 cached
+OK 181ms 72.5.42.70:40443
+OK 305ms assets.gateway-stream.com:52005
+OK 127ms 45.86.159.138:2085 cached
+OK 42ms 47.89.186.170:55861 cached
+OK 150ms 144.31.128.199:443 cached
+OK 132ms 18.194.9.102:22224 cached
+OK 130ms 51.44.143.26:22222 cached
+OK 66ms 104.167.199.234:51138
+OK 155ms 45.131.182.141:443
+OK 151ms 2.27.16.166:443 cached
+OK 158ms 204.216.216.23:10086
+OK 131ms 45.86.159.130:2085 cached
+OK 162ms 152.53.0.209:443
+OK 799ms nld-01.node.lumixnet.com:443 cached
+OK 151ms 2.27.26.51:443 cached
+OK 150ms 45.86.159.135:2085
+OK 63ms 47.253.226.114:443
