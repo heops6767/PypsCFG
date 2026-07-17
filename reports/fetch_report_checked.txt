@@ -28,7 +28,7 @@ FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/wh
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt
 FAIL URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
-FAIL URL https://github.com/FLEXIY0/matryoshka-vpn/raw/main/configs/russia_whitelist.txt :: HTTP Error 500: Internal Server Error
+OK URL https://github.com/FLEXIY0/matryoshka-vpn/raw/main/configs/russia_whitelist.txt
 OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/heads/main/BlackList.txt
 OK URL https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-all.txt
 OK URL https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror/26.txt
