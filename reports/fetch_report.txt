@@ -10,7 +10,7 @@ OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/head
 OK URL https://raw.githubusercontent.com/zieng2/wl/main/vless_lite.txt#%D0%90%D0%B2%D1%82%D0%BE%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9
 FAIL URL https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/Maskkost93/kizyak-vpn-4.0/refs/heads/main/kizyakbeta6BL.txt
-FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/free_vless_servers.txt :: HTTP Error 404: Not Found
+FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/free_vless_servers.txt :: Remote end closed connection without response
 OK URL https://raw.githubusercontent.com/SilentGhostCodes/WhiteListVpn/refs/heads/main/BlackList.txt
 FAIL URL https://github.com/restlycames/RestlyConnect_sub/raw/refs/heads/main/free_vless_servers.txt :: HTTP Error 404: Not Found
 OK URL https://raw.githubusercontent.com/LimeHi/LimeVPN/refs/heads/main/LimeVPN.txt
