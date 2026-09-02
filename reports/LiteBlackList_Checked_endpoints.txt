@@ -118,7 +118,7 @@ OK 159ms 31.177.83.201:4100 cached
 OK 150ms 194.26.229.157:2200 cached
 OK 163ms 201.34.137.15:4100 cached
 OK 179ms in-ru-vk-01.ray-balance.space:443 cached
-OK 174ms 83.147.246.153:4100 cached
+OK 118ms 83.147.246.153:4100
 OK 153ms 91.224.87.22:9873 cached
 OK 136ms 91.222.237.55:2200 cached
 OK 135ms 87.249.54.103:4100 cached
@@ -130,11 +130,11 @@ OK 174ms fiproxy1.lockdwn.com:443 cached
 OK 151ms 194.26.229.122:2200 cached
 OK 150ms 91.224.86.107:9830 cached
 OK 156ms 201.24.49.237:2200 cached
-OK 152ms wsnl7.wba-pn.ru:443 cached
-OK 158ms 151.242.169.45:443 cached
+OK 389ms wsnl7.wba-pn.ru:443
+OK 102ms 151.242.169.45:443
 OK 108ms 154.83.246.52:443 cached
-OK 258ms fin2.helper-internet.com:443 cached
-OK 184ms 200.165.234.45:4100 cached
+OK 281ms fin2.helper-internet.com:443
+OK 132ms 200.165.234.45:4100
 OK 135ms 178.72.147.246:2200 cached
 OK 138ms 31.76.61.232:443 cached
 OK 162ms 168.222.203.14:4100 cached
@@ -143,7 +143,8 @@ OK 151ms 201.24.49.120:4100 cached
 OK 149ms 201.24.49.79:2200 cached
 OK 115ms 212.23.221.62:443 cached
 OK 144ms 201.24.49.19:2200 cached
-OK 179ms 201.24.49.117:2200 cached
+OK 114ms 2.26.224.233:8443
+OK 126ms 201.24.49.117:2200
 OK 155ms 130.49.161.70:443 cached
 OK 127ms 41.216.182.105:443 cached
 OK 136ms 193.233.217.140:2200 cached
@@ -176,14 +177,14 @@ OK 6ms 104.16.75.44:443 cached
 OK 218ms one-for-all.levikogjgfdd.ir:443 cached
 OK 115ms 193.233.74.89:8443 cached
 OK 157ms 84.32.99.238:443 cached
-OK 119ms 132.145.80.230:80 cached
+OK 184ms 132.145.80.230:80
 OK 154ms 194.26.229.214:4100 cached
 OK 9ms 104.21.35.235:2053 cached
-OK 160ms 61.245.11.60:80 cached
+OK 227ms 61.245.11.60:80
 OK 12ms 45.130.125.200:2053 cached
 OK 146ms 45.196.201.69:443 cached
 OK 14ms 104.18.1.1:443 cached
-OK 59ms 129.146.77.248:39495 cached
+OK 54ms 129.146.77.248:39495
 OK 201ms po.fastbrokencompony.com:2053 cached
 OK 150ms 45.196.201.18:443 cached
 OK 146ms 45.196.201.25:443 cached
@@ -195,7 +196,6 @@ OK 125ms 62.210.24.143:32202 cached
 OK 326ms music1000.melobitmusic1.ir:2053 cached
 OK 146ms 45.196.201.98:443 cached
 OK 493ms sahanwickramasinghevip.shop:443 cached
-OK 129ms 168.138.43.75:80 cached
 OK 7ms 104.18.1.1:2053 cached
 OK 135ms 87.228.122.106:2200 cached
 OK 10ms 172.67.196.252:2053 cached

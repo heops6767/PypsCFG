@@ -1,24 +1,24 @@
-OK 2ms 188.42.145.180:443
 OK 120ms 79.137.203.200:443 cached
+OK 289ms de-xh01.tcp-reset-club.net:443
+OK 453ms nl-xh01.tcp-reset-club.net:443 cached
+OK 149ms 188.72.103.4:443 cached
 OK 225ms rocket.silenceux.ir:8880 cached
 OK 9ms 198.62.62.99:2052 cached
 OK 13ms 45.130.125.160:2052 cached
-OK 216ms api.quicksavesafe.com:443
-OK 152ms 178.176.128.128:443 cached
+OK 301ms wsnl4.wba-pn.ru:443
+OK 96ms 185.71.67.149:443
 OK 145ms 82.202.169.120:443 cached
 OK 7ms 135.84.64.111:443 cached
 OK 10ms 135.84.74.44:443 cached
 OK 9ms 160.153.1.139:443 cached
 OK 123ms 194.164.59.222:443 cached
-OK 177ms 81.90.17.115:25482
-OK 246ms pl.sixseven.network:25482
 OK 56ms support.zoom.us:80 cached
 OK 194ms gb.safepass.click:443 cached
-OK 23ms 151.101.69.253:443
+OK 18ms 88.216.68.68:443
+OK 23ms 151.101.69.253:443 cached
 OK 656ms s677.ccgfw.top:443 cached
 OK 441ms s678.ccgfw.top:443 cached
 OK 12ms 8.6.112.0:443 cached
-OK 149ms 188.72.103.4:443 cached
 OK 94ms chatgpt.com:443 cached
 OK 146ms 89.232.177.29:443 cached
 OK 17ms 151.101.128.223:80 cached
@@ -27,34 +27,40 @@ OK 15ms 151.101.2.219:80 cached
 OK 26ms python.org:80 cached
 OK 127ms 87.106.21.93:443 cached
 OK 119ms 178.162.242.98:443 cached
-OK 364ms netherlands.barnyvpn.space:443
-OK 395ms poland.barnyvpn.space:443
-OK 146ms 185.204.171.230:1819
+OK 104ms 83.168.111.58:443
+OK 152ms 46.243.142.184:4443 cached
+OK 145ms 46.243.142.42:8443 cached
+OK 151ms 46.243.142.89:9443 cached
 OK 8ms 104.238.69.142:2053 cached
 OK 7ms 198.12.145.121:2053 cached
+OK 185ms family.bucket.zjs.a.b.9.kfc-520.com:10043
+OK 636ms family.bucket.zjs.j.1.kfc-520.com:10012
+OK 877ms family.bucket.zjs.s.1.kfc-520.com:10018
+OK 835ms family.bucket.zjs.s.1.kfc-520.com:10019
 OK 149ms 89.232.177.58:443 cached
 OK 124ms pq.vmjp2.yydjc.top:443 cached
 OK 89ms chatgpt.com:2087 cached
-OK 140ms 50.7.193.134:443
-OK 387ms app27.jarvestip.ru:443 cached
 OK 33ms 140.248.158.132:80 cached
-OK 177ms 74.222.12.186:443
+OK 113ms 117.55.202.150:8443
+OK 662ms vhina.cloudgamings.org:8443
 OK 7ms 185.18.250.245:443 cached
 OK 288ms www.creationlong.org:443 cached
 OK 56ms 93.179.99.130:777 cached
 OK 53ms 95.169.27.126:19438 cached
-OK 51ms 31.58.50.200:8443 cached
-OK 465ms ch-xh01.tcp-reset-club.net:443 cached
 OK 227ms 103.192.179.132:443 cached
-OK 107ms 31.58.181.88:8443 cached
 OK 150ms 194.55.239.164:443 cached
+OK 129ms 5.42.108.64:8443
 OK 145ms 176.123.165.51:443 cached
+OK 130ms 87.228.122.108:4100 cached
 OK 47ms 185.116.236.180:443 cached
 OK 129ms 155.212.110.3:443 cached
 OK 129ms 155.212.110.3:993 cached
-OK 168ms 79.174.92.220:1443 cached
+OK 198ms 144.31.50.236:443 cached
+OK 127ms 77.222.53.218:2200
 OK 157ms 85.198.70.200:14406 cached
-OK 178ms 151.242.168.186:443
+OK 124ms 217.19.122.206:9443
+OK 195ms 46.243.234.72:2053
+OK 178ms 151.242.168.186:443 cached
 OK 456ms 119.196.39.18:27017 cached
 OK 187ms 138.124.111.115:443 cached
 OK 25ms 34.132.50.119:443 cached
@@ -65,21 +71,35 @@ OK 137ms 8.222.85.166:443 cached
 OK 143ms 213.252.246.6:443 cached
 OK 45ms 172.82.67.158:443 cached
 OK 147ms 185.141.227.150:9001 cached
-OK 261ms bg4.univesalsrv.com:443 cached
-OK 149ms 88.216.190.206:443 cached
-OK 225ms 95.163.232.49:443 cached
+OK 134ms 176.109.88.216:443 cached
+OK 162ms 168.222.203.14:4100 cached
+OK 96ms 88.216.190.206:443
+OK 158ms 31.76.91.138:2087
 OK 116ms 95.164.53.189:443 cached
-OK 238ms ar.shotorfree.shop:17476
+OK 114ms 185.236.22.35:443
 OK 146ms 109.196.98.121:2053 cached
-OK 134ms auth.justsavesafe.com:443
-OK 224ms panel.freesavesafe.com:443 cached
-OK 23ms 151.101.69.94:443
+OK 132ms 200.165.234.45:4100
+OK 149ms 201.24.49.79:2200 cached
+OK 23ms 151.101.69.94:443 cached
 OK 177ms 8.218.199.24:443 cached
-OK 238ms bl3fk52.sysopnova.art:443
+OK 240ms 176.109.85.63:8444
+OK 114ms 185.178.208.176:443 cached
+OK 159ms 185.91.53.4:443 cached
+OK 128ms 31.129.42.192:443
+OK 167ms 5.188.115.194:443
+OK 172ms 90.156.218.236:443 cached
+OK 181ms 193.163.203.253:443 cached
+OK 238ms bl3fk52.sysopnova.art:443 cached
+OK 147ms 185.229.9.175:443 cached
+OK 147ms 185.229.9.236:49005 cached
+OK 150ms 185.229.9.74:443 cached
+OK 148ms 91.240.86.186:443 cached
 OK 160ms 51.250.86.102:443 cached
-OK 5ms 188.114.97.6:8080 cached
 OK 152ms 176.109.92.20:444 cached
 OK 160ms 77.222.47.204:4100 cached
+OK 200ms 5.180.40.9:443 cached
+OK 243ms 5.180.42.85:443 cached
+OK 244ms kz2.techdatacloud.org:443 cached
 OK 37ms 178.248.236.209:10443 cached
 OK 7ms 104.129.164.201:8880 cached
 OK 6ms 104.129.164.253:8880 cached
@@ -218,139 +238,111 @@ OK 143ms 89.248.207.37:443 cached
 OK 7ms 92.53.190.201:8880 cached
 OK 8ms 92.53.191.201:8880 cached
 OK 7ms 92.53.191.253:8880 cached
-OK 184ms 89.40.14.209:25177
-OK 285ms al.sixseven.network:25026
-OK 322ms lt.sixseven.network:25177
+OK 100ms 151.123.186.124:25026
 OK 585ms 45.12.75.242:26424 cached
+OK 158ms 194.26.229.110:4100 cached
 OK 189ms 31.128.37.67:16560 cached
-OK 143ms 107.181.151.39:443 cached
-OK 136ms 91.222.237.55:2200 cached
-OK 134ms 31.77.183.88:5000 cached
-OK 324ms 31.77.183.88:5001 cached
-OK 238ms 31.77.220.163:13443 cached
+OK 112ms 31.76.31.98:3443
 OK 517ms s5.db-link.in:17820 cached
 OK 120ms 2.26.123.64:443 cached
-OK 20ms still-voice-1adc.135-275.workers.dev:8880
+OK 157ms 45.151.182.234:443 cached
+OK 168ms 109.73.205.68:21443 cached
 OK 156ms 5.42.103.91:2200 cached
 OK 365ms de5.safepass.click:443 cached
+OK 129ms 185.185.69.26:2200 cached
+OK 144ms 185.185.69.26:4100 cached
 OK 139ms 185.92.183.41:8443 cached
 OK 174ms 23.175.201.2:8443 cached
+OK 151ms 194.26.229.122:2200 cached
 OK 119ms 31.56.188.25:443 cached
-OK 263ms pl1jcy.baikal.click:443
 OK 8ms 195.85.59.69:2095 cached
-OK 147ms 80.76.43.245:443
-OK 147ms 95.85.228.168:443
-OK 28ms 104.223.73.149:13779
+OK 147ms 80.76.43.245:443 cached
+OK 147ms 95.85.228.168:443 cached
 OK 109ms 69.143.174.201:8443 cached
-OK 171ms 81.90.17.117:443 cached
+OK 99ms 81.90.17.117:443
+OK 196ms 46.243.234.143:2053
+OK 106ms neth9.lunariai.ru:8443
 OK 7ms 45.130.125.160:2096 cached
 OK 56ms chatgpt.com:2096 cached
 OK 118ms 138.124.186.216:443 cached
 OK 111ms 87.120.219.56:443 cached
-OK 157ms 83.168.71.216:443
-OK 185ms 147.45.116.52:443
+OK 157ms 83.168.71.216:443 cached
+OK 185ms 147.45.116.52:443 cached
 OK 148ms 176.108.245.3:443 cached
-OK 25ms 104.16.106.213:8880
-OK 144ms 37.49.224.173:443
+OK 51ms 31.58.50.200:8443 cached
+OK 143ms 201.24.49.240:4100 cached
 OK 153ms 200.165.235.43:2053 cached
 OK 67ms tgju.org:8080 cached
 OK 146ms 51.250.83.255:443 cached
-OK 143ms 213.130.137.10:443 cached
 OK 396ms czu.ksnodes.net:443 cached
 OK 170ms 147.45.100.79:2053 cached
 OK 121ms 161.97.160.224:443 cached
-OK 150ms 185.229.9.74:443 cached
+OK 482ms ww3.levikogjgfdd.ir:443 cached
+OK 109ms 95.129.236.216:443 cached
+OK 150ms 194.26.229.157:2200 cached
+OK 685ms family.bucket.zjs.h.1.0.kfc-520.com:10022
+OK 658ms family.bucket.zjs.h.1.0.kfc-520.com:10024
+OK 98ms 45.59.126.91:443
 OK 150ms 5.35.3.111:443 cached
-OK 153ms 185.121.179.114:443 cached
 OK 153ms nl-2.bexum.fun:443 cached
 OK 153ms sw-1.bexum.fun:443 cached
 OK 213ms 116.251.216.12:8443 cached
 OK 6ms 104.18.32.47:443 cached
 OK 148ms 45.151.30.173:8443 cached
 OK 8ms 154.92.9.156:443 cached
-OK 152ms 46.243.142.184:4443 cached
-OK 192ms 84.201.143.90:443 cached
+OK 266ms 18.239.134.69:80 cached
+OK 86ms 2.27.205.136:8443
+OK 206ms 46.243.234.193:2053
+OK 80ms 178.214.100.10:9443
+OK 222ms beast.locallynet.org:9443
 OK 15ms 37.1.214.101:28671 cached
 OK 316ms by.cdn.titun.su:443 cached
-OK 160ms 88.216.214.143:40443
-OK 154ms 46.28.65.153:443
-OK 537ms s4.zynetraq.ir:2087 cached
-OK 175ms 196.245.156.29:443
-OK 536ms rm-n1.gsupport.support:443
+OK 109ms 185.178.208.140:443 cached
+OK 151ms 91.240.87.166:443 cached
+OK 154ms 46.28.65.153:443 cached
+OK 120ms 91.84.117.29:443 cached
 OK 267ms nld.pink-service.ru:443 cached
-OK 141ms 89.248.193.115:52006 cached
-OK 129ms 185.185.69.26:2200 cached
-OK 144ms 185.185.69.26:4100 cached
+OK 151ms 212.67.9.113:2200 cached
+OK 135ms 178.72.147.246:2200 cached
+OK 145ms 195.19.164.83:443
+OK 125ms 5.42.109.42:8443
 OK 165ms 72.56.7.25:9443 cached
 OK 149ms 87.249.54.48:4100 cached
 OK 132ms 87.249.54.48:2200 cached
-OK 186ms 5.42.109.42:8443 cached
-OK 144ms 188.225.47.234:4100 cached
+OK 158ms 5.42.121.52:2200 cached
+OK 168ms 5.42.121.52:4100 cached
 OK 152ms 201.24.49.74:2200 cached
-OK 151ms 194.26.229.122:2200 cached
-OK 150ms 194.26.229.157:2200 cached
-OK 158ms 194.26.229.110:4100 cached
-OK 256ms 46.243.234.193:2053 cached
-OK 147ms 185.229.9.175:443 cached
-OK 148ms 91.240.86.186:443 cached
-OK 109ms 185.178.208.140:443 cached
-OK 147ms 185.229.9.236:49005 cached
-OK 188ms 212.233.78.90:443 cached
-OK 183ms 51.250.90.49:443 cached
-OK 160ms 213.219.214.33:443 cached
-OK 153ms 212.233.121.186:443 cached
-OK 149ms 46.254.18.60:443 cached
-OK 141ms 158.160.139.156:443 cached
-OK 215ms 217.19.122.206:9443 cached
-OK 143ms 188.68.218.110:443 cached
-OK 134ms 31.129.42.37:443 cached
-OK 135ms 37.9.4.128:443 cached
-OK 185ms 188.68.218.160:443 cached
-OK 134ms 176.109.88.216:443 cached
-OK 154ms 185.22.235.63:443 cached
-OK 161ms 51.250.82.20:443 cached
-OK 149ms 185.22.235.161:443 cached
-OK 159ms 158.160.47.253:443 cached
-OK 149ms 185.22.235.219:443 cached
-OK 148ms 84.201.172.95:443 cached
-OK 152ms 194.55.239.177:443 cached
-OK 154ms 158.160.59.225:443 cached
-OK 155ms 158.160.46.238:443 cached
-OK 151ms 194.55.239.114:443 cached
-OK 151ms 79.174.90.102:443 cached
-OK 142ms 158.160.50.102:443 cached
-OK 156ms 84.201.156.242:443 cached
-OK 147ms 84.201.128.39:443 cached
-OK 160ms 185.40.153.217:443 cached
-OK 147ms 62.152.56.73:443 cached
-OK 109ms 95.129.236.216:443 cached
-OK 150ms 62.152.58.117:443 cached
+OK 122ms 46.243.234.213:8449
+OK 152ms 178.176.128.128:443 cached
+OK 126ms 62.113.37.80:2053
 OK 147ms 186.246.12.85:2053 cached
-OK 243ms 176.109.85.112:443 cached
-OK 162ms 217.16.27.113:443 cached
-OK 151ms 46.243.142.89:9443 cached
-OK 145ms 46.243.142.42:8443 cached
-OK 230ms 5.188.115.194:443 cached
-OK 240ms 176.109.85.63:8444 cached
-OK 172ms 90.156.218.236:443 cached
-OK 114ms 185.178.208.176:443 cached
-OK 159ms 185.91.53.4:443 cached
-OK 192ms 31.129.42.192:443 cached
-OK 320ms news.gazette.help:443
+OK 123ms 46.243.235.77:443
 OK 155ms 185.156.44.99:443 cached
-OK 833ms n1747624274.4u9ma.icu:443 cached
-OK 215ms 130.94.93.63:14812
+OK 788ms i2psm3knof5qjjix.v.3dns.vip:443 cached
+OK 678ms qtkdr8jxe3wefxjm.v.3dns.vip:443 cached
+OK 535ms vah4urdzl3jdx5r2.v.3dns.vip:443 cached
+OK 178ms 47.83.207.148:443 cached
+OK 176ms 47.83.19.148:443 cached
+OK 174ms 47.86.107.119:443 cached
+OK 831ms 6jdvarazgu3qqr6q.v.3dns.vip:443 cached
+OK 801ms 93ucrn4i0pffuabk.v.3dns.vip:443 cached
+OK 766ms drbkg16egf3fzlm3.v.3dns.vip:443 cached
+OK 261ms lcv8v9l7oyamxxfz.v.3dns.vip:443 cached
+OK 245ms nycqg19zkwacpm1b.v.3dns.vip:443 cached
+OK 227ms 61.245.11.60:80
+OK 71ms 165.140.216.141:443
+OK 3ms 172.64.80.1:8443
 OK 303ms 194.9.172.236:1105 cached
 OK 8ms 213.182.199.137:443 cached
-OK 146ms 45.85.88.194:2234
-OK 143ms 201.24.49.240:4100 cached
+OK 146ms 45.85.88.194:2234 cached
 OK 143ms 201.24.49.233:4100 cached
 OK 146ms 91.224.87.22:9882 cached
 OK 159ms 31.177.83.201:4100 cached
 OK 163ms 201.34.137.15:4100 cached
 OK 179ms in-ru-vk-01.ray-balance.space:443 cached
-OK 174ms 83.147.246.153:4100 cached
+OK 118ms 83.147.246.153:4100
 OK 153ms 91.224.87.22:9873 cached
+OK 136ms 91.222.237.55:2200 cached
 OK 135ms 87.249.54.103:4100 cached
 OK 132ms 178.72.147.246:4100 cached
 OK 159ms 84.23.54.213:443 cached
@@ -359,20 +351,17 @@ OK 166ms 200.165.234.119:2200 cached
 OK 174ms fiproxy1.lockdwn.com:443 cached
 OK 150ms 91.224.86.107:9830 cached
 OK 156ms 201.24.49.237:2200 cached
-OK 152ms wsnl7.wba-pn.ru:443 cached
-OK 158ms 151.242.169.45:443 cached
+OK 389ms wsnl7.wba-pn.ru:443
+OK 102ms 151.242.169.45:443
 OK 108ms 154.83.246.52:443 cached
-OK 258ms fin2.helper-internet.com:443 cached
-OK 184ms 200.165.234.45:4100 cached
-OK 135ms 178.72.147.246:2200 cached
+OK 281ms fin2.helper-internet.com:443
 OK 138ms 31.76.61.232:443 cached
-OK 162ms 168.222.203.14:4100 cached
 OK 144ms 201.24.49.233:2200 cached
 OK 151ms 201.24.49.120:4100 cached
-OK 149ms 201.24.49.79:2200 cached
 OK 115ms 212.23.221.62:443 cached
 OK 144ms 201.24.49.19:2200 cached
-OK 179ms 201.24.49.117:2200 cached
+OK 114ms 2.26.224.233:8443
+OK 126ms 201.24.49.117:2200
 OK 155ms 130.49.161.70:443 cached
 OK 127ms 41.216.182.105:443 cached
 OK 136ms 193.233.217.140:2200 cached
@@ -404,18 +393,16 @@ OK 6ms 104.16.75.44:443 cached
 OK 218ms one-for-all.levikogjgfdd.ir:443 cached
 OK 115ms 193.233.74.89:8443 cached
 OK 157ms 84.32.99.238:443 cached
-OK 119ms 132.145.80.230:80 cached
+OK 184ms 132.145.80.230:80
 OK 154ms 194.26.229.214:4100 cached
 OK 9ms 104.21.35.235:2053 cached
-OK 160ms 61.245.11.60:80 cached
 OK 12ms 45.130.125.200:2053 cached
 OK 146ms 45.196.201.69:443 cached
 OK 14ms 104.18.1.1:443 cached
-OK 59ms 129.146.77.248:39495 cached
+OK 54ms 129.146.77.248:39495
 OK 201ms po.fastbrokencompony.com:2053 cached
 OK 150ms 45.196.201.18:443 cached
 OK 146ms 45.196.201.25:443 cached
-OK 130ms 87.228.122.108:4100 cached
 OK 144ms 45.196.201.96:443 cached
 OK 21ms 188.114.97.6:443 cached
 OK 8ms 45.130.125.207:80 cached
@@ -423,7 +410,6 @@ OK 125ms 62.210.24.143:32202 cached
 OK 326ms music1000.melobitmusic1.ir:2053 cached
 OK 146ms 45.196.201.98:443 cached
 OK 493ms sahanwickramasinghevip.shop:443 cached
-OK 129ms 168.138.43.75:80 cached
 OK 7ms 104.18.1.1:2053 cached
 OK 135ms 87.228.122.106:2200 cached
 OK 10ms 172.67.196.252:2053 cached
@@ -445,3 +431,29 @@ OK 13ms 104.16.75.251:443 cached
 OK 141ms 152.69.195.67:47878 cached
 OK 124ms 150.241.72.5:443 cached
 OK 156ms 176.53.175.0:448 cached
+OK 98ms 45.59.126.91:8080
+OK 697ms fi-xh01.tcp-reset-club.net:443
+OK 116ms 146.75.119.82:80 cached
+OK 81ms 2.26.129.73:443
+OK 298ms 13890bdf-tkyw00-trpvht-1ey07.hk3.hyhuawei.com:443
+OK 222ms 46b624e6-tkyw00-trnd2c-jjv2.hk3.hyhuawei.com:443
+OK 276ms 033bc9be-tkyw00-tpda83-1lkbs.hk3.hyhuawei.com:443
+OK 685ms family.bucket.zjs.h.1.0.kfc-520.com:10023
+OK 650ms family.bucket.zjs.h.1.0.kfc-520.com:10025
+OK 246ms 103.86.65.107:22001
+OK 495ms qp.lichao0223.cn:49152
+OK 223ms 109.248.161.43:64584
+OK 100ms 151.242.168.207:443
+OK 887ms family.bucket.zjs.s.1.kfc-520.com:10017
+OK 224ms 163.128.99.42:443
+OK 292ms halabosamkon.kaliteam.ir:45535
+OK 2ms 69.46.46.124:443
+OK 320ms web-production-3b1c1.up.railway.app:443
+OK 585ms tr-server-1.zelnora.ir:22189
+OK 196ms 91.228.227.172:110
+OK 183ms 91.228.227.172:443
+OK 183ms 91.228.227.172:8080
+OK 118ms 2.26.128.74:443
+OK 85ms 193.160.71.247:443
+OK 279ms ru.opngtr.nl:443
+OK 150ms 201.24.49.213:4100 cached
