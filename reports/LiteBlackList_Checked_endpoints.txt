@@ -106,93 +106,108 @@ OK 138ms 185.92.183.41:8443 cached
 OK 210ms 116.251.216.12:8443 cached
 OK 174ms 23.175.201.2:8443 cached
 OK 14ms 154.92.9.156:443 cached
-OK 177ms 217.16.27.113:443 cached
-OK 18ms 104.16.75.68:443 cached
-OK 169ms 84.201.178.175:443 cached
-OK 311ms sg.nosok-top.com:443 cached
-OK 140ms 150.241.72.5:443 cached
-OK 113ms 194.146.24.240:443 cached
+OK 52ms 216.167.21.32:40573
+OK 115ms 147.189.129.155:2087 cached
+OK 295ms pr-media.pepro.site:14443
+OK 203ms 79.174.92.85:6443 cached
+OK 198ms 18.239.134.69:80
+OK 37ms 151.101.69.253:443 cached
+OK 222ms 78.159.240.41:443 cached
+OK 79ms 147.189.129.144:2087 cached
+OK 202ms eu-north-fi-1.hanvpn.biz:443
+OK 934ms labs.frkn.org:443 cached
+OK 166ms 46.149.78.59:443
+OK 171ms eu-central-pl-1.hanvpn.biz:443
+OK 149ms 82.39.171.12:443
+OK 187ms 185.96.80.147:443
+OK 188ms 195.162.69.203:8443
+OK 159ms 2.26.255.206:443
 OK 146ms 45.196.201.18:443 cached
-OK 307ms france.io-com-de-dev.org:8443 cached
-OK 113ms 212.23.221.62:443 cached
-OK 14ms 104.16.75.42:443 cached
-OK 144ms fqubqa.falsemirrov.com:443 cached
-OK 525ms hy2.aspidnet.xyz:443 cached
-OK 662ms po.fastbrokencompony.com:2053 cached
-OK 768ms tyumen.gosgenarchive.com:443 cached
-OK 55ms 45.130.125.200:2053 cached
-OK 398ms one-for-all.levikogjgfdd.ir:443 cached
-OK 302ms 721a6718.nosok-top.com:443 cached
-OK 136ms wdgmw.falsemirrov.com:443 cached
-OK 24ms 104.16.75.99:443 cached
-OK 147ms 45.196.201.98:443 cached
-OK 13ms 104.21.66.61:8443 cached
-OK 122ms 62.210.24.143:32202 cached
-OK 120ms 77.239.114.249:443 cached
-OK 240ms sweden.nosok-top.com:443 cached
-OK 131ms ru.falsemirrov.com:443 cached
-OK 150ms 91.224.87.22:9882 cached
-OK 146ms 201.24.49.233:4100 cached
-OK 143ms 45.196.201.19:443 cached
-OK 156ms 201.24.49.240:4100 cached
-OK 18ms united.nosok-top.com:443 cached
-OK 147ms 45.196.201.69:443 cached
-OK 171ms lt.nosok-top.com:443 cached
-OK 12ms 104.21.36.164:2053 cached
-OK 109ms 89.46.131.91:443 cached
-OK 150ms 201.34.137.15:4100 cached
-OK 157ms 79.174.92.122:443 cached
-OK 14ms 45.130.125.207:80 cached
 OK 14ms 104.18.1.1:443 cached
-OK 149ms 201.24.49.237:2200 cached
-OK 144ms 91.224.87.22:9873 cached
-OK 185ms fin2.helper-internet.com:443 cached
-OK 528ms hy2-new.aspidnet.xyz:443 cached
-OK 10ms 172.67.201.133:8443 cached
-OK 889ms ufa.gosgenarchive.com:443 cached
-OK 14ms 172.67.180.173:2053 cached
-OK 15ms 104.16.75.251:443 cached
-OK 152ms 91.224.86.107:9830 cached
-OK 78ms 129.146.77.248:39495 cached
-OK 284ms 45.95.233.214:8443 cached
-OK 130ms 176.109.88.202:13443 cached
-OK 137ms 185.229.9.178:49111 cached
-OK 593ms ulyanovsk.gosgenarchive.com:443 cached
-OK 15ms 188.114.97.6:443 cached
-OK 475ms fiproxy1.lockdwn.com:443 cached
-OK 149ms 51.250.46.190:443 cached
-OK 20ms 104.16.75.44:443 cached
-OK 20ms 104.18.32.47:2053 cached
-OK 132ms 130.49.161.70:443 cached
-OK 110ms 86.107.197.239:443 cached
-OK 12ms 172.67.196.252:2053 cached
-OK 12ms 104.21.35.235:2053 cached
-OK 119ms 89.23.103.121:443 cached
-OK 123ms 2.26.224.233:8443 cached
+OK 525ms hy2.aspidnet.xyz:443 cached
+OK 150ms 91.224.87.22:9882 cached
+OK 122ms 62.210.24.143:32202 cached
+OK 398ms one-for-all.levikogjgfdd.ir:443 cached
+OK 147ms 45.196.201.69:443 cached
 OK 160ms 178.253.55.89:443 cached
-OK 14ms 104.17.121.110:443 cached
-OK 212ms ger.nosok-top.com:443 cached
-OK 135ms 62.152.58.182:443 cached
-OK 386ms one-for-all.levikogjgfdd.ir:2053 cached
-OK 147ms 193.233.217.140:2200 cached
-OK 147ms sfhvvvv.falsemirrov.com:443 cached
-OK 151ms 185.141.227.153:9001 cached
-OK 580ms ulyanovsk.gosgenarchive.com:448 cached
-OK 158ms 31.177.83.201:4100 cached
-OK 111ms 151.242.169.45:443 cached
-OK 136ms 62.152.58.41:443 cached
-OK 19ms 104.16.75.46:443 cached
-OK 781ms fi-one.quiet-rogue.site:443 cached
-OK 188ms md.nosok-top.com:443 cached
+OK 144ms 91.224.87.22:9873 cached
 OK 151ms 152.69.195.67:47878 cached
+OK 580ms ulyanovsk.gosgenarchive.com:448 cached
+OK 17ms 129.146.77.248:39495
+OK 172ms ger.nosok-top.com:443
+OK 152ms 91.224.86.107:9830 cached
+OK 151ms 185.141.227.153:9001 cached
+OK 169ms 84.201.178.175:443 cached
+OK 132ms 130.49.161.70:443 cached
+OK 12ms 104.21.35.235:2053 cached
 OK 148ms 45.196.201.96:443 cached
-OK 410ms 0eiy3.guardora.pro:1526 cached
-OK 148ms 201.24.49.228:2200 cached
-OK 119ms 89.124.116.234:443 cached
-OK 12ms 104.18.1.1:2053 cached
-OK 117ms 77.247.178.238:443 cached
-OK 140ms 41.216.182.105:443 cached
-OK 1000ms saratov.gosgenarchive.com:448 cached
-OK 145ms 201.24.49.233:2200 cached
+OK 191ms 185.229.9.178:49111
+OK 429ms sfhvvvv.falsemirrov.com:443
+OK 169ms 2.26.224.233:8443
+OK 18ms 104.16.75.68:443 cached
+OK 149ms 201.24.49.237:2200 cached
+OK 156ms 201.24.49.240:4100 cached
+OK 14ms 45.130.125.207:80 cached
+OK 768ms tyumen.gosgenarchive.com:443 cached
+OK 12ms 172.67.196.252:2053 cached
+OK 13ms 104.21.66.61:8443 cached
+OK 146ms 201.24.49.233:4100 cached
+OK 12ms 104.21.36.164:2053 cached
+OK 110ms 86.107.197.239:443 cached
+OK 298ms lt.nosok-top.com:443
+OK 120ms 77.239.114.249:443 cached
+OK 159ms 151.242.169.45:443
 OK 152ms 45.196.201.25:443 cached
+OK 24ms 104.16.75.99:443 cached
+OK 140ms 41.216.182.105:443 cached
+OK 19ms 104.16.75.46:443 cached
+OK 87ms fqubqa.falsemirrov.com:443
+OK 148ms 201.24.49.228:2200 cached
+OK 181ms 62.152.58.41:443
+OK 307ms france.io-com-de-dev.org:8443 cached
+OK 14ms 104.16.75.42:443 cached
+OK 284ms 45.95.233.214:8443 cached
+OK 177ms 217.16.27.113:443 cached
+OK 119ms 89.23.103.121:443 cached
+OK 150ms 201.34.137.15:4100 cached
+OK 117ms 77.247.178.238:443 cached
+OK 143ms 45.196.201.19:443 cached
+OK 15ms 104.16.75.251:443 cached
+OK 20ms 104.18.32.47:2053 cached
+OK 221ms ru.falsemirrov.com:443
+OK 149ms 51.250.46.190:443 cached
+OK 889ms ufa.gosgenarchive.com:443 cached
+OK 475ms fiproxy1.lockdwn.com:443 cached
+OK 172ms wdgmw.falsemirrov.com:443
+OK 593ms ulyanovsk.gosgenarchive.com:443 cached
+OK 14ms 104.17.121.110:443 cached
+OK 250ms sweden.nosok-top.com:443
+OK 1000ms saratov.gosgenarchive.com:448 cached
+OK 14ms 172.67.180.173:2053 cached
+OK 528ms hy2-new.aspidnet.xyz:443 cached
+OK 119ms 89.124.116.234:443 cached
+OK 15ms 188.114.97.6:443 cached
+OK 20ms 104.16.75.44:443 cached
+OK 386ms one-for-all.levikogjgfdd.ir:2053 cached
+OK 177ms 62.152.58.182:443
+OK 145ms 201.24.49.233:2200 cached
+OK 113ms 212.23.221.62:443 cached
 OK 147ms 31.76.80.69:443 cached
+OK 140ms 150.241.72.5:443 cached
+OK 55ms 45.130.125.200:2053 cached
+OK 266ms 721a6718.nosok-top.com:443
+OK 276ms md.nosok-top.com:443
+OK 662ms po.fastbrokencompony.com:2053 cached
+OK 158ms 31.177.83.201:4100 cached
+OK 68ms united.nosok-top.com:443
+OK 781ms fi-one.quiet-rogue.site:443 cached
+OK 10ms 172.67.201.133:8443 cached
+OK 109ms 89.46.131.91:443 cached
+OK 196ms fin2.helper-internet.com:443
+OK 113ms 194.146.24.240:443 cached
+OK 414ms 0eiy3.guardora.pro:1526
+OK 147ms 45.196.201.98:443 cached
+OK 187ms sg.nosok-top.com:443
+OK 12ms 104.18.1.1:2053 cached
+OK 157ms 79.174.92.122:443 cached
+OK 147ms 193.233.217.140:2200 cached
