@@ -1,13 +1,14 @@
 OK 203ms 95.163.211.237:8080 cached
 OK 198ms 95.163.211.237:80 cached
-OK 159ms 78.159.247.205:443 cached
 OK 161ms 78.159.247.170:443 cached
+OK 159ms 78.159.247.205:443 cached
 OK 159ms 78.159.247.214:443 cached
-OK 166ms 95.163.232.163:14443
 OK 194ms 185.241.195.146:443 cached
 OK 181ms 31.129.42.37:443 cached
-OK 153ms 185.241.195.202:9444
+OK 153ms 185.241.195.202:9444 cached
 OK 199ms 217.16.27.113:443 cached
+OK 185ms 78.159.246.134:443 cached
+OK 213ms 84.201.131.144:443 cached
 OK 247ms 79.174.92.85:6443 cached
 OK 183ms 78.159.240.41:443 cached
 OK 202ms 130.193.59.3:443 cached
@@ -18,8 +19,11 @@ OK 195ms 51.250.38.225:443 cached
 OK 185ms 130.193.35.232:443 cached
 OK 206ms 51.250.38.137:443 cached
 OK 191ms 51.250.34.141:443 cached
-OK 185ms 78.159.246.134:443 cached
-OK 213ms 84.201.131.144:443 cached
+OK 181ms 109.120.132.6:443 cached
+OK 156ms 109.120.179.99:443 cached
+OK 193ms 37.139.34.90:443 cached
+OK 185ms 89.208.223.111:443 cached
+OK 193ms 89.208.211.253:443 cached
 OK 184ms 51.250.77.124:443 cached
 OK 223ms 51.250.83.255:443 cached
 OK 198ms 51.250.86.102:443 cached
@@ -55,11 +59,6 @@ OK 260ms 103.111.114.147:8443 cached
 OK 201ms 51.250.108.255:443 cached
 OK 210ms 51.250.47.59:443 cached
 OK 221ms 51.250.24.151:443 cached
-OK 181ms 109.120.132.6:443 cached
-OK 156ms 109.120.179.99:443 cached
-OK 193ms 37.139.34.90:443 cached
-OK 185ms 89.208.223.111:443 cached
-OK 193ms 89.208.211.253:443 cached
 OK 223ms 51.250.87.28:443 cached
 OK 188ms 5.188.141.139:443 cached
 OK 196ms 51.250.72.20:443 cached
@@ -76,20 +75,18 @@ OK 182ms 78.159.250.214:443 cached
 OK 154ms 89.208.104.118:2054 cached
 OK 161ms 89.208.113.65:443 cached
 OK 207ms 217.16.31.218:443 cached
-OK 237ms 188.225.27.218:20443 cached
-OK 378ms live.deploy-hooks.ru:443
-OK 152ms 188.68.216.38:9891
-OK 184ms 72.56.238.46:443 cached
+OK 152ms 188.68.216.38:9891 cached
+OK 143ms app-sh-173.deep-aispb-analytics.com:443
+OK 155ms app3.metka.video:443
 OK 166ms 188.68.218.205:443 cached
-OK 138ms 62.233.39.9:443
-OK 180ms 193.124.125.79:161
-OK 153ms 201.51.11.65:443
-OK 182ms 5.23.53.234:443 cached
-OK 162ms 5.129.193.225:31443
-OK 359ms ya3.ru.umi-w.com:41276
-OK 607ms ru1.gigobingo.ru:443
-OK 118ms 83.143.106.9:8443
+OK 160ms app-ss-57.shopping-spb.com:443
+OK 228ms app-twa-19.deep-aispb-analytics.com:443
+OK 126ms 188.68.216.38:9882
+OK 125ms 72.56.237.154:33443
+OK 143ms app.metka.video:443
+OK 153ms app2.metka.video:443
+OK 225ms app-ss-97.deep-aispb-analytics.com:443
 OK 183ms 5.188.26.85:443 cached
-OK 184ms 194.226.142.120:443 cached
+OK 191ms 195.19.20.80:443 cached
 OK 180ms 2.27.54.132:443 cached
 OK 746ms renderer-stream-2-62.mirra.now:443 cached
